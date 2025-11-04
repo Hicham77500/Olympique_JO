@@ -205,3 +205,63 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Node / React (frontend & backend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+.pnpm-store/
+
+# Build outputs
+build/
+dist/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+coverage/
+
+# Env and secrets
+*.env
+*.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+~$*
+
+# Logs & reports
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Storybook / docs build
+storybook-static/
+out/
+
+# Temporary & backups
+*.tmp
+*.temp
+*.bak
+*.backup.*
+*.orig
+*.rej
+
+# Python virtual envs
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/

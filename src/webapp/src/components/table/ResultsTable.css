@@ -1,0 +1,616 @@
+/* Conteneur principal du tableau */
+.results-table-container {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+/* En-tête du tableau */
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.table-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.table-header h3::before {
+  content: '📊';
+  font-size: 1.2em;
+}
+
+.table-info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.results-count {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+}
+
+.total-count {
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.filtered-indicator {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(16, 185, 129, 0.3);
+}
+
+.loading-indicator {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  animation: pulse 2s infinite;
+}
+
+/* Wrapper du tableau pour le scroll horizontal */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+
+/* Style du tableau */
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  background: white;
+}
+
+/* En-têtes de colonnes */
+.table-header-cell {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 2px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  user-select: none;
+}
+
+.table-header-cell.sortable {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.table-header-cell.sortable:hover {
+  background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sort-indicator {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
+}
+
+.table-header-cell.sortable:hover .sort-indicator {
+  opacity: 0.7;
+}
+
+.sort-arrow {
+  font-size: 8px;
+  line-height: 1;
+  color: #6b7280;
+}
+
+.table-header-cell.sorted-asc .sort-asc,
+.table-header-cell.sorted-desc .sort-desc {
+  color: #3b82f6;
+  opacity: 1;
+}
+
+.expand-column {
+  width: 40px;
+  text-align: center;
+}
+
+/* Lignes du tableau */
+.table-row {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.table-row:hover {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.table-row.expanded {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+}
+
+.table-cell {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f3f4f6;
+  vertical-align: middle;
+}
+
+/* Cellules spécialisées */
+.athlete-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.athlete-name {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.athlete-details {
+  display: flex;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.age {
+  background: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 8px;
+}
+
+.gender {
+  background: #e0e7ff;
+  color: #3730a3;
+  padding: 2px 6px;
+  border-radius: 8px;
+}
+
+.country-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.country-flag {
+  font-size: 1.2em;
+}
+
+.country-name {
+  font-weight: 500;
+  color: #374151;
+}
+
+.year-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.year {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.season {
+  font-size: 0.75rem;
+  color: #6b7280;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background: #f3f4f6;
+  text-align: center;
+}
+
+.sport-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sport-icon {
+  font-size: 1.1em;
+}
+
+.sport-name {
+  font-weight: 500;
+  color: #374151;
+}
+
+.event-cell {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #6b7280;
+}
+
+.medal-cell {
+  text-align: center;
+}
+
+.medal-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.medal-gold {
+  background: linear-gradient(135deg, #fef3c7, #fbbf24);
+  color: #92400e;
+  border: 1px solid #f59e0b;
+}
+
+.medal-silver {
+  background: linear-gradient(135deg, #f3f4f6, #d1d5db);
+  color: #374151;
+  border: 1px solid #9ca3af;
+}
+
+.medal-bronze {
+  background: linear-gradient(135deg, #fed7aa, #fb923c);
+  color: #9a3412;
+  border: 1px solid #ea580c;
+}
+
+/* Bouton d'expansion */
+.expand-cell {
+  text-align: center;
+  width: 40px;
+}
+
+.expand-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  color: #6b7280;
+  transition: all 0.2s ease;
+  font-size: 12px;
+}
+
+.expand-button:hover {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+/* États de chargement */
+.table-loading {
+  padding: 20px 0;
+}
+
+.table-row-skeleton {
+  display: flex;
+  gap: 16px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.table-cell-skeleton {
+  height: 20px;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  border-radius: 4px;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* État vide */
+.table-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: #6b7280;
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+.table-empty p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.table-empty small {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+/* Pagination */
+.table-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.pagination-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.pagination-total {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.pagination-controls {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.pagination-button {
+  background: white;
+  border: 1px solid #d1d5db;
+  color: #374151;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.875rem;
+  min-width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-button:hover:not(:disabled) {
+  background: #f9fafb;
+  border-color: #9ca3af;
+}
+
+.pagination-button.active {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  border-color: #3b82f6;
+  font-weight: 600;
+}
+
+.pagination-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: #f9fafb;
+}
+
+/* Styles responsifs */
+@media (max-width: 768px) {
+  .results-table-container {
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .table-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .table-info {
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .table-cell {
+    padding: 8px 12px;
+  }
+  
+  .athlete-details {
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .country-cell {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
+  
+  .sport-cell {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
+  
+  .table-pagination {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .pagination-controls {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .results-table-container {
+    padding: 12px;
+  }
+  
+  .table-header h3 {
+    font-size: 1.25rem;
+  }
+  
+  .results-table {
+    font-size: 0.8rem;
+  }
+  
+  .table-header-cell {
+    padding: 8px 10px;
+  }
+  
+  .table-cell {
+    padding: 6px 10px;
+  }
+  
+  .pagination-button {
+    padding: 4px 8px;
+    min-width: 32px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.results-table-container {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Améliorations pour l'accessibilité */
+.table-header-cell:focus,
+.pagination-button:focus,
+.expand-button:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+.table-row:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: -2px;
+}
+
+/* Mode sombre (optionnel) */
+@media (prefers-color-scheme: dark) {
+  .results-table-container {
+    background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+    border-color: #374151;
+    color: #f9fafb;
+  }
+  
+  .table-header h3 {
+    color: #f9fafb;
+  }
+  
+  .table-header {
+    border-bottom-color: #374151;
+  }
+  
+  .table-pagination {
+    border-top-color: #374151;
+  }
+  
+  .results-table {
+    background: #1f2937;
+  }
+  
+  .table-header-cell {
+    background: linear-gradient(135deg, #374151 0%, #4b5563 100%);
+    color: #f9fafb;
+    border-bottom-color: #4b5563;
+  }
+  
+  .table-row:hover {
+    background: linear-gradient(135deg, #374151 0%, #4b5563 100%);
+  }
+  
+  .table-cell {
+    border-bottom-color: #374151;
+  }
+  
+  .athlete-name {
+    color: #f9fafb;
+  }
+  
+  .country-name,
+  .sport-name {
+    color: #d1d5db;
+  }
+  
+  .year {
+    color: #f9fafb;
+  }
+  
+  .pagination-button {
+    background: #374151;
+    border-color: #4b5563;
+    color: #f9fafb;
+  }
+  
+  .pagination-button:hover:not(:disabled) {
+    background: #4b5563;
+  }
+}
