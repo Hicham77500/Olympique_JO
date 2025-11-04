@@ -1,4 +1,4 @@
-# Olympic Data Analytics — Clean Monorepo
+# Olympic Data Analytics 
 
 Updated: 2025-11-04
 
@@ -7,7 +7,7 @@ This repository hosts a clean, reproducible setup for a full-stack data project:
 - Frontend: React (CRA)
 - Data/Science: Python scripts + SQL + Notebooks
 
-The project is organized as two isolated JS apps (each with its own package.json and node_modules) and shared data/scripts at the repo root.
+The project is organized as two isolated JS apps (each with its own package.json and node_modules) and shared datasets at the repo root (csv/, data/, sql/) plus Python utilities under `src/`.
 
 Quick start (Windows PowerShell):
 
@@ -75,13 +75,9 @@ Olympique_JO/
       .env                  # Frontend-only env (REACT_APP_*)
       package.json
       node_modules/
-  scripts/
-    cleanup.ps1             # clean build caches/logs safely
-    validate.ps1            # structure guardrails
   README.md
   .gitignore
   requirements.txt          # Python dependencies
-  ARBORESCENCE.txt          # full repo tree (generated)
 ```
 
 Notes:
@@ -96,7 +92,9 @@ Notes:
 
 ## 1) Installation
 
-Run the following from the repo root in Windows PowerShell:
+Run the following from the repo root.
+
+Windows (PowerShell):
 
 ```powershell
 # Backend API
@@ -105,13 +103,33 @@ npm ci
 
 # Frontend React
 cd ..\webapp
+# If you ran the previous block in a separate terminal, run from repo root instead:
+# cd src\webapp
 npm ci
 
 # (Optional) Python env
 cd ..\..  # back to repo root
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
+```
+
+macOS/Linux (bash/zsh):
+
+```bash
+# Backend API
+cd ../src/api
+node app.js
+
+#FrontEnd
+cd src/webapp
+npm run start
+
+# (Optional) Python env
+cd ../..  # back to repo root
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
 ```
 
 ## 2) Configure environment
@@ -237,30 +255,18 @@ cd src\api ; npm run lint ; cd ..\webapp ; npm run lint
 cd src\webapp ; npm run build
 ```
 
-## 8) Utility scripts
-
-From repo root:
-
-```powershell
-# Validate repository structure and env placement
-powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\validate.ps1
-
-# Cleanup caches/builds/logs safely (does not touch src/api or src/webapp node_modules)
-powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\cleanup.ps1
-```
-
-## 9) Cleanup rules (enforced by .gitignore)
+## 8) Cleanup rules (enforced by .gitignore)
 - Ignore: node_modules, build/, dist/, coverage/, .cache/, logs, .env, __pycache__, .ipynb_checkpoints
 - No package.json or node_modules at the repo root
 - No duplicated build outputs committed
 
-## 10) Troubleshooting
+## 9) Troubleshooting
 - Delete stray node_modules or package-lock.json outside `src/api` or `src/webapp`
 - Always run npm commands inside the correct sub-folder
 - If React/Express start on wrong ports, check the .env files
  - If `/api/filters` or `/api/stats/quick` return 404, ensure `src/api/app.js` is the updated version and server restarted
 
-## 11) Validation checklist
+## 10) Validation checklist
 - [ ] Exactly 2 package.json files (src/api, src/webapp)
 - [ ] Exactly 2 node_modules folders (src/api, src/webapp)
 - [ ] No build/ or dist/ committed under version control
