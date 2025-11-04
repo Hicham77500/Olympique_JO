@@ -1,5 +1,7 @@
 # Olympic Data Analytics — Clean Monorepo
 
+Updated: 2025-11-04
+
 This repository hosts a clean, reproducible setup for a full-stack data project:
 - Backend API: Node.js/Express + MySQL
 - Frontend: React (CRA)
@@ -7,10 +9,39 @@ This repository hosts a clean, reproducible setup for a full-stack data project:
 
 The project is organized as two isolated JS apps (each with its own package.json and node_modules) and shared data/scripts at the repo root.
 
+Quick start (Windows PowerShell):
+
+```powershell
+# 1) Install
+cd src\api ; npm ci ; cd ..\webapp ; npm ci ; cd ..\..
+
+# 2) Configure envs
+#   - src\api\.env (DB & PORT)
+#   - src\webapp\.env (REACT_APP_API_URL & PORT)
+
+# 3) Run
+cd src\api ; npm start
+# new terminal
+cd src\webapp ; npm start
+
+# Webapp: http://localhost:3000
+# API:    http://localhost:3001/api
+```
+
 ## Final project tree
 
 ```
 Olympique_JO/
+  csv/                      # normalized CSV outputs used by API/SQL
+    olympic_athletes.csv
+    olympic_hosts.csv
+    olympic_medals.csv
+    olympic_results.csv
+  data/                     # raw sources (json, xlsx, xml, html)
+    olympic_athletes.json
+    olympic_hosts.xml
+    olympic_medals.xlsx
+    olympic_results.html
   notebooks/
     exploration.ipynb
     import.ipynb
@@ -20,13 +51,18 @@ Olympique_JO/
     insert_data_python.sql
     validate_database.sql
     README.md
-  data/
-    (csv, xlsx, xml, json, html files, etc.)
   src/
+    convert_all_to_csv.py   # batch converter (json/xlsx/xml/html → csv)
+    convert_html_to_csv.py
+    convert_json_to_csv.py
+    convert_xlsx_to_csv.py
+    convert_xml_to_csv.py
+    load_data_to_mysql.py   # optional loader
+    simple_conversions.py
     api/
       app.js
       database.js
-      .env               # API-only secrets
+      .env                  # API-only secrets
       package.json
       node_modules/
     webapp/
@@ -36,14 +72,16 @@ Olympique_JO/
         App.js
         index.js
         index.css
-      .env               # Frontend-only env (REACT_APP_*)
+      .env                  # Frontend-only env (REACT_APP_*)
       package.json
       node_modules/
+  scripts/
+    cleanup.ps1             # clean build caches/logs safely
+    validate.ps1            # structure guardrails
   README.md
   .gitignore
-  requirements.txt        # python dependencies
-  scripts/                # optional: Python utilities
-    convert_all_to_csv.py
+  requirements.txt          # Python dependencies
+  ARBORESCENCE.txt          # full repo tree (generated)
 ```
 
 Notes:
@@ -111,12 +149,74 @@ npm start
 # API:  http://localhost:3001/api
 ```
 
-## 4) Data import (examples)
+If ports 3000/3001 are busy, adjust `PORT` in each `.env` and restart.
+
+## 4) API reference (quick)
+
+Base URL: `http://localhost:3001/api`
+
+- GET `/filters`
+  - Returns available filter options (countries, sports, events, genders, year range, etc.).
+- GET `/stats/quick`
+  - Small summary KPIs (e.g., total medals/athletes/hosts) for dashboard header.
+- POST `/data/filtered`
+  - Body: JSON filters object. Returns `{ results, stats, aggregations }` for charts/table.
+
+Request example (POST /data/filtered):
+
+```json
+{
+  "countries": ["FRA", "USA"],
+  "sports": ["Athletics", "Swimming"],
+  "genders": ["Men", "Women"],
+  "years": { "min": 1980, "max": 2024 },
+  "medalTypes": ["Gold", "Silver", "Bronze"],
+  "search": "Phelps"
+}
+```
+
+Response shape (abridged):
+
+```json
+{
+  "results": [ { "athlete": "...", "country": "USA", "year": 2008, "sport": "Swimming", "medal": "Gold" } ],
+  "stats": { "totalMedals": 1234, "totalAthletes": 567, "countries": 45 },
+  "aggregations": {
+    "medalsByCountry": [ { "country": "USA", "count": 100 }, { "country": "FRA", "count": 80 } ],
+    "medalsOverTime": [ { "year": 2000, "count": 50 } ]
+  }
+}
+```
+
+Notes:
+- Authentication is not required in dev.
+- Ensure your MySQL connection (in `src/api/.env`) points to a database loaded with the provided SQL.
+
+## 5) Frontend dashboard
+
+The React app provides a responsive dashboard with:
+- Dynamic filters (country, sport, gender, year range, medal type, search) with multi-select
+- Quick stats header and multiple charts (Recharts)
+- Results table with pagination
+- Smooth animations (framer-motion) and debounced filter updates
+- Data fetching via React Query v3
+
+Environment:
+- React 18 + react-scripts 5
+- Dependencies: `react-query@^3`, `recharts`, `react-select`, `rc-slider`, `axios`, `framer-motion`
+
+## 6) Data import (examples)
 
 ```powershell
 # Python virtualenv assumed active
 # Convert and normalize raw data
-python scripts\convert_all_to_csv.py
+python src\convert_all_to_csv.py
+
+# or run specific converters
+python src\convert_json_to_csv.py
+python src\convert_xlsx_to_csv.py
+python src\convert_xml_to_csv.py
+python src\convert_html_to_csv.py
 
 # Load schema / seed (run in MySQL client or via scripts)
 # sql\olympics.sql
@@ -124,7 +224,7 @@ python scripts\convert_all_to_csv.py
 # sql\validate_database.sql
 ```
 
-## 5) Common tasks
+## 7) Common tasks
 
 ```powershell
 # Install deps (locked)
@@ -137,22 +237,36 @@ cd src\api ; npm run lint ; cd ..\webapp ; npm run lint
 cd src\webapp ; npm run build
 ```
 
-## 6) Cleanup rules (enforced by .gitignore)
+## 8) Utility scripts
+
+From repo root:
+
+```powershell
+# Validate repository structure and env placement
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\validate.ps1
+
+# Cleanup caches/builds/logs safely (does not touch src/api or src/webapp node_modules)
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\cleanup.ps1
+```
+
+## 9) Cleanup rules (enforced by .gitignore)
 - Ignore: node_modules, build/, dist/, coverage/, .cache/, logs, .env, __pycache__, .ipynb_checkpoints
 - No package.json or node_modules at the repo root
 - No duplicated build outputs committed
 
-## 7) Troubleshooting
+## 10) Troubleshooting
 - Delete stray node_modules or package-lock.json outside `src/api` or `src/webapp`
 - Always run npm commands inside the correct sub-folder
 - If React/Express start on wrong ports, check the .env files
+ - If `/api/filters` or `/api/stats/quick` return 404, ensure `src/api/app.js` is the updated version and server restarted
 
-## 8) Validation checklist
+## 11) Validation checklist
 - [ ] Exactly 2 package.json files (src/api, src/webapp)
 - [ ] Exactly 2 node_modules folders (src/api, src/webapp)
 - [ ] No build/ or dist/ committed under version control
 - [ ] Both servers start: http://localhost:3000 and http://localhost:3001/api
 - [ ] Data scripts run and MySQL schema loads
+ - [ ] API routes live: GET /api/filters, GET /api/stats/quick, POST /api/data/filtered
 
 ---
 
