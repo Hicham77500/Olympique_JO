@@ -7,6 +7,8 @@ CREATE DATABASE IF NOT EXISTS olympics;
 USE olympics;
 
 -- Suppression des tables existantes (dans l'ordre inverse des dépendances)
+DROP TABLE IF EXISTS medal_predictions;
+DROP TABLE IF EXISTS country_year_summary;
 DROP TABLE IF EXISTS results;
 DROP TABLE IF EXISTS medals;
 DROP TABLE IF EXISTS athletes;
@@ -64,6 +66,35 @@ CREATE TABLE results (
   INDEX idx_year (year),
   INDEX idx_event (event),
   INDEX idx_rank (rank)
+);
+
+-- Table résumant les agrégations par pays et édition
+CREATE TABLE country_year_summary (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  country_name VARCHAR(255) NOT NULL,
+  slug_game VARCHAR(255) NOT NULL,
+  medals_total INT,
+  athletes_unique INT,
+  avg_rank FLOAT,
+  medal_share FLOAT,
+  medals_total_lag_1 INT,
+  athletes_unique_lag_1 INT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_country (country_name),
+  INDEX idx_slug_game (slug_game)
+);
+
+-- Table stockant les prédictions de médailles par pays/édition
+CREATE TABLE medal_predictions (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  country_name VARCHAR(255) NOT NULL,
+  slug_game VARCHAR(255) NOT NULL,
+  model_name VARCHAR(100) NOT NULL,
+  target VARCHAR(50) NOT NULL,
+  predicted_value FLOAT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_country_slug (country_name, slug_game),
+  INDEX idx_model_target (model_name, target)
 );
 
 -- Affichage des tables créées

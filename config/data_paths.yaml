@@ -1,0 +1,8 @@
+data_root: data
+raw_dir: data/raw
+processed_dir: data/processed
+external_dir: data/external
+files:
+  results: olympic_results.csv
+  medals: olympic_medals.csv
+  athletes: olympic_athletes.csv

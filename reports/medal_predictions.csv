@@ -1,0 +1,4101 @@
+country_name,slug_game,predicted_medals_total
+Afghanistan,athens-2004,0.9833333333333333
+Afghanistan,atlanta-1996,0.0
+Afghanistan,beijing-2008,1.0816666666666666
+Afghanistan,berlin-1936,3.1715
+Afghanistan,london-1948,4.98
+Afghanistan,london-2012,0.7345555555555556
+Afghanistan,melbourne-1956,3.18
+Afghanistan,mexico-city-1968,0.02216931216931217
+Afghanistan,moscow-1980,0.9566666666666667
+Afghanistan,munich-1972,0.8115082972582969
+Afghanistan,rio-2016,0.0
+Afghanistan,rome-1960,1.6274761904761905
+Afghanistan,seoul-1988,0.02216931216931217
+Afghanistan,tokyo-1964,1.6966666666666668
+Afghanistan,tokyo-2020,0.023333333333333334
+Albania,athens-2004,0.44661111111111107
+Albania,atlanta-1996,0.3604444444444444
+Albania,barcelona-1992,0.6772222222222223
+Albania,beijing-2008,1.2822222222222222
+Albania,beijing-2022,0.0
+Albania,london-2012,0.03333333333333333
+Albania,munich-1972,1.29
+Albania,pyeongchang-2018,0.0
+Albania,rio-2016,0.08
+Albania,sochi-2014,0.0033333333333333335
+Albania,sydney-2000,0.3593719613719612
+Albania,tokyo-2020,0.016666666666666666
+Albania,turin-2006,0.0
+Albania,vancouver-2010,0.0
+Algeria,albertville-1992,0.0
+Algeria,athens-2004,6.56
+Algeria,atlanta-1996,9.076666666666666
+Algeria,barcelona-1992,8.46
+Algeria,beijing-2008,12.293333333333333
+Algeria,london-2012,5.1033333333333335
+Algeria,los-angeles-1984,4.326666666666667
+Algeria,mexico-city-1968,0.0
+Algeria,montreal-1976,0.07459974075840384
+Algeria,moscow-1980,9.138333333333334
+Algeria,munich-1972,0.0033333333333333335
+Algeria,rio-2016,9.173333333333334
+Algeria,seoul-1988,4.526666666666666
+Algeria,sydney-2000,7.4
+Algeria,tokyo-1964,0.0
+Algeria,tokyo-2020,4.1433333333333335
+Algeria,turin-2006,0.0
+Algeria,vancouver-2010,0.0
+American Samoa,athens-2004,0.02
+American Samoa,atlanta-1996,0.2633333333333333
+American Samoa,barcelona-1992,0.3822222222222222
+American Samoa,beijing-2008,0.0
+American Samoa,beijing-2022,0.0
+American Samoa,lillehammer-1994,0.0011111111111111111
+American Samoa,london-2012,0.25333333333333335
+American Samoa,rio-2016,0.525243506493506
+American Samoa,seoul-1988,0.05333333333333334
+American Samoa,sydney-2000,0.0
+American Samoa,tokyo-2020,0.9882182539682541
+Andorra,albertville-1992,0.0
+Andorra,athens-2004,0.0
+Andorra,atlanta-1996,0.04
+Andorra,barcelona-1992,0.06
+Andorra,beijing-2008,0.7161825396825393
+Andorra,beijing-2022,0.7315238095238095
+Andorra,calgary-1988,0.006666666666666667
+Andorra,innsbruck-1976,0.006666666666666667
+Andorra,lake-placid-1980,0.65
+Andorra,lillehammer-1994,0.0
+Andorra,london-2012,0.61
+Andorra,los-angeles-1984,0.24583333333333332
+Andorra,montreal-1976,0.02
+Andorra,moscow-1980,0.12423590298590301
+Andorra,nagano-1998,0.18777777777777777
+Andorra,pyeongchang-2018,0.13611111111111113
+Andorra,rio-2016,0.01
+Andorra,salt-lake-city-2002,0.0
+Andorra,sarajevo-1984,0.013333333333333334
+Andorra,seoul-1988,0.4
+Andorra,sochi-2014,0.006666666666666667
+Andorra,sydney-2000,0.07333333333333333
+Andorra,tokyo-2020,2.691362193362193
+Andorra,turin-2006,0.023333333333333334
+Andorra,vancouver-2010,0.06777777777777778
+Angola,athens-2004,4.166666666666667
+Angola,atlanta-1996,4.013333333333334
+Angola,barcelona-1992,2.84
+Angola,beijing-2008,3.7466666666666666
+Angola,london-2012,4.844
+Angola,moscow-1980,2.0814166666666667
+Angola,rio-2016,2.91
+Angola,seoul-1988,2.535
+Angola,sydney-2000,4.11
+Angola,tokyo-2020,14.92
+Antigua and Barbuda,athens-2004,0.0
+Antigua and Barbuda,atlanta-1996,0.0
+Antigua and Barbuda,barcelona-1992,0.23822222222222222
+Antigua and Barbuda,beijing-2008,0.0
+Antigua and Barbuda,london-2012,0.0
+Antigua and Barbuda,los-angeles-1984,0.07375
+Antigua and Barbuda,montreal-1976,0.07459974075840384
+Antigua and Barbuda,rio-2016,0.0
+Antigua and Barbuda,seoul-1988,1.03
+Antigua and Barbuda,sydney-2000,0.5151866281866283
+Antigua and Barbuda,tokyo-2020,1.4314642857142856
+Argentina,albertville-1992,3.69
+Argentina,amsterdam-1928,31.13
+Argentina,antwerp-1920,0.0
+Argentina,athens-2004,29.85333333333333
+Argentina,atlanta-1996,38.39333333333333
+Argentina,barcelona-1992,11.733333333333333
+Argentina,beijing-2008,22.71
+Argentina,beijing-2022,0.0
+Argentina,berlin-1936,17.69
+Argentina,calgary-1988,1.29
+Argentina,grenoble-1968,0.32666666666666666
+Argentina,helsinki-1952,44.43
+Argentina,innsbruck-1964,2.1633333333333336
+Argentina,innsbruck-1976,0.8566666666666667
+Argentina,lake-placid-1980,2.6033333333333335
+Argentina,lillehammer-1994,0.9
+Argentina,london-1908,0.9892896825396824
+Argentina,london-1948,61.376666666666665
+Argentina,london-2012,20.98
+Argentina,los-angeles-1932,13.003333333333334
+Argentina,los-angeles-1984,25.96
+Argentina,melbourne-1956,9.606666666666667
+Argentina,mexico-city-1968,29.706666666666667
+Argentina,montreal-1976,24.41
+Argentina,munich-1972,26.52
+Argentina,nagano-1998,0.46221581196581174
+Argentina,oslo-1952,2.767
+Argentina,paris-1900,0.0033333333333333335
+Argentina,paris-1924,18.676666666666666
+Argentina,pyeongchang-2018,0.7333333333333333
+Argentina,rio-2016,36.57
+Argentina,rome-1960,32.07
+Argentina,salt-lake-city-2002,0.37333333333333335
+Argentina,sapporo-1972,0.0
+Argentina,sarajevo-1984,2.8666666666666667
+Argentina,seoul-1988,17.04
+Argentina,sochi-2014,0.28
+Argentina,squaw-valley-1960,0.0
+Argentina,st-moritz-1928,8.7375
+Argentina,st-moritz-1948,2.18
+Argentina,sydney-2000,22.296666666666667
+Argentina,tokyo-1964,31.323333333333334
+Argentina,tokyo-2020,140.25
+Argentina,turin-2006,0.6666666666666666
+Argentina,vancouver-2010,0.7244444444444444
+Armenia,athens-2004,3.28
+Armenia,atlanta-1996,7.806666666666667
+Armenia,beijing-2008,8.113333333333333
+Armenia,beijing-2022,0.0
+Armenia,lillehammer-1994,0.0016666666666666668
+Armenia,london-2012,4.373333333333333
+Armenia,nagano-1998,0.17333333333333334
+Armenia,pyeongchang-2018,0.0
+Armenia,rio-2016,7.60888888888889
+Armenia,salt-lake-city-2002,0.02
+Armenia,sochi-2014,0.02
+Armenia,sydney-2000,5.09
+Armenia,tokyo-2020,4.583333333333333
+Armenia,turin-2006,0.006666666666666667
+Armenia,vancouver-2010,0.023333333333333334
+Aruba,athens-2004,0.027555555555555552
+Aruba,atlanta-1996,0.00333502973477839
+Aruba,barcelona-1992,0.0
+Aruba,beijing-2008,0.0
+Aruba,london-2012,0.6012355699855696
+Aruba,rio-2016,0.7413333333333334
+Aruba,seoul-1988,0.13
+Aruba,sydney-2000,0.006666666666666667
+Aruba,tokyo-2020,0.0
+Australasia,london-1908,15.043333333333333
+Australasia,stockholm-1912,24.356666666666666
+Australia,albertville-1992,7.183333333333334
+Australia,amsterdam-1928,5.876666666666667
+Australia,antwerp-1920,4.403333333333333
+Australia,athens-1896,1.7324444444444438
+Australia,athens-2004,141.16666666666666
+Australia,atlanta-1996,137.66666666666666
+Australia,barcelona-1992,100.74666666666667
+Australia,beijing-2008,156.67666666666668
+Australia,beijing-2022,10.056666666666667
+Australia,berlin-1936,5.1433333333333335
+Australia,calgary-1988,6.17
+Australia,cortina-d-ampezzo-1956,0.72
+Australia,garmisch-partenkirchen-1936,0.011317460317460316
+Australia,grenoble-1968,0.0
+Australia,helsinki-1952,29.536666666666665
+Australia,innsbruck-1964,0.0
+Australia,innsbruck-1976,0.03333333333333333
+Australia,lake-placid-1980,2.3233333333333333
+Australia,lillehammer-1994,4.34
+Australia,london-1908,0.07459974075840384
+Australia,london-1948,26.856666666666666
+Australia,london-2012,135.80333333333334
+Australia,los-angeles-1932,7.403333333333333
+Australia,los-angeles-1984,101.34333333333333
+Australia,melbourne-1956,92.1
+Australia,mexico-city-1968,61.20666666666666
+Australia,montreal-1976,52.306666666666665
+Australia,moscow-1980,43.44
+Australia,munich-1972,52.343333333333334
+Australia,nagano-1998,7.653333333333333
+Australia,oslo-1952,0.16
+Australia,paris-1900,3.61604761904762
+Australia,paris-1924,10.95
+Australia,pyeongchang-2018,7.533333333333333
+Australia,rio-2016,128.9
+Australia,rome-1960,49.93666666666667
+Australia,salt-lake-city-2002,6.28
+Australia,sapporo-1972,0.0925
+Australia,sarajevo-1984,1.03
+Australia,seoul-1988,80.61
+Australia,sochi-2014,9.726666666666667
+Australia,squaw-valley-1960,2.95
+Australia,st-louis-1904,4.23
+Australia,sydney-2000,176.25
+Australia,tokyo-1964,72.87333333333333
+Australia,tokyo-2020,308.82
+Australia,turin-2006,4.676666666666667
+Australia,vancouver-2010,4.713333333333333
+Austria,albertville-1992,38.86333333333334
+Austria,amsterdam-1928,18.823333333333334
+Austria,athens-1896,4.64
+Austria,athens-2004,28.006666666666668
+Austria,atlanta-1996,17.673333333333332
+Austria,barcelona-1992,28.136666666666667
+Austria,beijing-2008,21.976666666666667
+Austria,beijing-2022,50.876666666666665
+Austria,berlin-1936,59.76
+Austria,calgary-1988,31.813333333333333
+Austria,chamonix-1924,4.166666666666667
+Austria,cortina-d-ampezzo-1956,21.463333333333335
+Austria,garmisch-partenkirchen-1936,17.383333333333333
+Austria,grenoble-1968,23.173333333333332
+Austria,helsinki-1952,35.36333333333334
+Austria,innsbruck-1964,24.67
+Austria,innsbruck-1976,20.5
+Austria,lake-placid-1932,1.49
+Austria,lake-placid-1980,24.936666666666667
+Austria,lillehammer-1994,26.793333333333333
+Austria,london-1908,4.333333333333333
+Austria,london-1948,35.47666666666667
+Austria,london-2012,17.113333333333333
+Austria,los-angeles-1932,6.386666666666667
+Austria,los-angeles-1984,38.22
+Austria,melbourne-1956,6.346666666666667
+Austria,mexico-city-1968,10.85
+Austria,montreal-1976,21.883333333333333
+Austria,moscow-1980,20.243333333333332
+Austria,munich-1972,23.003333333333334
+Austria,nagano-1998,35.01
+Austria,oslo-1952,16.656666666666666
+Austria,paris-1900,7.97
+Austria,paris-1924,19.56
+Austria,pyeongchang-2018,40.61333333333334
+Austria,rio-2016,15.606666666666667
+Austria,rome-1960,32.54333333333334
+Austria,salt-lake-city-2002,44.626666666666665
+Austria,sapporo-1972,19.61
+Austria,sarajevo-1984,18.75
+Austria,seoul-1988,12.806666666666667
+Austria,sochi-2014,37.72666666666667
+Austria,squaw-valley-1960,6.413333333333333
+Austria,st-louis-1904,1.992
+Austria,st-moritz-1928,13.86
+Austria,st-moritz-1948,15.41
+Austria,stockholm-1912,37.1
+Austria,sydney-2000,17.816666666666666
+Austria,tokyo-1964,9.626666666666667
+Austria,tokyo-2020,25.87
+Austria,turin-2006,42.41
+Austria,vancouver-2010,34.95666666666666
+Azerbaijan,athens-2004,17.74
+Azerbaijan,atlanta-1996,7.333333333333333
+Azerbaijan,beijing-2008,16.78
+Azerbaijan,beijing-2022,0.03334126984126984
+Azerbaijan,london-2012,31.766666666666666
+Azerbaijan,nagano-1998,0.5869542957042951
+Azerbaijan,pyeongchang-2018,0.07459974075840384
+Azerbaijan,rio-2016,30.21
+Azerbaijan,salt-lake-city-2002,0.023333333333333334
+Azerbaijan,sochi-2014,0.07
+Azerbaijan,sydney-2000,7.616666666666666
+Azerbaijan,tokyo-2020,16.64666666666667
+Azerbaijan,turin-2006,0.18
+Azerbaijan,vancouver-2010,0.0
+Bahamas,athens-2004,6.196666666666666
+Bahamas,atlanta-1996,7.5
+Bahamas,barcelona-1992,0.9771269841269841
+Bahamas,beijing-2008,3.0585555555555555
+Bahamas,helsinki-1952,2.818
+Bahamas,london-2012,4.566666666666666
+Bahamas,los-angeles-1984,2.9233333333333333
+Bahamas,melbourne-1956,1.224087301587302
+Bahamas,mexico-city-1968,2.3466666666666667
+Bahamas,montreal-1976,4.38571296296296
+Bahamas,munich-1972,4.097777777777778
+Bahamas,rio-2016,3.3566666666666665
+Bahamas,rome-1960,4.986666666666666
+Bahamas,seoul-1988,0.8716666666666667
+Bahamas,sydney-2000,5.243333333333333
+Bahamas,tokyo-1964,5.253
+Bahamas,tokyo-2020,2.3619682539682545
+Bahrain,athens-2004,0.0
+Bahrain,atlanta-1996,2.013333333333333
+Bahrain,barcelona-1992,2.2
+Bahrain,beijing-2008,1.17
+Bahrain,london-2012,0.8366666666666667
+Bahrain,los-angeles-1984,5.1033333333333335
+Bahrain,rio-2016,2.53
+Bahrain,seoul-1988,4.223333333333334
+Bahrain,sydney-2000,0.0
+Bahrain,tokyo-2020,20.5
+Bangladesh,athens-2004,0.0
+Bangladesh,atlanta-1996,0.0
+Bangladesh,barcelona-1992,0.26760726310726324
+Bangladesh,beijing-2008,0.0
+Bangladesh,london-2012,0.0
+Bangladesh,rio-2016,0.0
+Bangladesh,seoul-1988,0.0
+Bangladesh,sydney-2000,0.03
+Bangladesh,tokyo-2020,0.49
+Barbados,athens-2004,0.0
+Barbados,atlanta-1996,0.6133333333333333
+Barbados,barcelona-1992,2.82
+Barbados,beijing-2008,0.0
+Barbados,london-2012,1.1995468975468975
+Barbados,los-angeles-1984,3.7333333333333334
+Barbados,mexico-city-1968,0.0
+Barbados,montreal-1976,0.0
+Barbados,munich-1972,0.9233333333333333
+Barbados,rio-2016,1.37
+Barbados,seoul-1988,0.8573333333333333
+Barbados,sydney-2000,1.4933333333333334
+Belarus,athens-2004,52.97
+Belarus,atlanta-1996,51.63666666666666
+Belarus,beijing-2008,55.79333333333334
+Belarus,beijing-2022,14.114666666666665
+Belarus,lillehammer-1994,18.333333333333332
+Belarus,london-2012,49.913333333333334
+Belarus,nagano-1998,15.43
+Belarus,pyeongchang-2018,8.933333333333334
+Belarus,rio-2016,28.783333333333335
+Belarus,salt-lake-city-2002,17.77
+Belarus,sochi-2014,12.8
+Belarus,sydney-2000,49.553333333333335
+Belarus,tokyo-2020,32.373333333333335
+Belarus,turin-2006,12.403333333333334
+Belarus,vancouver-2010,13.113333333333333
+Belgium,albertville-1992,2.2426666666666666
+Belgium,amsterdam-1928,63.07333333333333
+Belgium,antwerp-1920,118.05666666666667
+Belgium,athens-2004,25.956666666666667
+Belgium,atlanta-1996,21.213333333333335
+Belgium,barcelona-1992,25.92
+Belgium,beijing-2008,20.746666666666666
+Belgium,beijing-2022,4.546666666666667
+Belgium,berlin-1936,34.163333333333334
+Belgium,calgary-1988,0.0
+Belgium,chamonix-1924,6.793611111111111
+Belgium,cortina-d-ampezzo-1956,0.0
+Belgium,garmisch-partenkirchen-1936,9.263333333333334
+Belgium,helsinki-1952,27.526666666666667
+Belgium,innsbruck-1964,2.276460317460317
+Belgium,innsbruck-1976,0.1
+Belgium,lake-placid-1932,2.52
+Belgium,lake-placid-1980,0.0
+Belgium,lillehammer-1994,0.5033333333333333
+Belgium,london-1908,24.076666666666668
+Belgium,london-1948,41.74
+Belgium,london-2012,26.976666666666667
+Belgium,los-angeles-1932,0.92
+Belgium,los-angeles-1984,22.453333333333333
+Belgium,melbourne-1956,18.19611111111111
+Belgium,mexico-city-1968,13.193333333333333
+Belgium,montreal-1976,23.746666666666666
+Belgium,moscow-1980,9.986666666666666
+Belgium,munich-1972,15.99
+Belgium,nagano-1998,0.6946349206349205
+Belgium,oslo-1952,0.33
+Belgium,paris-1900,20.143333333333334
+Belgium,paris-1924,60.766666666666666
+Belgium,pyeongchang-2018,3.8633333333333333
+Belgium,rio-2016,23.066666666666666
+Belgium,rome-1960,16.923333333333332
+Belgium,salt-lake-city-2002,2.3633333333333333
+Belgium,sapporo-1972,0.0033333333333333335
+Belgium,sarajevo-1984,0.03888888888888889
+Belgium,seoul-1988,7.283333333333333
+Belgium,sochi-2014,0.775
+Belgium,st-moritz-1928,10.52
+Belgium,st-moritz-1948,3.5073333333333334
+Belgium,stockholm-1912,24.453333333333333
+Belgium,sydney-2000,27.28
+Belgium,tokyo-1964,14.375833333333333
+Belgium,tokyo-2020,86.51333333333334
+Belgium,turin-2006,0.38361111111111107
+Belgium,vancouver-2010,1.1233333333333333
+Belize,atlanta-1996,0.0
+Belize,barcelona-1992,0.6012355699855696
+Belize,beijing-2008,0.0
+Belize,london-2012,0.0
+Belize,los-angeles-1984,3.0226666666666664
+Belize,mexico-city-1968,0.05466666666666666
+Belize,montreal-1976,0.006666666666666667
+Belize,munich-1972,0.0
+Belize,rio-2016,0.0
+Belize,seoul-1988,1.83
+Belize,tokyo-2020,0.006666666666666667
+Benin,athens-2004,0.0
+Benin,barcelona-1992,0.07630631753962018
+Benin,beijing-2008,0.0
+Benin,london-2012,0.07
+Benin,los-angeles-1984,0.0
+Benin,moscow-1980,1.4133333333333333
+Benin,munich-1972,0.2523875661375662
+Benin,rio-2016,0.028666666666666667
+Benin,seoul-1988,0.0
+Benin,sydney-2000,0.0
+Benin,tokyo-2020,0.5466666666666666
+Bermuda,albertville-1992,0.0
+Bermuda,athens-2004,3.7133333333333334
+Bermuda,atlanta-1996,0.6833333333333333
+Bermuda,barcelona-1992,3.13
+Bermuda,beijing-2008,0.08666666666666667
+Bermuda,berlin-1936,1.8262110469653043
+Bermuda,helsinki-1952,0.2523875661375662
+Bermuda,lillehammer-1994,0.0
+Bermuda,london-1948,0.5873874458874455
+Bermuda,london-2012,0.17333333333333337
+Bermuda,los-angeles-1984,0.13
+Bermuda,melbourne-1956,3.301833333333333
+Bermuda,mexico-city-1968,2.04
+Bermuda,montreal-1976,1.7748888888888894
+Bermuda,munich-1972,1.4313362193362187
+Bermuda,nagano-1998,0.1
+Bermuda,pyeongchang-2018,0.0
+Bermuda,rio-2016,0.5316666666666666
+Bermuda,rome-1960,5.968396825396826
+Bermuda,salt-lake-city-2002,0.0013333333333333335
+Bermuda,seoul-1988,1.5366666666666666
+Bermuda,sochi-2014,0.0
+Bermuda,sydney-2000,0.43333333333333335
+Bermuda,tokyo-1964,3.1247222222222226
+Bermuda,tokyo-2020,1.1725
+Bermuda,turin-2006,0.0
+Bermuda,vancouver-2010,0.0
+Bhutan,athens-2004,0.0
+Bhutan,atlanta-1996,0.0
+Bhutan,barcelona-1992,0.08333333333333333
+Bhutan,beijing-2008,0.0
+Bhutan,london-2012,0.02
+Bhutan,los-angeles-1984,0.0
+Bhutan,rio-2016,0.0011111111111111111
+Bhutan,seoul-1988,1.78
+Bhutan,sydney-2000,0.0
+Bhutan,tokyo-2020,1.3489365079365072
+Bohemia,london-1908,11.373333333333333
+Bohemia,paris-1900,2.8773333333333335
+Bohemia,stockholm-1912,11.453999999999999
+Bolivia,albertville-1992,0.10896825396825399
+Bolivia,athens-2004,0.013333333333333334
+Bolivia,atlanta-1996,0.011444444444444445
+Bolivia,barcelona-1992,0.8666666666666667
+Bolivia,beijing-2008,0.21
+Bolivia,beijing-2022,0.0
+Bolivia,calgary-1988,0.16
+Bolivia,cortina-d-ampezzo-1956,0.0
+Bolivia,lake-placid-1980,0.0
+Bolivia,london-2012,0.0
+Bolivia,los-angeles-1984,0.23333333333333334
+Bolivia,mexico-city-1968,0.056666666666666664
+Bolivia,montreal-1976,0.022222222222222223
+Bolivia,munich-1972,0.08
+Bolivia,pyeongchang-2018,0.0
+Bolivia,rio-2016,0.4533333333333333
+Bolivia,sarajevo-1984,0.0
+Bolivia,seoul-1988,0.1
+Bolivia,sydney-2000,0.08
+Bolivia,tokyo-1964,0.07630631753962018
+Bolivia,tokyo-2020,0.0
+Bosnia and Herzegovina,athens-2004,0.02666666666666667
+Bosnia and Herzegovina,atlanta-1996,0.2
+Bosnia and Herzegovina,barcelona-1992,0.3476666666666667
+Bosnia and Herzegovina,beijing-2008,0.023333333333333334
+Bosnia and Herzegovina,beijing-2022,0.21333333333333335
+Bosnia and Herzegovina,lillehammer-1994,1.9666666666666666
+Bosnia and Herzegovina,london-2012,0.22666666666666666
+Bosnia and Herzegovina,nagano-1998,2.7
+Bosnia and Herzegovina,pyeongchang-2018,0.03333333333333333
+Bosnia and Herzegovina,rio-2016,0.12
+Bosnia and Herzegovina,salt-lake-city-2002,0.382702528952529
+Bosnia and Herzegovina,sochi-2014,0.006666666666666667
+Bosnia and Herzegovina,sydney-2000,0.4444365079365078
+Bosnia and Herzegovina,tokyo-2020,0.06616666666666667
+Bosnia and Herzegovina,turin-2006,0.0
+Bosnia and Herzegovina,vancouver-2010,0.0
+Botswana,athens-2004,1.8669444444444443
+Botswana,atlanta-1996,0.525243506493506
+Botswana,barcelona-1992,0.0
+Botswana,beijing-2008,0.4
+Botswana,london-2012,1.41
+Botswana,los-angeles-1984,0.12
+Botswana,rio-2016,0.5869542957042951
+Botswana,seoul-1988,1.5380238095238095
+Botswana,sydney-2000,0.005
+Botswana,tokyo-2020,14.356666666666667
+Brazil,albertville-1992,0.08777777777777777
+Brazil,antwerp-1920,12.463333333333333
+Brazil,athens-2004,63.11666666666667
+Brazil,atlanta-1996,55.61333333333334
+Brazil,barcelona-1992,45.733333333333334
+Brazil,beijing-2008,82.95333333333333
+Brazil,beijing-2022,2.1166666666666667
+Brazil,berlin-1936,2.3633333333333333
+Brazil,helsinki-1952,27.783333333333335
+Brazil,lillehammer-1994,0.0
+Brazil,london-1948,27.376666666666665
+Brazil,london-2012,68.61666666666666
+Brazil,los-angeles-1932,15.84
+Brazil,los-angeles-1984,44.05
+Brazil,melbourne-1956,11.036666666666667
+Brazil,mexico-city-1968,18.24
+Brazil,montreal-1976,14.106666666666667
+Brazil,moscow-1980,34.776666666666664
+Brazil,munich-1972,20.956666666666667
+Brazil,nagano-1998,0.0013333333333333335
+Brazil,paris-1900,1.1758095238095236
+Brazil,paris-1924,3.11
+Brazil,pyeongchang-2018,1.9844444444444447
+Brazil,rio-2016,134.97666666666666
+Brazil,rome-1960,17.573333333333334
+Brazil,salt-lake-city-2002,1.8222222222222222
+Brazil,seoul-1988,46.723333333333336
+Brazil,sochi-2014,2.2466666666666666
+Brazil,sydney-2000,59.75
+Brazil,tokyo-1964,11.146666666666667
+Brazil,tokyo-2020,172.48666666666668
+Brazil,turin-2006,2.3666666666666667
+Brazil,vancouver-2010,0.0
+British Virgin Islands,atlanta-1996,0.0005555555555555556
+British Virgin Islands,barcelona-1992,3.0083333333333333
+British Virgin Islands,los-angeles-1984,1.86
+British Virgin Islands,rio-2016,0.2685145502645504
+British Virgin Islands,sarajevo-1984,0.0
+British Virgin Islands,seoul-1988,0.0
+British Virgin Islands,sochi-2014,0.1
+Brunei,atlanta-1996,0.021666666666666667
+Brunei,london-2012,0.11154232804232803
+Brunei,rio-2016,0.0
+Brunei,sydney-2000,0.0
+Bulgaria,albertville-1992,12.413333333333334
+Bulgaria,amsterdam-1928,4.38571296296296
+Bulgaria,athens-2004,31.64
+Bulgaria,atlanta-1996,34.486666666666665
+Bulgaria,barcelona-1992,49.88333333333333
+Bulgaria,beijing-2008,17.173333333333332
+Bulgaria,beijing-2022,6.666666666666667
+Bulgaria,berlin-1936,13.74
+Bulgaria,calgary-1988,11.183333333333334
+Bulgaria,cortina-d-ampezzo-1956,0.17
+Bulgaria,garmisch-partenkirchen-1936,3.0866666666666664
+Bulgaria,grenoble-1968,1.37
+Bulgaria,helsinki-1952,36.583333333333336
+Bulgaria,innsbruck-1964,2.77
+Bulgaria,innsbruck-1976,4.39
+Bulgaria,lake-placid-1980,2.263436507936508
+Bulgaria,lillehammer-1994,2.86
+Bulgaria,london-2012,11.773333333333333
+Bulgaria,melbourne-1956,8.873333333333333
+Bulgaria,mexico-city-1968,27.623333333333335
+Bulgaria,montreal-1976,64.75666666666666
+Bulgaria,moscow-1980,140.77
+Bulgaria,munich-1972,61.193333333333335
+Bulgaria,nagano-1998,4.19
+Bulgaria,oslo-1952,1.9633333333333334
+Bulgaria,paris-1924,4.073333333333333
+Bulgaria,pyeongchang-2018,3.0533333333333332
+Bulgaria,rio-2016,8.676666666666666
+Bulgaria,rome-1960,28.12
+Bulgaria,salt-lake-city-2002,8.023333333333333
+Bulgaria,sapporo-1972,0.14333333333333334
+Bulgaria,sarajevo-1984,2.4233333333333333
+Bulgaria,seoul-1988,78.5
+Bulgaria,sochi-2014,3.725
+Bulgaria,squaw-valley-1960,2.7733333333333334
+Bulgaria,st-moritz-1948,0.8831666666666667
+Bulgaria,sydney-2000,27.323333333333334
+Bulgaria,tokyo-1964,20.533333333333335
+Bulgaria,tokyo-2020,13.59
+Bulgaria,turin-2006,6.183333333333334
+Bulgaria,vancouver-2010,4.520559523809523
+Burkina Faso,athens-2004,0.03179365079365079
+Burkina Faso,atlanta-1996,0.0
+Burkina Faso,barcelona-1992,0.0
+Burkina Faso,beijing-2008,0.005
+Burkina Faso,london-2012,0.0
+Burkina Faso,montreal-1976,1.8262110469653043
+Burkina Faso,rio-2016,0.0
+Burkina Faso,seoul-1988,0.04452380952380953
+Burkina Faso,sydney-2000,0.0
+Burkina Faso,tokyo-2020,1.2866666666666666
+Burundi,athens-2004,0.0
+Burundi,atlanta-1996,0.495063492063492
+Burundi,beijing-2008,0.0
+Burundi,london-2012,0.0
+Burundi,rio-2016,0.6266666666666667
+Burundi,sydney-2000,0.0008333333333333334
+Burundi,tokyo-2020,1.44509126984127
+Cambodia,athens-2004,0.0
+Cambodia,atlanta-1996,0.061111111111111116
+Cambodia,beijing-2008,0.0
+Cambodia,london-2012,0.021666666666666667
+Cambodia,munich-1972,0.0
+Cambodia,rio-2016,0.5
+Cambodia,sydney-2000,0.0
+Cambodia,tokyo-1964,2.243333333333333
+Cameroon,athens-2004,1.6133333333333333
+Cameroon,atlanta-1996,0.6566666666666666
+Cameroon,barcelona-1992,0.09333333333333334
+Cameroon,beijing-2008,6.653333333333333
+Cameroon,london-2012,3.97
+Cameroon,los-angeles-1984,7.773333333333333
+Cameroon,mexico-city-1968,1.9611230158730157
+Cameroon,montreal-1976,1.8262110469653043
+Cameroon,moscow-1980,6.576666666666667
+Cameroon,munich-1972,0.679772486772487
+Cameroon,rio-2016,3.0633333333333335
+Cameroon,salt-lake-city-2002,0.0
+Cameroon,seoul-1988,0.32666666666666666
+Cameroon,sydney-2000,4.036666666666667
+Cameroon,tokyo-2020,0.7114999999999999
+Canada,albertville-1992,49.26
+Canada,amsterdam-1928,35.78333333333333
+Canada,antwerp-1920,23.51
+Canada,athens-2004,80.26
+Canada,atlanta-1996,98.93333333333334
+Canada,barcelona-1992,97.48
+Canada,beijing-2008,109.38333333333334
+Canada,beijing-2022,93.79333333333334
+Canada,berlin-1936,31.62
+Canada,calgary-1988,32.95
+Canada,chamonix-1924,2.2876666666666665
+Canada,cortina-d-ampezzo-1956,6.66
+Canada,garmisch-partenkirchen-1936,4.576666666666667
+Canada,grenoble-1968,14.82
+Canada,helsinki-1952,24.433333333333334
+Canada,innsbruck-1964,12.57
+Canada,innsbruck-1976,21.14666666666667
+Canada,lake-placid-1932,17.996666666666666
+Canada,lake-placid-1980,12.333333333333334
+Canada,lillehammer-1994,30.763333333333332
+Canada,london-1908,82.17
+Canada,london-1948,27.243333333333332
+Canada,london-2012,84.18
+Canada,los-angeles-1932,44.02
+Canada,los-angeles-1984,160.77333333333334
+Canada,melbourne-1956,27.78
+Canada,mexico-city-1968,48.373333333333335
+Canada,montreal-1976,113.52333333333333
+Canada,munich-1972,56.61333333333334
+Canada,nagano-1998,49.97
+Canada,oslo-1952,4.35
+Canada,paris-1900,4.272222222222222
+Canada,paris-1924,20.166666666666668
+Canada,pyeongchang-2018,84.13
+Canada,rio-2016,90.1
+Canada,rome-1960,13.5
+Canada,salt-lake-city-2002,43.656666666666666
+Canada,sapporo-1972,12.52
+Canada,sarajevo-1984,12.63
+Canada,seoul-1988,101.50333333333333
+Canada,sochi-2014,80.50333333333333
+Canada,squaw-valley-1960,8.273333333333333
+Canada,st-louis-1904,17.28
+Canada,st-moritz-1928,3.8666666666666667
+Canada,st-moritz-1948,6.1866666666666665
+Canada,stockholm-1912,12.85
+Canada,sydney-2000,73.57666666666667
+Canada,tokyo-1964,29.703333333333333
+Canada,tokyo-2020,196.74
+Canada,turin-2006,68.84666666666666
+Canada,vancouver-2010,68.78666666666666
+Cape Verde,athens-2004,0.26760726310726324
+Cape Verde,atlanta-1996,0.0
+Cape Verde,beijing-2008,0.2685145502645504
+Cape Verde,london-2012,0.0
+Cape Verde,rio-2016,0.28
+Cape Verde,sydney-2000,0.267462962962963
+Cape Verde,tokyo-2020,0.0008333333333333334
+Cayman Islands,athens-2004,0.028333333333333332
+Cayman Islands,atlanta-1996,0.47044444444444444
+Cayman Islands,barcelona-1992,2.49
+Cayman Islands,beijing-2008,0.07375
+Cayman Islands,london-2012,0.18777777777777777
+Cayman Islands,los-angeles-1984,2.53
+Cayman Islands,montreal-1976,0.46221581196581174
+Cayman Islands,rio-2016,0.0
+Cayman Islands,seoul-1988,1.9666666666666666
+Cayman Islands,sochi-2014,0.07459974075840384
+Cayman Islands,sydney-2000,0.023333333333333334
+Cayman Islands,vancouver-2010,0.0
+Central African Republic,athens-2004,0.9141666666666667
+Central African Republic,atlanta-1996,0.0
+Central African Republic,barcelona-1992,3.238074074074075
+Central African Republic,beijing-2008,0.0
+Central African Republic,london-2012,0.17083333333333334
+Central African Republic,los-angeles-1984,0.0
+Central African Republic,montreal-1976,0.07459974075840384
+Central African Republic,rio-2016,0.04466666666666667
+Central African Republic,seoul-1988,1.9716111111111116
+Central African Republic,sydney-2000,0.0
+Chad,athens-2004,0.07459974075840384
+Chad,barcelona-1992,0.018774928774928774
+Chad,london-2012,0.0
+Chad,mexico-city-1968,0.5193910903910907
+Chad,munich-1972,0.0
+Chad,tokyo-1964,0.0008333333333333334
+Chad,tokyo-2020,0.12423590298590301
+Chile,albertville-1992,0.08
+Chile,amsterdam-1928,9.122222222222222
+Chile,antwerp-1920,0.0
+Chile,athens-1896,0.07459974075840384
+Chile,athens-2004,3.0766666666666667
+Chile,atlanta-1996,2.67
+Chile,barcelona-1992,0.5433333333333333
+Chile,beijing-2008,3.723333333333333
+Chile,beijing-2022,0.013333333333333334
+Chile,berlin-1936,9.433333333333334
+Chile,calgary-1988,0.052
+Chile,cortina-d-ampezzo-1956,0.013333333333333334
+Chile,grenoble-1968,0.06666666666666667
+Chile,helsinki-1952,32.843333333333334
+Chile,innsbruck-1964,0.021833333333333333
+Chile,innsbruck-1976,0.0
+Chile,lillehammer-1994,0.0
+Chile,london-1948,12.93
+Chile,london-2012,7.466666666666667
+Chile,los-angeles-1984,15.786666666666667
+Chile,melbourne-1956,13.166666666666666
+Chile,mexico-city-1968,8.366666666666667
+Chile,montreal-1976,0.1
+Chile,munich-1972,6.2651111111111115
+Chile,nagano-1998,0.03
+Chile,oslo-1952,0.0
+Chile,paris-1900,0.5873874458874455
+Chile,paris-1924,2.486666666666667
+Chile,pyeongchang-2018,0.003888888888888889
+Chile,rio-2016,6.623333333333333
+Chile,rome-1960,1.7212777777777777
+Chile,salt-lake-city-2002,0.09788888888888887
+Chile,sarajevo-1984,0.023333333333333334
+Chile,seoul-1988,6.42
+Chile,sochi-2014,0.23
+Chile,squaw-valley-1960,0.013333333333333334
+Chile,st-moritz-1948,0.26196825396825396
+Chile,stockholm-1912,3.0866666666666664
+Chile,sydney-2000,3.76
+Chile,tokyo-1964,1.69
+Chile,tokyo-2020,18.89
+Chile,turin-2006,0.23
+Chile,vancouver-2010,0.0
+Chinese Taipei,albertville-1992,1.8733333333333333
+Chinese Taipei,athens-2004,11.423333333333334
+Chinese Taipei,atlanta-1996,15.963333333333333
+Chinese Taipei,barcelona-1992,1.6274761904761905
+Chinese Taipei,beijing-2008,14.926666666666666
+Chinese Taipei,beijing-2022,0.4964682539682541
+Chinese Taipei,calgary-1988,2.243333333333333
+Chinese Taipei,innsbruck-1976,0.0
+Chinese Taipei,lillehammer-1994,0.0
+Chinese Taipei,london-2012,7.976666666666667
+Chinese Taipei,los-angeles-1984,5.8
+Chinese Taipei,melbourne-1956,3.5733333333333333
+Chinese Taipei,mexico-city-1968,11.433333333333334
+Chinese Taipei,montreal-1976,1.8262110469653043
+Chinese Taipei,munich-1972,1.6066666666666667
+Chinese Taipei,nagano-1998,2.8866666666666667
+Chinese Taipei,pyeongchang-2018,0.04666666666666667
+Chinese Taipei,rio-2016,22.16
+Chinese Taipei,rome-1960,3.6175
+Chinese Taipei,salt-lake-city-2002,2.137597883597883
+Chinese Taipei,sapporo-1972,0.006666666666666667
+Chinese Taipei,sarajevo-1984,2.25
+Chinese Taipei,seoul-1988,16.186666666666667
+Chinese Taipei,sochi-2014,0.21176190476190476
+Chinese Taipei,sydney-2000,6.216666666666667
+Chinese Taipei,tokyo-1964,9.15
+Chinese Taipei,tokyo-2020,45.806666666666665
+Chinese Taipei,turin-2006,0.0
+Chinese Taipei,vancouver-2010,0.08
+Colombia,athens-2004,7.51
+Colombia,atlanta-1996,5.296666666666667
+Colombia,barcelona-1992,9.530999999999999
+Colombia,beijing-2008,9.393333333333333
+Colombia,beijing-2022,0.0
+Colombia,berlin-1936,0.013333333333333334
+Colombia,london-1948,0.07459974075840384
+Colombia,london-2012,20.626666666666665
+Colombia,los-angeles-1932,0.07459974075840384
+Colombia,los-angeles-1984,6.63
+Colombia,melbourne-1956,3.78
+Colombia,mexico-city-1968,2.4966666666666666
+Colombia,montreal-1976,4.816666666666666
+Colombia,moscow-1980,0.9173333333333333
+Colombia,munich-1972,9.32
+Colombia,pyeongchang-2018,0.0
+Colombia,rio-2016,23.666666666666668
+Colombia,rome-1960,2.506666666666667
+Colombia,seoul-1988,8.063333333333333
+Colombia,sydney-2000,1.75
+Colombia,tokyo-1964,2.7866666666666666
+Colombia,tokyo-2020,12.443333333333333
+Colombia,vancouver-2010,0.02
+Comoros,athens-2004,0.07459974075840384
+Comoros,beijing-2008,0.0
+Comoros,london-2012,0.2685145502645504
+Comoros,rio-2016,0.45269841269841277
+Comoros,tokyo-2020,0.0
+Congo,athens-2004,0.0
+Congo,atlanta-1996,0.056666666666666664
+Congo,barcelona-1992,0.0
+Congo,beijing-2008,0.0
+Congo,london-2012,0.0
+Congo,los-angeles-1984,0.9797222222222223
+Congo,moscow-1980,2.878
+Congo,rio-2016,0.21194444444444446
+Congo,sydney-2000,0.0
+Congo,tokyo-1964,0.013333333333333334
+Cook Islands,athens-2004,0.0
+Cook Islands,atlanta-1996,0.3557910052910053
+Cook Islands,barcelona-1992,0.07459974075840384
+Cook Islands,beijing-2008,0.0
+Cook Islands,london-2012,0.023333333333333334
+Cook Islands,rio-2016,0.33055555555555555
+Cook Islands,seoul-1988,0.33
+Cook Islands,sydney-2000,0.013333333333333334
+Cook Islands,tokyo-2020,0.11666666666666667
+Costa Rica,albertville-1992,0.01
+Costa Rica,athens-2004,3.131833333333334
+Costa Rica,atlanta-1996,1.39
+Costa Rica,barcelona-1992,0.4166666666666667
+Costa Rica,beijing-2008,0.34242063492063474
+Costa Rica,calgary-1988,0.0
+Costa Rica,lake-placid-1980,0.0
+Costa Rica,london-2012,0.11
+Costa Rica,los-angeles-1984,2.0733333333333333
+Costa Rica,mexico-city-1968,2.9233333333333333
+Costa Rica,montreal-1976,0.0013333333333333335
+Costa Rica,moscow-1980,2.2133333333333334
+Costa Rica,munich-1972,0.03411111111111111
+Costa Rica,rio-2016,0.08666666666666667
+Costa Rica,salt-lake-city-2002,0.267462962962963
+Costa Rica,sarajevo-1984,0.0
+Costa Rica,seoul-1988,4.93
+Costa Rica,sydney-2000,3.295
+Costa Rica,tokyo-1964,0.00333502973477839
+Costa Rica,tokyo-2020,0.4266666666666667
+Costa Rica,turin-2006,0.0
+Croatia,albertville-1992,0.0033333333333333335
+Croatia,athens-2004,18.893333333333334
+Croatia,atlanta-1996,22.833333333333332
+Croatia,barcelona-1992,9.239444444444445
+Croatia,beijing-2008,26.18
+Croatia,beijing-2022,0.5533333333333333
+Croatia,lillehammer-1994,0.0
+Croatia,london-2012,18.04
+Croatia,nagano-1998,0.056666666666666664
+Croatia,pyeongchang-2018,3.3066666666666666
+Croatia,rio-2016,17.88
+Croatia,salt-lake-city-2002,4.836666666666667
+Croatia,sochi-2014,1.1233333333333333
+Croatia,sydney-2000,13.456666666666667
+Croatia,tokyo-2020,39.343333333333334
+Croatia,turin-2006,6.3566666666666665
+Croatia,vancouver-2010,4.15
+Cuba,amsterdam-1928,0.07459974075840384
+Cuba,athens-2004,42.14666666666667
+Cuba,atlanta-1996,52.35333333333333
+Cuba,barcelona-1992,57.873333333333335
+Cuba,beijing-2008,57.04
+Cuba,helsinki-1952,2.99
+Cuba,london-1948,10.91
+Cuba,london-2012,28.233333333333334
+Cuba,los-angeles-1932,1.8262110469653043
+Cuba,melbourne-1956,0.0
+Cuba,mexico-city-1968,23.05666666666667
+Cuba,montreal-1976,56.413333333333334
+Cuba,moscow-1980,68.67
+Cuba,munich-1972,32.5
+Cuba,paris-1900,1.7146970899470901
+Cuba,paris-1924,3.064
+Cuba,rio-2016,26.493333333333332
+Cuba,rome-1960,0.9895079365079369
+Cuba,st-louis-1904,3.162
+Cuba,sydney-2000,60.586666666666666
+Cuba,tokyo-1964,2.89
+Cuba,tokyo-2020,25.803333333333335
+Cyprus,albertville-1992,0.8904126984126981
+Cyprus,athens-2004,1.68
+Cyprus,atlanta-1996,0.44333333333333336
+Cyprus,barcelona-1992,0.9533333333333334
+Cyprus,beijing-2008,2.013333333333333
+Cyprus,beijing-2022,0.0
+Cyprus,calgary-1988,1.16
+Cyprus,lake-placid-1980,0.016666666666666666
+Cyprus,lillehammer-1994,0.06
+Cyprus,london-2012,1.9843333333333333
+Cyprus,los-angeles-1984,1.0933333333333333
+Cyprus,moscow-1980,1.72
+Cyprus,nagano-1998,0.07459974075840384
+Cyprus,pyeongchang-2018,0.07459974075840384
+Cyprus,rio-2016,2.04
+Cyprus,salt-lake-city-2002,0.0
+Cyprus,sarajevo-1984,1.2533333333333334
+Cyprus,seoul-1988,0.24333333333333335
+Cyprus,sochi-2014,0.0
+Cyprus,sydney-2000,1.9233333333333333
+Cyprus,tokyo-2020,0.5666666666666667
+Cyprus,turin-2006,0.0
+Cyprus,vancouver-2010,0.0
+Czech Republic,athens-2004,36.88
+Czech Republic,atlanta-1996,25.933333333333334
+Czech Republic,beijing-2008,33.05
+Czech Republic,beijing-2022,37.45333333333333
+Czech Republic,lillehammer-1994,20.723333333333333
+Czech Republic,london-2012,33.98
+Czech Republic,nagano-1998,18.5
+Czech Republic,pyeongchang-2018,29.463333333333335
+Czech Republic,rio-2016,34.0
+Czech Republic,salt-lake-city-2002,23.546666666666667
+Czech Republic,sochi-2014,30.483333333333334
+Czech Republic,sydney-2000,22.97
+Czech Republic,tokyo-2020,38.99666666666667
+Czech Republic,turin-2006,25.366666666666667
+Czech Republic,vancouver-2010,33.83
+Czechoslovakia,albertville-1992,23.716666666666665
+Czechoslovakia,amsterdam-1928,37.16
+Czechoslovakia,antwerp-1920,30.384722222222226
+Czechoslovakia,barcelona-1992,51.44
+Czechoslovakia,berlin-1936,55.053333333333335
+Czechoslovakia,calgary-1988,16.453333333333333
+Czechoslovakia,chamonix-1924,6.533333333333333
+Czechoslovakia,cortina-d-ampezzo-1956,8.013333333333334
+Czechoslovakia,garmisch-partenkirchen-1936,13.566666666666666
+Czechoslovakia,grenoble-1968,9.896666666666667
+Czechoslovakia,helsinki-1952,35.46333333333333
+Czechoslovakia,innsbruck-1964,8.513333333333334
+Czechoslovakia,innsbruck-1976,13.11
+Czechoslovakia,lake-placid-1932,0.33
+Czechoslovakia,lake-placid-1980,11.646666666666667
+Czechoslovakia,london-1948,15.093333333333334
+Czechoslovakia,los-angeles-1932,4.203333333333333
+Czechoslovakia,melbourne-1956,26.343333333333334
+Czechoslovakia,mexico-city-1968,40.2
+Czechoslovakia,montreal-1976,45.13666666666666
+Czechoslovakia,moscow-1980,72.99
+Czechoslovakia,munich-1972,48.096666666666664
+Czechoslovakia,oslo-1952,4.203500000000001
+Czechoslovakia,paris-1924,56.62
+Czechoslovakia,rome-1960,36.86666666666667
+Czechoslovakia,sapporo-1972,13.93
+Czechoslovakia,sarajevo-1984,12.493333333333334
+Czechoslovakia,seoul-1988,51.60666666666667
+Czechoslovakia,squaw-valley-1960,3.1078333333333332
+Czechoslovakia,st-moritz-1928,11.163333333333334
+Czechoslovakia,st-moritz-1948,10.853333333333333
+Czechoslovakia,tokyo-1964,29.29
+CÃ´te d'Ivoire,tokyo-2020,17.13
+Democratic People's Republic of Korea,albertville-1992,2.32
+Democratic People's Republic of Korea,athens-2004,8.176666666666666
+Democratic People's Republic of Korea,atlanta-1996,6.74
+Democratic People's Republic of Korea,barcelona-1992,19.16
+Democratic People's Republic of Korea,beijing-2008,16.883333333333333
+Democratic People's Republic of Korea,calgary-1988,0.643109469234469
+Democratic People's Republic of Korea,innsbruck-1964,1.5166666666666666
+Democratic People's Republic of Korea,london-2012,15.043333333333333
+Democratic People's Republic of Korea,montreal-1976,6.206666666666667
+Democratic People's Republic of Korea,moscow-1980,15.443333333333333
+Democratic People's Republic of Korea,munich-1972,10.013333333333334
+Democratic People's Republic of Korea,nagano-1998,4.53
+Democratic People's Republic of Korea,pyeongchang-2018,0.68
+Democratic People's Republic of Korea,rio-2016,14.406666666666666
+Democratic People's Republic of Korea,salt-lake-city-2002,0.07630631753962018
+Democratic People's Republic of Korea,sapporo-1972,3.3506666666666667
+Democratic People's Republic of Korea,sarajevo-1984,0.05333333333333334
+Democratic People's Republic of Korea,sydney-2000,6.6466666666666665
+Democratic People's Republic of Korea,tokyo-1964,0.02216931216931217
+Democratic People's Republic of Korea,turin-2006,0.02
+Democratic People's Republic of Korea,vancouver-2010,0.0
+Democratic Republic of Timor-Leste,athens-2004,0.0
+Democratic Republic of Timor-Leste,beijing-2008,0.07630631753962018
+Democratic Republic of Timor-Leste,beijing-2022,0.0
+Democratic Republic of Timor-Leste,london-2012,0.0
+Democratic Republic of Timor-Leste,pyeongchang-2018,0.07459974075840384
+Democratic Republic of Timor-Leste,rio-2016,0.0
+Democratic Republic of Timor-Leste,sochi-2014,0.0
+Democratic Republic of the Congo,athens-2004,0.0
+Democratic Republic of the Congo,atlanta-1996,1.9426666666666665
+Democratic Republic of the Congo,barcelona-1992,1.34
+Democratic Republic of the Congo,beijing-2008,0.0
+Democratic Republic of the Congo,london-2012,0.013333333333333334
+Democratic Republic of the Congo,los-angeles-1984,1.2133333333333334
+Democratic Republic of the Congo,mexico-city-1968,0.7161825396825393
+Democratic Republic of the Congo,rio-2016,0.08333333333333333
+Democratic Republic of the Congo,seoul-1988,4.073333333333333
+Democratic Republic of the Congo,sydney-2000,0.07459974075840384
+Democratic Republic of the Congo,tokyo-2020,1.57
+Denmark,albertville-1992,0.011444444444444445
+Denmark,amsterdam-1928,19.79
+Denmark,antwerp-1920,47.79333333333334
+Denmark,athens-1896,5.236142857142856
+Denmark,athens-2004,35.873333333333335
+Denmark,atlanta-1996,29.366666666666667
+Denmark,barcelona-1992,42.553333333333335
+Denmark,beijing-2008,30.276666666666667
+Denmark,beijing-2022,15.401333333333332
+Denmark,berlin-1936,40.5
+Denmark,calgary-1988,0.0
+Denmark,grenoble-1968,0.0
+Denmark,helsinki-1952,41.85333333333333
+Denmark,innsbruck-1964,0.0
+Denmark,lillehammer-1994,0.02666666666666667
+Denmark,london-1908,21.116666666666667
+Denmark,london-1948,61.39666666666667
+Denmark,london-2012,41.38
+Denmark,los-angeles-1932,14.9
+Denmark,los-angeles-1984,31.263333333333332
+Denmark,melbourne-1956,9.09
+Denmark,mexico-city-1968,24.506666666666668
+Denmark,montreal-1976,20.273333333333333
+Denmark,moscow-1980,17.98
+Denmark,munich-1972,27.163333333333334
+Denmark,nagano-1998,1.9013333333333333
+Denmark,oslo-1952,0.0
+Denmark,paris-1900,7.6433333333333335
+Denmark,paris-1924,44.71
+Denmark,pyeongchang-2018,9.121444444444444
+Denmark,rio-2016,42.93333333333333
+Denmark,rome-1960,28.766666666666666
+Denmark,salt-lake-city-2002,4.377222222222222
+Denmark,seoul-1988,37.47666666666667
+Denmark,sochi-2014,3.651264069264069
+Denmark,squaw-valley-1960,0.0
+Denmark,st-moritz-1948,0.06
+Denmark,stockholm-1912,47.593333333333334
+Denmark,sydney-2000,33.73
+Denmark,tokyo-1964,29.816666666666666
+Denmark,tokyo-2020,49.973333333333336
+Denmark,turin-2006,3.942674603174604
+Denmark,vancouver-2010,3.8433333333333333
+Djibouti,atlanta-1996,0.0
+Djibouti,barcelona-1992,1.3928888888888886
+Djibouti,london-2012,0.0016666666666666668
+Djibouti,los-angeles-1984,0.415272486772487
+Djibouti,rio-2016,0.20626984126984127
+Djibouti,seoul-1988,0.8386137566137566
+Djibouti,sydney-2000,0.07459974075840384
+Djibouti,tokyo-2020,0.0
+Dominica,atlanta-1996,0.0
+Dominica,sochi-2014,0.07630631753962018
+Dominica,sydney-2000,0.18455555555555556
+Dominica,tokyo-2020,0.03762840862840863
+Dominican Republic,athens-2004,3.8933333333333335
+Dominican Republic,atlanta-1996,1.6
+Dominican Republic,barcelona-1992,5.276666666666666
+Dominican Republic,beijing-2008,7.286666666666667
+Dominican Republic,london-2012,6.776666666666666
+Dominican Republic,los-angeles-1984,2.5616666666666665
+Dominican Republic,mexico-city-1968,0.81
+Dominican Republic,montreal-1976,1.6516666666666666
+Dominican Republic,moscow-1980,0.5869542957042951
+Dominican Republic,munich-1972,0.0
+Dominican Republic,rio-2016,1.8466666666666667
+Dominican Republic,seoul-1988,1.9
+Dominican Republic,sydney-2000,0.9494444444444444
+Dominican Republic,tokyo-2020,27.19
+Ecuador,athens-2004,0.83
+Ecuador,atlanta-1996,8.64
+Ecuador,barcelona-1992,1.34
+Ecuador,beijing-2008,2.5366666666666666
+Ecuador,beijing-2022,0.07459974075840384
+Ecuador,london-2012,4.716666666666667
+Ecuador,los-angeles-1984,0.07333333333333333
+Ecuador,mexico-city-1968,2.6
+Ecuador,montreal-1976,0.5710555555555555
+Ecuador,moscow-1980,3.8327777777777783
+Ecuador,munich-1972,2.1446666666666667
+Ecuador,paris-1924,1.0571150793650792
+Ecuador,pyeongchang-2018,0.0
+Ecuador,rio-2016,3.6366666666666667
+Ecuador,seoul-1988,0.8366666666666667
+Ecuador,sydney-2000,1.9
+Ecuador,tokyo-2020,6.536666666666667
+Egypt,amsterdam-1928,6.036666666666667
+Egypt,antwerp-1920,1.5095
+Egypt,athens-2004,18.283333333333335
+Egypt,atlanta-1996,2.2133333333333334
+Egypt,barcelona-1992,15.133333333333333
+Egypt,beijing-2008,20.0
+Egypt,berlin-1936,14.09
+Egypt,helsinki-1952,35.95333333333333
+Egypt,london-1948,22.996666666666666
+Egypt,london-2012,29.483333333333334
+Egypt,los-angeles-1984,25.043333333333333
+Egypt,mexico-city-1968,2.99
+Egypt,montreal-1976,3.5099285714285724
+Egypt,munich-1972,3.0833333333333335
+Egypt,paris-1924,3.602
+Egypt,rio-2016,25.886666666666667
+Egypt,sarajevo-1984,1.2066666666666668
+Egypt,seoul-1988,11.423333333333334
+Egypt,sydney-2000,14.553333333333333
+Egypt,tokyo-1964,6.16
+Egypt,tokyo-2020,69.00666666666666
+El Salvador,athens-2004,1.2833333333333334
+El Salvador,atlanta-1996,1.1516666666666666
+El Salvador,barcelona-1992,0.6016666666666667
+El Salvador,beijing-2008,0.94
+El Salvador,london-2012,0.67
+El Salvador,los-angeles-1984,0.016666666666666666
+El Salvador,mexico-city-1968,7.84
+El Salvador,munich-1972,3.82
+El Salvador,rio-2016,0.6515634920634923
+El Salvador,seoul-1988,0.4015555555555556
+El Salvador,sydney-2000,0.02666666666666667
+El Salvador,tokyo-2020,0.11166666666666666
+Equatorial Guinea,athens-2004,0.07459974075840384
+Equatorial Guinea,beijing-2008,0.0
+Equatorial Guinea,rio-2016,0.07459974075840384
+Equatorial Guinea,sydney-2000,0.0
+Eritrea,athens-2004,2.1323217893217894
+Eritrea,beijing-2008,0.45666666666666667
+Eritrea,beijing-2022,0.5151866281866283
+Eritrea,london-2012,0.4
+Eritrea,pyeongchang-2018,0.0
+Eritrea,rio-2016,0.96
+Eritrea,tokyo-2020,1.4983333333333333
+Estonia,albertville-1992,9.946666666666667
+Estonia,amsterdam-1928,11.44
+Estonia,antwerp-1920,3.7388888888888885
+Estonia,athens-2004,5.3345
+Estonia,atlanta-1996,1.16
+Estonia,barcelona-1992,11.13
+Estonia,beijing-2008,7.92
+Estonia,beijing-2022,12.706666666666667
+Estonia,berlin-1936,12.066666666666666
+Estonia,chamonix-1924,0.07459974075840384
+Estonia,garmisch-partenkirchen-1936,0.925
+Estonia,lillehammer-1994,12.663333333333334
+Estonia,london-2012,5.116666666666666
+Estonia,los-angeles-1932,0.43896031746031744
+Estonia,nagano-1998,9.87
+Estonia,paris-1924,11.486666666666666
+Estonia,pyeongchang-2018,1.5301666666666667
+Estonia,rio-2016,6.126666666666667
+Estonia,salt-lake-city-2002,7.51
+Estonia,sochi-2014,9.893333333333333
+Estonia,st-moritz-1928,0.1502222222222222
+Estonia,sydney-2000,5.526666666666666
+Estonia,tokyo-2020,6.36
+Estonia,turin-2006,9.066666666666666
+Estonia,vancouver-2010,10.806666666666667
+Eswatini,tokyo-2020,0.0
+Ethiopia,athens-2004,8.56
+Ethiopia,atlanta-1996,4.326666666666667
+Ethiopia,barcelona-1992,4.63
+Ethiopia,beijing-2008,10.713333333333333
+Ethiopia,london-2012,9.206666666666667
+Ethiopia,melbourne-1956,2.01
+Ethiopia,mexico-city-1968,5.81
+Ethiopia,montreal-1976,0.013333333333333334
+Ethiopia,moscow-1980,10.05
+Ethiopia,munich-1972,3.796666666666667
+Ethiopia,rio-2016,9.356666666666667
+Ethiopia,rome-1960,3.3766666666666665
+Ethiopia,sydney-2000,11.176666666666666
+Ethiopia,tokyo-1964,3.3366666666666664
+Ethiopia,tokyo-2020,10.68
+Ethiopia,turin-2006,0.0
+Ethiopia,vancouver-2010,0.0
+Federal Republic of Germany,calgary-1988,30.94
+Federal Republic of Germany,grenoble-1968,28.99
+Federal Republic of Germany,innsbruck-1976,24.7
+Federal Republic of Germany,lake-placid-1980,21.836666666666666
+Federal Republic of Germany,los-angeles-1984,183.37
+Federal Republic of Germany,mexico-city-1968,118.99333333333334
+Federal Republic of Germany,montreal-1976,134.93666666666667
+Federal Republic of Germany,munich-1972,149.06
+Federal Republic of Germany,sapporo-1972,23.903333333333332
+Federal Republic of Germany,sarajevo-1984,22.466666666666665
+Federal Republic of Germany,seoul-1988,156.55666666666667
+Federated States of Micronesia,athens-2004,0.03411111111111111
+Federated States of Micronesia,beijing-2008,0.02666666666666667
+Federated States of Micronesia,london-2012,1.4049920634920636
+Federated States of Micronesia,rio-2016,0.0
+Federated States of Micronesia,sydney-2000,0.012
+Fiji,athens-2004,0.24
+Fiji,atlanta-1996,1.7166666666666666
+Fiji,barcelona-1992,2.6166666666666667
+Fiji,beijing-2008,0.20626984126984127
+Fiji,calgary-1988,0.0
+Fiji,lillehammer-1994,0.0
+Fiji,london-2012,0.8766666666666667
+Fiji,los-angeles-1984,1.05
+Fiji,melbourne-1956,2.408
+Fiji,montreal-1976,0.0
+Fiji,munich-1972,0.07459974075840384
+Fiji,rio-2016,6.463333333333333
+Fiji,salt-lake-city-2002,0.0
+Fiji,seoul-1988,3.74
+Fiji,sydney-2000,1.3666666666666667
+Fiji,tokyo-2020,33.789809523809524
+Finland,albertville-1992,21.63
+Finland,amsterdam-1928,24.46
+Finland,antwerp-1920,57.53
+Finland,athens-2004,7.326666666666667
+Finland,atlanta-1996,14.113333333333333
+Finland,barcelona-1992,18.1
+Finland,beijing-2008,11.066666666666666
+Finland,beijing-2022,29.106666666666666
+Finland,berlin-1936,36.526666666666664
+Finland,calgary-1988,21.083333333333332
+Finland,chamonix-1924,11.936666666666667
+Finland,cortina-d-ampezzo-1956,12.76
+Finland,garmisch-partenkirchen-1936,10.419444444444444
+Finland,grenoble-1968,13.546666666666667
+Finland,helsinki-1952,92.83666666666667
+Finland,innsbruck-1964,17.846666666666668
+Finland,innsbruck-1976,15.86
+Finland,lake-placid-1932,3.1633333333333336
+Finland,lake-placid-1980,18.92
+Finland,lillehammer-1994,19.28
+Finland,london-1908,17.236666666666668
+Finland,london-1948,48.45
+Finland,london-2012,7.543333333333333
+Finland,los-angeles-1932,35.623333333333335
+Finland,los-angeles-1984,35.303333333333335
+Finland,melbourne-1956,25.77
+Finland,mexico-city-1968,18.483333333333334
+Finland,montreal-1976,31.506666666666668
+Finland,moscow-1980,38.35
+Finland,munich-1972,34.64666666666667
+Finland,nagano-1998,21.62
+Finland,oslo-1952,15.98
+Finland,paris-1924,69.94
+Finland,pyeongchang-2018,20.776666666666667
+Finland,rio-2016,6.58
+Finland,rome-1960,28.83
+Finland,salt-lake-city-2002,28.726666666666667
+Finland,sapporo-1972,13.93
+Finland,sarajevo-1984,20.023333333333333
+Finland,seoul-1988,24.5
+Finland,sochi-2014,23.77
+Finland,squaw-valley-1960,16.45
+Finland,st-moritz-1928,7.066666666666666
+Finland,st-moritz-1948,8.916666666666666
+Finland,stockholm-1912,54.25
+Finland,sydney-2000,11.0
+Finland,tokyo-1964,19.07
+Finland,tokyo-2020,3.56
+Finland,turin-2006,22.373333333333335
+Finland,vancouver-2010,18.62
+France,albertville-1992,38.71333333333333
+France,amsterdam-1928,83.91
+France,antwerp-1920,150.38
+France,athens-1896,15.416666666666666
+France,athens-2004,114.93
+France,atlanta-1996,124.39333333333333
+France,barcelona-1992,121.63
+France,beijing-2008,121.35333333333334
+France,beijing-2022,39.723333333333336
+France,berlin-1936,74.68666666666667
+France,calgary-1988,14.023333333333333
+France,chamonix-1924,14.321468253968254
+France,cortina-d-ampezzo-1956,8.643333333333333
+France,garmisch-partenkirchen-1936,10.063333333333333
+France,grenoble-1968,20.23
+France,helsinki-1952,101.44333333333333
+France,innsbruck-1964,10.39
+France,innsbruck-1976,9.593333333333334
+France,lake-placid-1932,1.847142857142857
+France,lake-placid-1980,7.826666666666667
+France,lillehammer-1994,29.11
+France,london-1908,92.40333333333334
+France,london-1948,89.17666666666666
+France,london-2012,107.41
+France,los-angeles-1932,37.986666666666665
+France,los-angeles-1984,122.15
+France,melbourne-1956,30.333333333333332
+France,mexico-city-1968,80.31333333333333
+France,montreal-1976,69.20333333333333
+France,moscow-1980,55.64666666666667
+France,munich-1972,63.04666666666667
+France,nagano-1998,28.413333333333334
+France,oslo-1952,7.01
+France,paris-1900,395.28333333333336
+France,paris-1924,116.89333333333333
+France,pyeongchang-2018,34.196666666666665
+France,rio-2016,125.11333333333333
+France,rome-1960,58.803333333333335
+France,salt-lake-city-2002,33.166666666666664
+France,sapporo-1972,12.02
+France,sarajevo-1984,10.11
+France,seoul-1988,114.02333333333333
+France,sochi-2014,41.913333333333334
+France,squaw-valley-1960,6.373333333333333
+France,st-louis-1904,1.526022486772487
+France,st-moritz-1928,9.95
+France,st-moritz-1948,11.68
+France,stockholm-1912,131.04333333333332
+France,sydney-2000,118.51333333333334
+France,tokyo-1964,66.33333333333333
+France,tokyo-2020,276.05
+France,turin-2006,30.35
+France,vancouver-2010,40.763333333333335
+Gabon,athens-2004,0.525243506493506
+Gabon,atlanta-1996,0.5153333333333333
+Gabon,barcelona-1992,4.38571296296296
+Gabon,beijing-2008,0.0
+Gabon,london-2012,3.5986666666666665
+Gabon,los-angeles-1984,0.023333333333333334
+Gabon,munich-1972,0.0
+Gabon,rio-2016,0.23
+Gabon,seoul-1988,0.0008333333333333334
+Gabon,sydney-2000,0.0
+Gabon,tokyo-2020,0.7591269841269837
+Gambia,barcelona-1992,0.07459974075840384
+Gambia,beijing-2008,0.0
+Gambia,rio-2016,0.0
+Gambia,seoul-1988,0.8445875790875794
+Gambia,tokyo-2020,0.0
+Georgia,athens-2004,6.776666666666666
+Georgia,atlanta-1996,4.9366666666666665
+Georgia,beijing-2008,18.406666666666666
+Georgia,beijing-2022,0.9594722222222223
+Georgia,lillehammer-1994,0.0
+Georgia,london-2012,10.11
+Georgia,nagano-1998,0.02666666666666667
+Georgia,pyeongchang-2018,0.008333333333333333
+Georgia,rio-2016,13.416666666666666
+Georgia,salt-lake-city-2002,0.0
+Georgia,sochi-2014,0.7161825396825393
+Georgia,sydney-2000,12.376666666666667
+Georgia,tokyo-2020,10.64
+Georgia,turin-2006,1.7583888888888892
+Georgia,vancouver-2010,0.1
+German Democratic Republic (Germany),calgary-1988,39.9
+German Democratic Republic (Germany),grenoble-1968,17.92
+German Democratic Republic (Germany),innsbruck-1976,31.32
+German Democratic Republic (Germany),lake-placid-1980,36.95666666666666
+German Democratic Republic (Germany),mexico-city-1968,113.04
+German Democratic Republic (Germany),montreal-1976,154.20666666666668
+German Democratic Republic (Germany),moscow-1980,198.24666666666667
+German Democratic Republic (Germany),munich-1972,149.36333333333334
+German Democratic Republic (Germany),sapporo-1972,24.69
+German Democratic Republic (Germany),sarajevo-1984,34.39333333333333
+German Democratic Republic (Germany),seoul-1988,163.28666666666666
+Germany,albertville-1992,54.06333333333333
+Germany,amsterdam-1928,102.30333333333333
+Germany,athens-1896,23.84
+Germany,athens-2004,203.42
+Germany,atlanta-1996,191.92666666666668
+Germany,barcelona-1992,197.60666666666665
+Germany,beijing-2008,162.54
+Germany,beijing-2022,73.35666666666667
+Germany,berlin-1936,156.07
+Germany,cortina-d-ampezzo-1956,13.84
+Germany,garmisch-partenkirchen-1936,21.413333333333334
+Germany,helsinki-1952,86.55
+Germany,innsbruck-1964,32.71333333333333
+Germany,lake-placid-1932,10.712222222222222
+Germany,lillehammer-1994,47.53666666666667
+Germany,london-1908,50.343333333333334
+Germany,london-2012,149.39666666666668
+Germany,los-angeles-1932,41.973333333333336
+Germany,melbourne-1956,62.586666666666666
+Germany,nagano-1998,55.98
+Germany,oslo-1952,15.88
+Germany,paris-1900,22.72
+Germany,pyeongchang-2018,66.82666666666667
+Germany,rio-2016,132.98
+Germany,rome-1960,123.75333333333333
+Germany,salt-lake-city-2002,72.76666666666667
+Germany,sochi-2014,59.79333333333334
+Germany,squaw-valley-1960,21.48
+Germany,st-louis-1904,18.633333333333333
+Germany,st-moritz-1928,11.573333333333334
+Germany,stockholm-1912,81.78666666666666
+Germany,sydney-2000,166.42
+Germany,tokyo-1964,146.62666666666667
+Germany,tokyo-2020,235.20333333333335
+Germany,turin-2006,70.59
+Germany,vancouver-2010,69.59
+Ghana,athens-2004,3.488888888888889
+Ghana,atlanta-1996,2.154444444444444
+Ghana,barcelona-1992,3.5533333333333332
+Ghana,beijing-2008,0.9658333333333333
+Ghana,beijing-2022,0.07459974075840384
+Ghana,helsinki-1952,0.415272486772487
+Ghana,london-2012,0.765
+Ghana,los-angeles-1984,0.9433333333333334
+Ghana,mexico-city-1968,3.47
+Ghana,montreal-1976,0.301047619047619
+Ghana,munich-1972,4.485333333333333
+Ghana,pyeongchang-2018,0.0
+Ghana,rio-2016,0.02666666666666667
+Ghana,rome-1960,1.85
+Ghana,seoul-1988,0.005555555555555556
+Ghana,sydney-2000,0.6533333333333333
+Ghana,tokyo-1964,5.97
+Ghana,tokyo-2020,2.1490634920634926
+Ghana,vancouver-2010,0.0
+Great Britain,albertville-1992,16.81
+Great Britain,amsterdam-1928,56.763333333333335
+Great Britain,antwerp-1920,98.91666666666667
+Great Britain,athens-1896,8.426666666666666
+Great Britain,athens-2004,125.25666666666666
+Great Britain,atlanta-1996,88.2
+Great Britain,barcelona-1992,128.64
+Great Britain,beijing-2008,142.73666666666668
+Great Britain,beijing-2022,16.073333333333334
+Great Britain,berlin-1936,76.87
+Great Britain,calgary-1988,13.513333333333334
+Great Britain,chamonix-1924,13.28
+Great Britain,cortina-d-ampezzo-1956,11.886666666666667
+Great Britain,garmisch-partenkirchen-1936,11.866666666666667
+Great Britain,grenoble-1968,10.293333333333333
+Great Britain,helsinki-1952,90.77
+Great Britain,innsbruck-1964,10.326666666666666
+Great Britain,innsbruck-1976,10.156666666666666
+Great Britain,lake-placid-1932,2.9133333333333336
+Great Britain,lake-placid-1980,10.85
+Great Britain,lillehammer-1994,10.436666666666667
+Great Britain,london-1908,346.92
+Great Britain,london-1948,108.72
+Great Britain,london-2012,196.90666666666667
+Great Britain,los-angeles-1932,42.53333333333333
+Great Britain,los-angeles-1984,176.76666666666668
+Great Britain,melbourne-1956,63.93333333333333
+Great Britain,mexico-city-1968,72.50333333333333
+Great Britain,montreal-1976,96.24
+Great Britain,moscow-1980,102.86333333333333
+Great Britain,munich-1972,93.03333333333333
+Great Britain,nagano-1998,10.946666666666667
+Great Britain,oslo-1952,2.243333333333333
+Great Britain,paris-1900,61.25666666666667
+Great Britain,paris-1924,106.84333333333333
+Great Britain,pyeongchang-2018,22.316666666666666
+Great Britain,rio-2016,184.51333333333332
+Great Britain,rome-1960,78.12
+Great Britain,salt-lake-city-2002,14.973333333333333
+Great Britain,sapporo-1972,9.003333333333334
+Great Britain,sarajevo-1984,14.206666666666667
+Great Britain,seoul-1988,124.18
+Great Britain,sochi-2014,14.79
+Great Britain,squaw-valley-1960,1.5433333333333332
+Great Britain,st-louis-1904,4.11
+Great Britain,st-moritz-1928,10.14
+Great Britain,st-moritz-1948,9.853333333333333
+Great Britain,stockholm-1912,99.42333333333333
+Great Britain,sydney-2000,110.23666666666666
+Great Britain,tokyo-1964,73.80666666666667
+Great Britain,tokyo-2020,252.46666666666667
+Great Britain,turin-2006,8.356666666666667
+Great Britain,vancouver-2010,12.88
+Greece,albertville-1992,4.163333333333333
+Greece,amsterdam-1928,2.006666666666667
+Greece,antwerp-1920,23.476666666666667
+Greece,athens-1896,158.30333333333334
+Greece,athens-2004,93.6
+Greece,atlanta-1996,28.923333333333332
+Greece,barcelona-1992,17.166666666666668
+Greece,beijing-2008,21.296666666666667
+Greece,beijing-2022,0.13885714285714287
+Greece,berlin-1936,5.07
+Greece,calgary-1988,0.0
+Greece,cortina-d-ampezzo-1956,0.0
+Greece,garmisch-partenkirchen-1936,0.07459974075840384
+Greece,grenoble-1968,0.0
+Greece,helsinki-1952,7.32
+Greece,innsbruck-1964,0.0
+Greece,innsbruck-1976,0.0
+Greece,lake-placid-1980,0.8033333333333333
+Greece,lillehammer-1994,0.18333333333333332
+Greece,london-1908,19.3
+Greece,london-1948,9.520666666666665
+Greece,london-2012,19.436666666666667
+Greece,los-angeles-1932,3.25
+Greece,los-angeles-1984,11.46
+Greece,melbourne-1956,5.503333333333333
+Greece,mexico-city-1968,8.973333333333333
+Greece,montreal-1976,4.13
+Greece,moscow-1980,8.851388888888888
+Greece,munich-1972,7.64
+Greece,nagano-1998,2.83
+Greece,oslo-1952,0.0
+Greece,paris-1900,0.278
+Greece,paris-1924,11.813333333333333
+Greece,pyeongchang-2018,0.9703095238095236
+Greece,rio-2016,20.653333333333332
+Greece,rome-1960,4.546666666666667
+Greece,salt-lake-city-2002,0.14333333333333334
+Greece,sapporo-1972,0.0
+Greece,sarajevo-1984,0.01
+Greece,seoul-1988,11.666666666666666
+Greece,sochi-2014,0.05
+Greece,st-louis-1904,10.966666666666667
+Greece,st-moritz-1948,0.0
+Greece,stockholm-1912,13.756666666666666
+Greece,sydney-2000,34.97666666666667
+Greece,tokyo-1964,3.5033333333333334
+Greece,tokyo-2020,31.64666666666667
+Greece,turin-2006,0.0
+Greece,vancouver-2010,0.05
+Grenada,athens-2004,0.0
+Grenada,beijing-2008,0.0
+Grenada,london-2012,0.2555370370370372
+Grenada,los-angeles-1984,0.9173333333333333
+Grenada,rio-2016,0.9533333333333334
+Grenada,seoul-1988,0.07666666666666666
+Grenada,sydney-2000,0.0
+Grenada,tokyo-2020,1.0816666666666666
+Guam,athens-2004,0.0
+Guam,atlanta-1996,0.23333333333333334
+Guam,barcelona-1992,9.383333333333333
+Guam,beijing-2008,0.35
+Guam,calgary-1988,0.0
+Guam,london-2012,0.041746031746031746
+Guam,rio-2016,0.03333333333333333
+Guam,seoul-1988,1.7558333333333334
+Guam,sydney-2000,0.12
+Guam,tokyo-2020,0.5980714285714285
+Guatemala,athens-2004,1.6466666666666667
+Guatemala,atlanta-1996,0.58
+Guatemala,barcelona-1992,7.613333333333333
+Guatemala,beijing-2008,0.8
+Guatemala,calgary-1988,0.006666666666666667
+Guatemala,helsinki-1952,2.78
+Guatemala,london-2012,3.9233333333333333
+Guatemala,los-angeles-1984,7.043333333333333
+Guatemala,mexico-city-1968,7.903333333333333
+Guatemala,montreal-1976,2.6033333333333335
+Guatemala,moscow-1980,0.6566666666666666
+Guatemala,munich-1972,0.82
+Guatemala,rio-2016,1.4133333333333333
+Guatemala,seoul-1988,4.64
+Guatemala,sydney-2000,0.44666666666666666
+Guatemala,tokyo-2020,2.453333333333333
+Guinea,athens-2004,0.0
+Guinea,atlanta-1996,0.0
+Guinea,barcelona-1992,0.0688095238095238
+Guinea,beijing-2008,0.0
+Guinea,london-2012,0.013333333333333334
+Guinea,los-angeles-1984,0.013333333333333334
+Guinea,mexico-city-1968,4.552583333333334
+Guinea,moscow-1980,1.0175992063492065
+Guinea,rio-2016,0.016666666666666666
+Guinea,seoul-1988,0.006666666666666667
+Guinea,sydney-2000,0.07
+Guinea,tokyo-2020,1.4313362193362187
+Guinea-Bissau,athens-2004,0.4359247778365425
+Guinea-Bissau,atlanta-1996,0.0
+Guinea-Bissau,beijing-2008,0.0
+Guinea-Bissau,london-2012,0.5193910903910907
+Guinea-Bissau,rio-2016,0.2744444444444445
+Guinea-Bissau,sydney-2000,0.0
+Guinea-Bissau,tokyo-2020,0.5153333333333333
+Guyana,athens-2004,0.382702528952529
+Guyana,atlanta-1996,0.0
+Guyana,barcelona-1992,0.013333333333333334
+Guyana,beijing-2008,0.0
+Guyana,helsinki-1952,0.0
+Guyana,london-1948,0.5642211399711402
+Guyana,london-2012,0.06
+Guyana,los-angeles-1984,0.023333333333333334
+Guyana,melbourne-1956,0.5193910903910907
+Guyana,mexico-city-1968,0.30416666666666664
+Guyana,montreal-1976,0.02216931216931217
+Guyana,moscow-1980,1.78
+Guyana,munich-1972,0.6412222222222224
+Guyana,rio-2016,0.0
+Guyana,rome-1960,0.0
+Guyana,seoul-1988,0.7463333333333334
+Guyana,tokyo-1964,0.6946349206349205
+Guyana,tokyo-2020,0.0
+Haiti,amsterdam-1928,1.526022486772487
+Haiti,athens-2004,0.7591269841269837
+Haiti,atlanta-1996,0.9066666666666666
+Haiti,barcelona-1992,0.14666666666666667
+Haiti,beijing-2008,2.0395595238095243
+Haiti,beijing-2022,0.08
+Haiti,london-2012,0.5863333333333334
+Haiti,los-angeles-1932,0.0008333333333333334
+Haiti,los-angeles-1984,0.0
+Haiti,montreal-1976,0.30666666666666664
+Haiti,munich-1972,0.0
+Haiti,paris-1924,6.293333333333333
+Haiti,rio-2016,0.6580555555555556
+Haiti,rome-1960,0.07459974075840384
+Haiti,seoul-1988,0.92
+Haiti,sydney-2000,0.11166666666666666
+Haiti,tokyo-2020,0.1725
+Honduras,albertville-1992,0.0
+Honduras,athens-2004,0.04666666666666667
+Honduras,atlanta-1996,0.03333333333333333
+Honduras,barcelona-1992,0.22861111111111115
+Honduras,beijing-2008,4.560642857142857
+Honduras,london-2012,2.449333333333333
+Honduras,los-angeles-1984,3.73
+Honduras,mexico-city-1968,0.07459974075840384
+Honduras,montreal-1976,0.01
+Honduras,rio-2016,2.4774444444444446
+Honduras,seoul-1988,0.29333333333333333
+Honduras,sydney-2000,1.0571150793650792
+Honduras,tokyo-2020,15.138281746031748
+"Hong Kong, China",athens-2004,3.6133333333333333
+"Hong Kong, China",atlanta-1996,2.3366666666666664
+"Hong Kong, China",barcelona-1992,9.193333333333333
+"Hong Kong, China",beijing-2008,9.443333333333333
+"Hong Kong, China",beijing-2022,0.0688095238095238
+"Hong Kong, China",london-2012,11.816666666666666
+"Hong Kong, China",los-angeles-1984,14.12
+"Hong Kong, China",mexico-city-1968,2.45
+"Hong Kong, China",montreal-1976,4.12
+"Hong Kong, China",munich-1972,1.1966666666666668
+"Hong Kong, China",pyeongchang-2018,0.0
+"Hong Kong, China",rio-2016,10.89
+"Hong Kong, China",rome-1960,0.0
+"Hong Kong, China",salt-lake-city-2002,0.12997962222962228
+"Hong Kong, China",seoul-1988,14.736666666666666
+"Hong Kong, China",sochi-2014,0.0
+"Hong Kong, China",sydney-2000,4.043333333333333
+"Hong Kong, China",tokyo-1964,7.066666666666666
+"Hong Kong, China",tokyo-2020,21.63
+"Hong Kong, China",turin-2006,0.0
+"Hong Kong, China",vancouver-2010,0.32
+Hungary,albertville-1992,7.44
+Hungary,amsterdam-1928,48.61666666666667
+Hungary,athens-1896,11.37
+Hungary,athens-2004,52.31
+Hungary,atlanta-1996,70.49
+Hungary,barcelona-1992,75.00333333333333
+Hungary,beijing-2008,44.446666666666665
+Hungary,beijing-2022,7.744
+Hungary,berlin-1936,69.98666666666666
+Hungary,calgary-1988,0.052
+Hungary,chamonix-1924,1.331
+Hungary,cortina-d-ampezzo-1956,2.7755555555555556
+Hungary,garmisch-partenkirchen-1936,7.033333333333333
+Hungary,grenoble-1968,0.14333333333333334
+Hungary,helsinki-1952,78.73333333333333
+Hungary,innsbruck-1964,5.06
+Hungary,innsbruck-1976,1.224087301587302
+Hungary,lake-placid-1932,3.283333333333333
+Hungary,lake-placid-1980,1.3916587301587298
+Hungary,lillehammer-1994,3.486666666666667
+Hungary,london-1908,70.05666666666667
+Hungary,london-1948,45.63666666666666
+Hungary,london-2012,51.46333333333333
+Hungary,los-angeles-1932,26.473333333333333
+Hungary,melbourne-1956,51.75
+Hungary,mexico-city-1968,67.49333333333334
+Hungary,montreal-1976,67.43666666666667
+Hungary,moscow-1980,119.74333333333334
+Hungary,munich-1972,96.34333333333333
+Hungary,nagano-1998,3.7733333333333334
+Hungary,oslo-1952,1.7633333333333334
+Hungary,paris-1900,9.173333333333334
+Hungary,paris-1924,38.36
+Hungary,pyeongchang-2018,5.736666666666666
+Hungary,rio-2016,49.306666666666665
+Hungary,rome-1960,69.22666666666667
+Hungary,salt-lake-city-2002,4.176666666666667
+Hungary,sapporo-1972,0.0033333333333333335
+Hungary,sarajevo-1984,2.174
+Hungary,seoul-1988,86.40333333333334
+Hungary,sochi-2014,2.6266666666666665
+Hungary,squaw-valley-1960,1.3489365079365072
+Hungary,st-louis-1904,4.1033333333333335
+Hungary,st-moritz-1928,1.4491428571428573
+Hungary,st-moritz-1948,4.216666666666667
+Hungary,stockholm-1912,62.95666666666666
+Hungary,sydney-2000,53.38
+Hungary,tokyo-1964,69.37
+Hungary,tokyo-2020,98.25666666666666
+Hungary,turin-2006,2.5166666666666666
+Hungary,vancouver-2010,3.3366666666666664
+Iceland,albertville-1992,0.26
+Iceland,athens-2004,2.4
+Iceland,atlanta-1996,0.043333333333333335
+Iceland,barcelona-1992,7.92
+Iceland,beijing-2008,3.263333333333333
+Iceland,beijing-2022,0.0033333333333333335
+Iceland,berlin-1936,2.01
+Iceland,calgary-1988,0.0
+Iceland,cortina-d-ampezzo-1956,0.07
+Iceland,grenoble-1968,0.0
+Iceland,helsinki-1952,0.415272486772487
+Iceland,innsbruck-1964,0.0
+Iceland,innsbruck-1976,0.5466666666666666
+Iceland,lake-placid-1980,0.34242063492063474
+Iceland,lillehammer-1994,0.01
+Iceland,london-1908,1.1112222222222223
+Iceland,london-1948,1.5095
+Iceland,london-2012,6.036666666666667
+Iceland,los-angeles-1984,3.203333333333333
+Iceland,melbourne-1956,1.3916587301587298
+Iceland,mexico-city-1968,0.07630631753962018
+Iceland,montreal-1976,0.07833333333333334
+Iceland,moscow-1980,1.2633333333333334
+Iceland,munich-1972,2.6128333333333336
+Iceland,nagano-1998,0.06477777777777778
+Iceland,oslo-1952,2.1855555555555553
+Iceland,pyeongchang-2018,0.0
+Iceland,rio-2016,0.006666666666666667
+Iceland,rome-1960,0.48724603174603165
+Iceland,salt-lake-city-2002,0.14666666666666667
+Iceland,sarajevo-1984,0.03
+Iceland,seoul-1988,2.1366666666666667
+Iceland,sochi-2014,0.0
+Iceland,squaw-valley-1960,0.024166666666666663
+Iceland,st-moritz-1948,0.054
+Iceland,stockholm-1912,0.07459974075840384
+Iceland,sydney-2000,2.57
+Iceland,tokyo-1964,0.5193910903910907
+Iceland,tokyo-2020,0.0
+Iceland,turin-2006,0.01
+Iceland,vancouver-2010,0.0
+Independent Olympic Athletes,barcelona-1992,6.636666666666667
+Independent Olympic Athletes,london-2012,0.0
+Independent Olympic Athletes,rio-2016,2.3266666666666667
+Independent Olympic Athletes,sochi-2014,0.0013333333333333335
+Independent Olympic Athletes,sydney-2000,0.0
+India,albertville-1992,1.250912698412698
+India,amsterdam-1928,4.166666666666667
+India,antwerp-1920,1.4866666666666666
+India,athens-2004,9.636666666666667
+India,atlanta-1996,8.027333333333333
+India,barcelona-1992,5.706666666666667
+India,beijing-2008,6.876666666666667
+India,beijing-2022,0.0
+India,berlin-1936,2.32
+India,calgary-1988,0.013333333333333334
+India,grenoble-1968,0.0
+India,helsinki-1952,12.85
+India,innsbruck-1964,0.07459974075840384
+India,london-1948,17.69333333333333
+India,london-2012,16.286666666666665
+India,los-angeles-1932,7.053333333333334
+India,los-angeles-1984,9.976666666666667
+India,melbourne-1956,5.850809523809525
+India,mexico-city-1968,2.9153333333333333
+India,montreal-1976,2.513333333333333
+India,moscow-1980,16.656666666666666
+India,munich-1972,4.516666666666667
+India,nagano-1998,0.0
+India,paris-1900,1.526022486772487
+India,paris-1924,4.79
+India,pyeongchang-2018,0.0
+India,rio-2016,19.113333333333333
+India,rome-1960,9.75
+India,salt-lake-city-2002,0.0
+India,seoul-1988,6.863333333333333
+India,sochi-2014,0.0
+India,sydney-2000,4.86
+India,tokyo-1964,9.09
+India,tokyo-2020,57.983333333333334
+India,turin-2006,0.02
+India,vancouver-2010,0.0
+Indonesia,athens-2004,11.363333333333333
+Indonesia,atlanta-1996,11.843333333333334
+Indonesia,barcelona-1992,14.46
+Indonesia,beijing-2008,7.97
+Indonesia,helsinki-1952,0.7591269841269837
+Indonesia,london-2012,5.043333333333333
+Indonesia,los-angeles-1984,1.2966666666666666
+Indonesia,melbourne-1956,0.5193910903910907
+Indonesia,mexico-city-1968,0.30666666666666664
+Indonesia,montreal-1976,0.5133333333333333
+Indonesia,munich-1972,0.5869542957042951
+Indonesia,rio-2016,12.423333333333334
+Indonesia,rome-1960,4.756666666666667
+Indonesia,seoul-1988,5.953333333333333
+Indonesia,sydney-2000,12.126666666666667
+Indonesia,tokyo-2020,12.976666666666667
+Iraq,athens-2004,2.261055555555555
+Iraq,atlanta-1996,0.005
+Iraq,barcelona-1992,3.5099285714285724
+Iraq,beijing-2008,0.04452380952380953
+Iraq,london-1948,2.925
+Iraq,london-2012,0.0
+Iraq,los-angeles-1984,2.620404761904762
+Iraq,melbourne-1956,0.07630631753962018
+Iraq,mexico-city-1968,0.33
+Iraq,montreal-1976,0.07459974075840384
+Iraq,moscow-1980,9.363333333333333
+Iraq,rio-2016,3.0225
+Iraq,rome-1960,5.503333333333333
+Iraq,seoul-1988,3.17
+Iraq,sydney-2000,0.18455555555555556
+Iraq,tokyo-1964,0.32666666666666666
+Iraq,tokyo-2020,0.382702528952529
+Ireland,albertville-1992,0.0
+Ireland,amsterdam-1928,14.516666666666667
+Ireland,athens-2004,18.54
+Ireland,atlanta-1996,21.35
+Ireland,barcelona-1992,20.143333333333334
+Ireland,beijing-2008,18.276666666666667
+Ireland,beijing-2022,0.5572222222222222
+Ireland,helsinki-1952,12.236666666666666
+Ireland,london-1948,15.8
+Ireland,london-2012,13.99
+Ireland,los-angeles-1932,4.236666666666666
+Ireland,los-angeles-1984,12.496666666666666
+Ireland,melbourne-1956,5.546666666666667
+Ireland,mexico-city-1968,13.196666666666667
+Ireland,montreal-1976,9.936666666666667
+Ireland,moscow-1980,14.053333333333333
+Ireland,munich-1972,10.37
+Ireland,nagano-1998,1.8319682539682538
+Ireland,paris-1924,14.14
+Ireland,pyeongchang-2018,0.22333333333333333
+Ireland,rio-2016,13.786666666666667
+Ireland,rome-1960,15.103333333333333
+Ireland,salt-lake-city-2002,0.03
+Ireland,seoul-1988,11.78
+Ireland,sochi-2014,0.38
+Ireland,sydney-2000,10.46
+Ireland,tokyo-1964,11.54
+Ireland,tokyo-2020,51.03333333333333
+Ireland,turin-2006,0.015
+Ireland,vancouver-2010,0.043333333333333335
+Islamic Republic of Iran,athens-2004,10.69
+Islamic Republic of Iran,atlanta-1996,5.94
+Islamic Republic of Iran,barcelona-1992,12.193333333333333
+Islamic Republic of Iran,beijing-2008,6.476666666666667
+Islamic Republic of Iran,beijing-2022,0.019166666666666665
+Islamic Republic of Iran,cortina-d-ampezzo-1956,0.0
+Islamic Republic of Iran,grenoble-1968,0.08
+Islamic Republic of Iran,helsinki-1952,12.763333333333334
+Islamic Republic of Iran,innsbruck-1964,0.06666666666666667
+Islamic Republic of Iran,innsbruck-1976,0.0
+Islamic Republic of Iran,london-1948,6.306666666666667
+Islamic Republic of Iran,london-2012,15.63
+Islamic Republic of Iran,melbourne-1956,10.483333333333333
+Islamic Republic of Iran,mexico-city-1968,8.02
+Islamic Republic of Iran,montreal-1976,19.953333333333333
+Islamic Republic of Iran,munich-1972,9.57
+Islamic Republic of Iran,nagano-1998,0.0
+Islamic Republic of Iran,pyeongchang-2018,0.018666666666666665
+Islamic Republic of Iran,rio-2016,11.533333333333333
+Islamic Republic of Iran,rome-1960,10.036666666666667
+Islamic Republic of Iran,salt-lake-city-2002,0.07459974075840384
+Islamic Republic of Iran,sapporo-1972,0.013333333333333334
+Islamic Republic of Iran,seoul-1988,4.24
+Islamic Republic of Iran,sochi-2014,0.08
+Islamic Republic of Iran,sydney-2000,11.596666666666666
+Islamic Republic of Iran,tokyo-1964,10.6
+Islamic Republic of Iran,tokyo-2020,45.37
+Islamic Republic of Iran,turin-2006,0.0
+Islamic Republic of Iran,vancouver-2010,0.06666666666666667
+Israel,athens-2004,3.736666666666667
+Israel,atlanta-1996,9.59
+Israel,barcelona-1992,3.68
+Israel,beijing-2008,7.29
+Israel,beijing-2022,1.0133333333333334
+Israel,helsinki-1952,3.2866666666666666
+Israel,lillehammer-1994,0.0
+Israel,london-2012,6.1066666666666665
+Israel,los-angeles-1984,2.3320000000000003
+Israel,melbourne-1956,0.0
+Israel,mexico-city-1968,2.4033333333333333
+Israel,montreal-1976,2.8
+Israel,munich-1972,1.4133333333333333
+Israel,nagano-1998,0.28
+Israel,pyeongchang-2018,3.1166666666666667
+Israel,rio-2016,10.296666666666667
+Israel,rome-1960,0.14
+Israel,salt-lake-city-2002,0.6583333333333333
+Israel,seoul-1988,5.77
+Israel,sochi-2014,0.43333333333333335
+Israel,sydney-2000,8.05
+Israel,tokyo-1964,0.0
+Israel,tokyo-2020,19.88
+Israel,turin-2006,0.7766666666666666
+Israel,vancouver-2010,0.15666666666666668
+Italy,albertville-1992,40.14666666666667
+Italy,amsterdam-1928,61.99666666666667
+Italy,antwerp-1920,78.19333333333333
+Italy,athens-1896,0.07630631753962018
+Italy,athens-2004,105.42
+Italy,atlanta-1996,115.33333333333333
+Italy,barcelona-1992,107.22666666666667
+Italy,beijing-2008,106.39
+Italy,beijing-2022,65.71666666666667
+Italy,berlin-1936,64.09
+Italy,calgary-1988,22.376666666666665
+Italy,chamonix-1924,7.413333333333333
+Italy,cortina-d-ampezzo-1956,16.883333333333333
+Italy,garmisch-partenkirchen-1936,11.053333333333333
+Italy,grenoble-1968,14.94
+Italy,helsinki-1952,70.77666666666667
+Italy,innsbruck-1964,16.09
+Italy,innsbruck-1976,16.47
+Italy,lake-placid-1932,3.6533333333333333
+Italy,lake-placid-1980,14.826666666666666
+Italy,lillehammer-1994,49.21666666666667
+Italy,london-1908,27.44333333333333
+Italy,london-1948,70.03
+Italy,london-2012,87.13
+Italy,los-angeles-1932,62.66
+Italy,los-angeles-1984,121.28
+Italy,melbourne-1956,54.123333333333335
+Italy,mexico-city-1968,66.54666666666667
+Italy,montreal-1976,77.86333333333333
+Italy,moscow-1980,73.77333333333333
+Italy,munich-1972,73.63
+Italy,nagano-1998,37.33
+Italy,oslo-1952,10.483333333333333
+Italy,paris-1900,9.86
+Italy,paris-1924,81.45
+Italy,pyeongchang-2018,39.013333333333335
+Italy,rio-2016,108.63
+Italy,rome-1960,94.41
+Italy,salt-lake-city-2002,38.33
+Italy,sapporo-1972,19.22
+Italy,sarajevo-1984,20.536666666666665
+Italy,seoul-1988,99.81666666666666
+Italy,sochi-2014,40.49
+Italy,squaw-valley-1960,5.03
+Italy,st-moritz-1928,2.6086666666666667
+Italy,st-moritz-1948,12.976666666666667
+Italy,stockholm-1912,31.93
+Italy,sydney-2000,116.84
+Italy,tokyo-1964,83.59
+Italy,tokyo-2020,230.53
+Italy,turin-2006,57.81
+Italy,vancouver-2010,42.086666666666666
+Ivory Coast,athens-2004,0.0
+Ivory Coast,atlanta-1996,5.231333333333334
+Ivory Coast,barcelona-1992,2.14
+Ivory Coast,beijing-2008,4.035277777777778
+Ivory Coast,london-2012,0.26666666666666666
+Ivory Coast,los-angeles-1984,1.19
+Ivory Coast,munich-1972,0.07630631753962018
+Ivory Coast,rio-2016,3.13
+Ivory Coast,seoul-1988,1.036988095238095
+Ivory Coast,sydney-2000,0.03719444444444445
+Ivory Coast,tokyo-1964,0.6233333333333333
+Jamaica,albertville-1992,2.2164126984126984
+Jamaica,athens-2004,12.775833333333333
+Jamaica,atlanta-1996,13.203333333333333
+Jamaica,barcelona-1992,7.653333333333333
+Jamaica,beijing-2008,15.113333333333333
+Jamaica,beijing-2022,2.1026666666666665
+Jamaica,calgary-1988,1.4314642857142856
+Jamaica,helsinki-1952,6.698888888888889
+Jamaica,lillehammer-1994,0.7591269841269837
+Jamaica,london-1948,5.846666666666667
+Jamaica,london-2012,17.563333333333333
+Jamaica,los-angeles-1984,13.61
+Jamaica,melbourne-1956,0.0
+Jamaica,mexico-city-1968,5.586666666666667
+Jamaica,montreal-1976,6.033333333333333
+Jamaica,moscow-1980,4.399142857142856
+Jamaica,munich-1972,2.9366666666666665
+Jamaica,nagano-1998,1.7583888888888892
+Jamaica,pyeongchang-2018,3.52
+Jamaica,rio-2016,15.556666666666667
+Jamaica,salt-lake-city-2002,0.46221581196581174
+Jamaica,seoul-1988,8.42
+Jamaica,sochi-2014,0.46221581196581174
+Jamaica,sydney-2000,14.21
+Jamaica,tokyo-1964,6.926666666666667
+Jamaica,tokyo-2020,21.77
+Jamaica,vancouver-2010,0.0
+Japan,albertville-1992,22.426666666666666
+Japan,amsterdam-1928,15.61
+Japan,antwerp-1920,3.6666666666666665
+Japan,athens-2004,95.97666666666667
+Japan,atlanta-1996,84.23666666666666
+Japan,barcelona-1992,78.74
+Japan,beijing-2008,111.40666666666667
+Japan,beijing-2022,50.14
+Japan,berlin-1936,55.08
+Japan,calgary-1988,15.956666666666667
+Japan,cortina-d-ampezzo-1956,1.6233333333333333
+Japan,garmisch-partenkirchen-1936,6.15
+Japan,grenoble-1968,9.636666666666667
+Japan,helsinki-1952,19.663333333333334
+Japan,innsbruck-1964,8.703333333333333
+Japan,innsbruck-1976,8.556666666666667
+Japan,lake-placid-1932,3.21
+Japan,lake-placid-1980,9.466666666666667
+Japan,lillehammer-1994,18.41
+Japan,london-2012,106.04666666666667
+Japan,los-angeles-1932,50.24666666666667
+Japan,los-angeles-1984,99.76666666666667
+Japan,melbourne-1956,36.07
+Japan,mexico-city-1968,63.04
+Japan,montreal-1976,69.98
+Japan,munich-1972,64.41666666666667
+Japan,nagano-1998,51.526666666666664
+Japan,oslo-1952,1.0333333333333334
+Japan,paris-1924,5.403333333333333
+Japan,pyeongchang-2018,31.493333333333332
+Japan,rio-2016,112.27333333333333
+Japan,rome-1960,47.236666666666665
+Japan,salt-lake-city-2002,42.39333333333333
+Japan,sapporo-1972,23.966666666666665
+Japan,sarajevo-1984,10.393333333333333
+Japan,seoul-1988,85.14666666666666
+Japan,sochi-2014,33.913333333333334
+Japan,squaw-valley-1960,7.594190476190476
+Japan,st-moritz-1928,0.041746031746031746
+Japan,stockholm-1912,0.07459974075840384
+Japan,sydney-2000,69.01333333333334
+Japan,tokyo-1964,113.99
+Japan,tokyo-2020,408.1766666666667
+Japan,turin-2006,46.59
+Japan,vancouver-2010,25.676666666666666
+Jordan,athens-2004,0.06666666666666667
+Jordan,atlanta-1996,0.0
+Jordan,barcelona-1992,0.0
+Jordan,beijing-2008,0.10666666666666667
+Jordan,london-2012,0.9411111111111112
+Jordan,los-angeles-1984,0.58
+Jordan,moscow-1980,0.25333333333333335
+Jordan,rio-2016,0.9895079365079369
+Jordan,seoul-1988,0.0033333333333333335
+Jordan,sydney-2000,0.09333333333333334
+Jordan,tokyo-2020,2.546666666666667
+Kazakhstan,athens-2004,20.66
+Kazakhstan,atlanta-1996,21.503333333333334
+Kazakhstan,beijing-2008,19.543333333333333
+Kazakhstan,beijing-2022,9.04
+Kazakhstan,lillehammer-1994,14.938333333333333
+Kazakhstan,london-2012,26.403333333333332
+Kazakhstan,nagano-1998,17.65
+Kazakhstan,pyeongchang-2018,8.153333333333334
+Kazakhstan,rio-2016,27.223333333333333
+Kazakhstan,salt-lake-city-2002,14.876666666666667
+Kazakhstan,sochi-2014,24.626666666666665
+Kazakhstan,sydney-2000,20.56
+Kazakhstan,tokyo-2020,38.156666666666666
+Kazakhstan,turin-2006,14.153333333333334
+Kazakhstan,vancouver-2010,12.37
+Kenya,athens-2004,9.976666666666667
+Kenya,atlanta-1996,10.536666666666667
+Kenya,barcelona-1992,8.853333333333333
+Kenya,beijing-2008,26.27
+Kenya,london-2012,21.846666666666668
+Kenya,los-angeles-1984,8.066666666666666
+Kenya,melbourne-1956,2.2432592592592586
+Kenya,mexico-city-1968,13.36
+Kenya,montreal-1976,0.8115082972582969
+Kenya,munich-1972,12.053333333333333
+Kenya,nagano-1998,0.0
+Kenya,pyeongchang-2018,0.0013333333333333335
+Kenya,rio-2016,21.006666666666668
+Kenya,rome-1960,2.71
+Kenya,salt-lake-city-2002,0.0
+Kenya,seoul-1988,17.023333333333333
+Kenya,sydney-2000,9.95
+Kenya,tokyo-1964,5.44
+Kenya,tokyo-2020,62.27
+Kenya,turin-2006,0.0
+Kiribati,athens-2004,0.4359247778365425
+Kiribati,beijing-2008,0.03762840862840863
+Kiribati,london-2012,0.0
+Kiribati,rio-2016,0.0
+Kiribati,tokyo-2020,1.4313362193362187
+Korea Team,pyeongchang-2018,3.942674603174604
+Kosovo,beijing-2022,0.0
+Kosovo,pyeongchang-2018,0.17
+Kosovo,rio-2016,0.9
+Kosovo,tokyo-2020,2.620404761904762
+Kuwait,athens-2004,1.9166666666666667
+Kuwait,atlanta-1996,2.79
+Kuwait,barcelona-1992,2.5
+Kuwait,beijing-2008,0.035
+Kuwait,london-2012,1.0
+Kuwait,los-angeles-1984,4.006666666666667
+Kuwait,mexico-city-1968,0.07630631753962018
+Kuwait,montreal-1976,2.013333333333333
+Kuwait,moscow-1980,7.966666666666667
+Kuwait,munich-1972,0.07459974075840384
+Kuwait,seoul-1988,3.04
+Kuwait,sydney-2000,3.328666666666667
+Kuwait,tokyo-2020,1.8033333333333332
+Kyrgyzstan,athens-2004,3.7133333333333334
+Kyrgyzstan,atlanta-1996,11.250666666666666
+Kyrgyzstan,beijing-2008,2.9
+Kyrgyzstan,beijing-2022,0.07459974075840384
+Kyrgyzstan,lillehammer-1994,0.0013333333333333335
+Kyrgyzstan,london-2012,0.8333333333333334
+Kyrgyzstan,nagano-1998,0.04666666666666667
+Kyrgyzstan,pyeongchang-2018,0.0
+Kyrgyzstan,rio-2016,2.88
+Kyrgyzstan,salt-lake-city-2002,0.0
+Kyrgyzstan,sochi-2014,0.02
+Kyrgyzstan,sydney-2000,11.243333333333334
+Kyrgyzstan,tokyo-2020,3.4033333333333333
+Kyrgyzstan,turin-2006,0.0
+Kyrgyzstan,vancouver-2010,0.0
+Lao People's Democratic Republic,athens-2004,0.0
+Lao People's Democratic Republic,atlanta-1996,0.0
+Lao People's Democratic Republic,barcelona-1992,0.525243506493506
+Lao People's Democratic Republic,beijing-2008,0.0
+Lao People's Democratic Republic,london-2012,0.0
+Lao People's Democratic Republic,moscow-1980,1.6933333333333334
+Lao People's Democratic Republic,rio-2016,0.0025
+Lao People's Democratic Republic,seoul-1988,0.12423590298590301
+Lao People's Democratic Republic,sydney-2000,0.0
+Lao People's Democratic Republic,tokyo-2020,0.0
+Latvia,albertville-1992,8.283333333333333
+Latvia,amsterdam-1928,4.294999999999999
+Latvia,athens-2004,9.530999999999999
+Latvia,atlanta-1996,2.72
+Latvia,barcelona-1992,9.21
+Latvia,beijing-2008,5.01
+Latvia,beijing-2022,13.24
+Latvia,berlin-1936,7.38
+Latvia,chamonix-1924,0.32
+Latvia,garmisch-partenkirchen-1936,5.213333333333333
+Latvia,lillehammer-1994,7.506666666666667
+Latvia,london-2012,6.8566666666666665
+Latvia,los-angeles-1932,1.3916587301587298
+Latvia,nagano-1998,6.183333333333334
+Latvia,paris-1924,9.536666666666667
+Latvia,pyeongchang-2018,9.811833333333334
+Latvia,rio-2016,3.72
+Latvia,salt-lake-city-2002,9.19
+Latvia,sochi-2014,14.274833333333333
+Latvia,st-moritz-1928,0.02
+Latvia,sydney-2000,7.296666666666667
+Latvia,tokyo-2020,21.506666666666668
+Latvia,turin-2006,13.376666666666667
+Latvia,vancouver-2010,13.563333333333333
+Lebanon,albertville-1992,0.0033333333333333335
+Lebanon,athens-2004,0.6633333333333333
+Lebanon,atlanta-1996,0.021666666666666667
+Lebanon,barcelona-1992,1.1866666666666668
+Lebanon,beijing-2008,0.0
+Lebanon,beijing-2022,0.0
+Lebanon,calgary-1988,0.07
+Lebanon,cortina-d-ampezzo-1956,0.0
+Lebanon,grenoble-1968,0.018333333333333333
+Lebanon,helsinki-1952,2.3033333333333332
+Lebanon,innsbruck-1964,0.01
+Lebanon,innsbruck-1976,0.0
+Lebanon,lake-placid-1980,0.44661111111111107
+Lebanon,london-1948,0.62
+Lebanon,london-2012,0.26666666666666666
+Lebanon,los-angeles-1984,4.449166666666667
+Lebanon,mexico-city-1968,0.3838888888888889
+Lebanon,montreal-1976,0.07896031746031747
+Lebanon,moscow-1980,1.7666666666666666
+Lebanon,munich-1972,1.71
+Lebanon,oslo-1952,0.0
+Lebanon,pyeongchang-2018,0.0
+Lebanon,rio-2016,0.25861111111111107
+Lebanon,rome-1960,2.551111111111111
+Lebanon,salt-lake-city-2002,0.0
+Lebanon,sapporo-1972,0.0
+Lebanon,sarajevo-1984,0.8831666666666667
+Lebanon,seoul-1988,2.4966666666666666
+Lebanon,sochi-2014,0.0
+Lebanon,squaw-valley-1960,0.0
+Lebanon,st-moritz-1948,0.0
+Lebanon,sydney-2000,0.07333333333333333
+Lebanon,tokyo-1964,0.01715909090909091
+Lebanon,tokyo-2020,0.023333333333333334
+Lebanon,turin-2006,0.0
+Lebanon,vancouver-2010,0.0
+Lesotho,athens-2004,0.02022222222222222
+Lesotho,atlanta-1996,0.0
+Lesotho,barcelona-1992,0.0
+Lesotho,beijing-2008,0.2555370370370372
+Lesotho,london-2012,0.12753174603174602
+Lesotho,los-angeles-1984,0.3620952380952381
+Lesotho,moscow-1980,0.0016666666666666668
+Lesotho,rio-2016,0.01
+Lesotho,seoul-1988,0.0
+Lesotho,sydney-2000,0.5166666666666667
+Lesotho,tokyo-2020,0.0
+Liberia,beijing-2008,0.0
+Liberia,london-2012,0.3557910052910053
+Liberia,los-angeles-1984,0.07630631753962018
+Liberia,melbourne-1956,0.07630631753962018
+Liberia,munich-1972,0.07459974075840384
+Liberia,rome-1960,0.0
+Liberia,seoul-1988,1.8322539682539685
+Liberia,tokyo-2020,0.0033333333333333335
+Libya,athens-2004,0.03333333333333333
+Libya,atlanta-1996,0.0
+Libya,barcelona-1992,1.23
+Libya,beijing-2008,0.34242063492063474
+Libya,london-2012,1.0571150793650792
+Libya,montreal-1976,1.8262110469653043
+Libya,moscow-1980,5.723333333333334
+Libya,rio-2016,0.09
+Libya,seoul-1988,0.5642211399711402
+Libya,sydney-2000,0.32
+Libya,tokyo-1964,0.07459974075840384
+Libya,tokyo-2020,0.3557910052910053
+Liechtenstein,albertville-1992,0.023333333333333334
+Liechtenstein,athens-2004,0.0
+Liechtenstein,atlanta-1996,0.11166666666666666
+Liechtenstein,barcelona-1992,0.023333333333333334
+Liechtenstein,beijing-2008,0.0
+Liechtenstein,beijing-2022,0.0
+Liechtenstein,berlin-1936,0.05466666666666666
+Liechtenstein,calgary-1988,1.09
+Liechtenstein,cortina-d-ampezzo-1956,0.38
+Liechtenstein,garmisch-partenkirchen-1936,0.7817222222222223
+Liechtenstein,grenoble-1968,0.33
+Liechtenstein,helsinki-1952,0.382702528952529
+Liechtenstein,innsbruck-1964,0.235
+Liechtenstein,innsbruck-1976,2.7533333333333334
+Liechtenstein,lake-placid-1980,2.683333333333333
+Liechtenstein,lillehammer-1994,0.8133333333333334
+Liechtenstein,london-1948,0.07630631753962018
+Liechtenstein,london-2012,0.0
+Liechtenstein,los-angeles-1984,0.013333333333333334
+Liechtenstein,mexico-city-1968,0.0
+Liechtenstein,montreal-1976,0.9573650793650794
+Liechtenstein,munich-1972,0.006666666666666667
+Liechtenstein,nagano-1998,0.3048888888888889
+Liechtenstein,pyeongchang-2018,0.7766666666666666
+Liechtenstein,rio-2016,0.10844841269841268
+Liechtenstein,rome-1960,0.07630631753962018
+Liechtenstein,salt-lake-city-2002,0.6833333333333333
+Liechtenstein,sapporo-1972,0.08333333333333333
+Liechtenstein,sarajevo-1984,3.5966666666666667
+Liechtenstein,seoul-1988,0.8033333333333333
+Liechtenstein,sochi-2014,0.034166666666666665
+Liechtenstein,squaw-valley-1960,0.0033333333333333335
+Liechtenstein,st-moritz-1948,2.7
+Liechtenstein,sydney-2000,0.0
+Liechtenstein,tokyo-1964,0.0
+Liechtenstein,tokyo-2020,0.0
+Liechtenstein,turin-2006,0.01
+Liechtenstein,vancouver-2010,0.07833333333333334
+Lithuania,albertville-1992,0.07222222222222223
+Lithuania,amsterdam-1928,0.9455873015873015
+Lithuania,athens-2004,10.693333333333333
+Lithuania,atlanta-1996,8.116666666666667
+Lithuania,barcelona-1992,10.806666666666667
+Lithuania,beijing-2008,13.47
+Lithuania,beijing-2022,2.58
+Lithuania,lillehammer-1994,0.01
+Lithuania,london-2012,8.746666666666666
+Lithuania,nagano-1998,0.2836666666666666
+Lithuania,paris-1924,0.525243506493506
+Lithuania,pyeongchang-2018,1.9
+Lithuania,rio-2016,20.64666666666667
+Lithuania,salt-lake-city-2002,0.9
+Lithuania,sochi-2014,2.4233333333333333
+Lithuania,st-moritz-1928,0.023333333333333334
+Lithuania,sydney-2000,11.566666666666666
+Lithuania,tokyo-2020,5.866666666666666
+Lithuania,turin-2006,1.0472222222222223
+Lithuania,vancouver-2010,0.4444365079365078
+Luxembourg,albertville-1992,1.526022486772487
+Luxembourg,amsterdam-1928,11.166666666666666
+Luxembourg,antwerp-1920,5.683333333333334
+Luxembourg,athens-2004,0.47333333333333333
+Luxembourg,atlanta-1996,0.3
+Luxembourg,barcelona-1992,0.45858730158730165
+Luxembourg,beijing-2008,1.75
+Luxembourg,beijing-2022,0.46221581196581174
+Luxembourg,berlin-1936,9.29
+Luxembourg,calgary-1988,0.10854761904761906
+Luxembourg,garmisch-partenkirchen-1936,1.4552539682539682
+Luxembourg,helsinki-1952,11.903333333333334
+Luxembourg,lillehammer-1994,0.02
+Luxembourg,london-1948,9.71
+Luxembourg,london-2012,0.36
+Luxembourg,los-angeles-1984,1.8319682539682538
+Luxembourg,melbourne-1956,0.22333333333333333
+Luxembourg,mexico-city-1968,1.4716666666666667
+Luxembourg,montreal-1976,0.11111111111111109
+Luxembourg,moscow-1980,1.036988095238095
+Luxembourg,munich-1972,0.45858730158730165
+Luxembourg,paris-1900,1.6017857142857141
+Luxembourg,paris-1924,25.41
+Luxembourg,pyeongchang-2018,0.0
+Luxembourg,rio-2016,0.03333333333333333
+Luxembourg,rome-1960,10.433333333333334
+Luxembourg,seoul-1988,1.5633333333333332
+Luxembourg,sochi-2014,0.0
+Luxembourg,st-moritz-1928,2.935
+Luxembourg,stockholm-1912,5.314333333333334
+Luxembourg,sydney-2000,0.37666666666666665
+Luxembourg,tokyo-1964,0.7966666666666666
+Luxembourg,tokyo-2020,0.7
+Luxembourg,turin-2006,0.006666666666666667
+MIX,athens-1896,4.621666666666667
+MIX,lake-placid-1932,1.2980555555555555
+MIX,paris-1900,45.32333333333333
+MIX,st-louis-1904,16.92877777777778
+Madagascar,athens-2004,0.02
+Madagascar,atlanta-1996,1.331
+Madagascar,barcelona-1992,0.41333333333333333
+Madagascar,beijing-2008,0.09333333333333334
+Madagascar,beijing-2022,0.0
+Madagascar,london-2012,0.04
+Madagascar,los-angeles-1984,0.13666666666666666
+Madagascar,mexico-city-1968,0.278
+Madagascar,moscow-1980,1.1774444444444445
+Madagascar,munich-1972,0.1325
+Madagascar,pyeongchang-2018,0.08521031746031744
+Madagascar,rio-2016,0.3026547619047619
+Madagascar,sydney-2000,0.0
+Madagascar,tokyo-1964,0.07459974075840384
+Madagascar,tokyo-2020,0.013333333333333334
+Madagascar,turin-2006,0.5151866281866283
+Malawi,athens-2004,0.0
+Malawi,atlanta-1996,0.0
+Malawi,barcelona-1992,0.0
+Malawi,beijing-2008,0.45269841269841277
+Malawi,london-2012,0.0033333333333333335
+Malawi,los-angeles-1984,2.986666666666667
+Malawi,munich-1972,0.53
+Malawi,rio-2016,0.0
+Malawi,seoul-1988,2.6766666666666667
+Malawi,tokyo-2020,0.12423590298590301
+Malaya,melbourne-1956,3.78
+Malaya,rome-1960,0.7345555555555556
+Malaysia,athens-2004,2.604
+Malaysia,atlanta-1996,8.313333333333333
+Malaysia,barcelona-1992,13.293333333333333
+Malaysia,beijing-2008,7.243333333333333
+Malaysia,beijing-2022,0.0
+Malaysia,london-2012,5.56
+Malaysia,los-angeles-1984,2.0395595238095243
+Malaysia,mexico-city-1968,2.2132777777777775
+Malaysia,montreal-1976,1.97
+Malaysia,munich-1972,8.429333333333334
+Malaysia,pyeongchang-2018,0.05132142857142859
+Malaysia,rio-2016,11.393333333333333
+Malaysia,seoul-1988,0.66
+Malaysia,sydney-2000,6.15
+Malaysia,tokyo-1964,9.23
+Malaysia,tokyo-2020,5.403333333333333
+Maldives,athens-2004,0.023333333333333334
+Maldives,atlanta-1996,0.0
+Maldives,barcelona-1992,0.0
+Maldives,beijing-2008,0.0016666666666666668
+Maldives,london-2012,0.0
+Maldives,rio-2016,0.0
+Maldives,seoul-1988,0.07630631753962018
+Maldives,sydney-2000,0.0
+Maldives,tokyo-2020,0.02
+Mali,athens-2004,0.46221581196581174
+Mali,barcelona-1992,0.023333333333333334
+Mali,beijing-2008,2.3866666666666667
+Mali,london-2012,0.075
+Mali,los-angeles-1984,0.04694444444444444
+Mali,mexico-city-1968,0.0
+Mali,moscow-1980,0.30333333333333334
+Mali,munich-1972,1.3066666666666666
+Mali,rio-2016,0.0
+Mali,seoul-1988,0.2744444444444445
+Mali,sydney-2000,0.0
+Mali,tokyo-1964,0.0
+Mali,tokyo-2020,0.0
+Malta,amsterdam-1928,3.1715
+Malta,athens-2004,0.06666666666666667
+Malta,atlanta-1996,0.38666666666666666
+Malta,barcelona-1992,0.4653333333333333
+Malta,beijing-2008,0.16333333333333333
+Malta,beijing-2022,0.0
+Malta,berlin-1936,0.4359247778365425
+Malta,london-2012,0.3302380952380952
+Malta,los-angeles-1984,0.08666666666666667
+Malta,mexico-city-1968,0.06
+Malta,moscow-1980,2.3533333333333335
+Malta,munich-1972,0.5151866281866283
+Malta,pyeongchang-2018,0.0
+Malta,rio-2016,0.0
+Malta,rome-1960,1.8438888888888891
+Malta,seoul-1988,0.006666666666666667
+Malta,sochi-2014,0.0
+Malta,sydney-2000,0.12222222222222223
+Malta,tokyo-2020,0.7466666666666667
+Marshall Islands,beijing-2008,0.023333333333333334
+Marshall Islands,london-2012,0.26760726310726324
+Marshall Islands,rio-2016,0.0
+Mauritania,barcelona-1992,0.07459974075840384
+Mauritania,los-angeles-1984,0.07630631753962018
+Mauritania,seoul-1988,1.8262110469653043
+Mauritius,athens-2004,0.15
+Mauritius,atlanta-1996,1.0433333333333332
+Mauritius,barcelona-1992,2.199444444444444
+Mauritius,beijing-2008,0.8033333333333333
+Mauritius,london-2012,0.8333333333333334
+Mauritius,los-angeles-1984,0.0005555555555555556
+Mauritius,rio-2016,0.6566666666666666
+Mauritius,seoul-1988,1.2866666666666666
+Mauritius,sydney-2000,2.01
+Mauritius,tokyo-2020,0.996
+Mexico,albertville-1992,2.86
+Mexico,amsterdam-1928,3.2133333333333334
+Mexico,athens-2004,22.463333333333335
+Mexico,atlanta-1996,22.433333333333334
+Mexico,barcelona-1992,24.523333333333333
+Mexico,beijing-2008,19.46
+Mexico,beijing-2022,0.09
+Mexico,berlin-1936,5.92
+Mexico,calgary-1988,0.08333333333333333
+Mexico,helsinki-1952,25.953333333333333
+Mexico,lillehammer-1994,0.2685145502645504
+Mexico,london-1948,34.22666666666667
+Mexico,london-2012,21.463333333333335
+Mexico,los-angeles-1932,22.546666666666667
+Mexico,los-angeles-1984,49.803333333333335
+Mexico,melbourne-1956,9.963333333333333
+Mexico,mexico-city-1968,62.99333333333333
+Mexico,montreal-1976,25.143333333333334
+Mexico,moscow-1980,28.01
+Mexico,munich-1972,33.236666666666665
+Mexico,paris-1924,2.8733333333333335
+Mexico,pyeongchang-2018,0.061111111111111116
+Mexico,rio-2016,30.07
+Mexico,rome-1960,12.08
+Mexico,salt-lake-city-2002,0.495063492063492
+Mexico,sarajevo-1984,0.0013333333333333335
+Mexico,seoul-1988,35.32
+Mexico,sochi-2014,0.07459974075840384
+Mexico,st-moritz-1928,3.18
+Mexico,sydney-2000,17.236666666666668
+Mexico,tokyo-1964,30.866666666666667
+Mexico,tokyo-2020,47.1
+Mexico,vancouver-2010,0.0
+Monaco,albertville-1992,1.8661666666666668
+Monaco,amsterdam-1928,0.07630631753962018
+Monaco,antwerp-1920,0.9882182539682541
+Monaco,athens-2004,0.0
+Monaco,atlanta-1996,0.07375
+Monaco,barcelona-1992,0.002
+Monaco,beijing-2008,0.6012355699855696
+Monaco,beijing-2022,0.0
+Monaco,berlin-1936,0.45
+Monaco,calgary-1988,0.0
+Monaco,helsinki-1952,0.7933333333333333
+Monaco,lillehammer-1994,1.5380238095238095
+Monaco,london-1948,0.22
+Monaco,london-2012,0.03
+Monaco,los-angeles-1984,0.02666666666666667
+Monaco,mexico-city-1968,0.019166666666666665
+Monaco,montreal-1976,1.92
+Monaco,munich-1972,0.0
+Monaco,nagano-1998,2.736666666666667
+Monaco,paris-1924,1.33
+Monaco,pyeongchang-2018,0.16533333333333333
+Monaco,rio-2016,0.0
+Monaco,rome-1960,2.0411666666666664
+Monaco,salt-lake-city-2002,1.757596560846561
+Monaco,sarajevo-1984,0.0
+Monaco,seoul-1988,0.20666666666666667
+Monaco,sochi-2014,0.34933333333333333
+Monaco,sydney-2000,0.016666666666666666
+Monaco,tokyo-1964,0.0
+Monaco,tokyo-2020,1.4491428571428573
+Monaco,turin-2006,0.0925
+Monaco,vancouver-2010,0.29598280423280426
+Mongolia,albertville-1992,0.5966666666666667
+Mongolia,athens-2004,1.4433333333333334
+Mongolia,atlanta-1996,2.0566666666666666
+Mongolia,barcelona-1992,10.633333333333333
+Mongolia,beijing-2008,7.183333333333334
+Mongolia,beijing-2022,0.0
+Mongolia,calgary-1988,0.19
+Mongolia,grenoble-1968,0.24
+Mongolia,innsbruck-1964,1.3866666666666667
+Mongolia,lake-placid-1980,0.0
+Mongolia,lillehammer-1994,0.73
+Mongolia,london-2012,7.443333333333333
+Mongolia,mexico-city-1968,5.913333333333333
+Mongolia,montreal-1976,7.72
+Mongolia,moscow-1980,13.093333333333334
+Mongolia,munich-1972,5.55
+Mongolia,nagano-1998,0.1
+Mongolia,pyeongchang-2018,0.01
+Mongolia,rio-2016,9.816666666666666
+Mongolia,salt-lake-city-2002,0.016666666666666666
+Mongolia,sapporo-1972,0.06055555555555556
+Mongolia,sarajevo-1984,0.9703095238095236
+Mongolia,seoul-1988,5.95
+Mongolia,sochi-2014,0.0
+Mongolia,sydney-2000,2.2733333333333334
+Mongolia,tokyo-1964,5.006666666666667
+Mongolia,tokyo-2020,24.94333333333333
+Mongolia,turin-2006,0.0
+Mongolia,vancouver-2010,0.0016666666666666668
+Montenegro,beijing-2008,3.0226666666666664
+Montenegro,beijing-2022,0.0
+Montenegro,london-2012,4.58
+Montenegro,pyeongchang-2018,0.0
+Montenegro,rio-2016,4.733333333333333
+Montenegro,sochi-2014,0.09599206349206346
+Montenegro,tokyo-2020,32.943333333333335
+Montenegro,vancouver-2010,0.04666666666666667
+Morocco,albertville-1992,2.0
+Morocco,athens-2004,9.426666666666666
+Morocco,atlanta-1996,3.7133333333333334
+Morocco,barcelona-1992,7.3566666666666665
+Morocco,beijing-2008,6.943333333333333
+Morocco,beijing-2022,0.07459974075840384
+Morocco,calgary-1988,0.0008333333333333334
+Morocco,grenoble-1968,0.15
+Morocco,london-2012,3.953333333333333
+Morocco,los-angeles-1984,5.15
+Morocco,mexico-city-1968,3.25
+Morocco,montreal-1976,1.0633333333333332
+Morocco,munich-1972,4.1
+Morocco,pyeongchang-2018,0.0016666666666666668
+Morocco,rio-2016,4.453333333333333
+Morocco,rome-1960,9.146666666666667
+Morocco,sarajevo-1984,0.0
+Morocco,seoul-1988,6.666666666666667
+Morocco,sochi-2014,0.0
+Morocco,sydney-2000,8.446666666666667
+Morocco,tokyo-1964,3.591666666666667
+Morocco,tokyo-2020,2.973333333333333
+Morocco,vancouver-2010,0.0
+Mozambique,athens-2004,0.027555555555555552
+Mozambique,atlanta-1996,0.7276190476190476
+Mozambique,barcelona-1992,0.016666666666666666
+Mozambique,beijing-2008,0.0
+Mozambique,london-2012,0.04666666666666667
+Mozambique,los-angeles-1984,0.0
+Mozambique,rio-2016,0.03
+Mozambique,seoul-1988,0.048499999999999995
+Mozambique,sydney-2000,0.42053968253968266
+Mozambique,tokyo-2020,0.52
+Myanmar,athens-2004,0.0011111111111111111
+Myanmar,atlanta-1996,0.02
+Myanmar,barcelona-1992,0.0038888888888888883
+Myanmar,beijing-2008,0.6033333333333334
+Myanmar,helsinki-1952,3.96
+Myanmar,london-1948,0.6533333333333333
+Myanmar,london-2012,0.0033333333333333335
+Myanmar,los-angeles-1984,0.0
+Myanmar,melbourne-1956,1.3333333333333333
+Myanmar,mexico-city-1968,0.32761904761904764
+Myanmar,moscow-1980,0.03242063492063492
+Myanmar,munich-1972,3.3937222222222223
+Myanmar,rio-2016,0.02666666666666667
+Myanmar,rome-1960,1.4533333333333334
+Myanmar,seoul-1988,0.07459974075840384
+Myanmar,sydney-2000,0.06666666666666667
+Myanmar,tokyo-1964,0.8433333333333334
+Myanmar,tokyo-2020,1.4313362193362187
+Namibia,athens-2004,0.35744444444444445
+Namibia,atlanta-1996,0.9455873015873015
+Namibia,barcelona-1992,1.3073333333333332
+Namibia,beijing-2008,0.5544444444444445
+Namibia,london-2012,0.18333333333333332
+Namibia,rio-2016,0.19333333333333333
+Namibia,sydney-2000,0.06333333333333334
+Namibia,tokyo-2020,0.9594722222222223
+Nauru,athens-2004,0.33
+Nauru,atlanta-1996,0.52
+Nauru,beijing-2008,0.5873874458874455
+Nauru,london-2012,0.06
+Nauru,rio-2016,0.5193910903910907
+Nauru,sydney-2000,1.9033333333333333
+Nauru,tokyo-2020,0.5873874458874455
+Nepal,athens-2004,0.023333333333333334
+Nepal,atlanta-1996,0.0
+Nepal,barcelona-1992,0.0
+Nepal,beijing-2008,0.6457738095238097
+Nepal,london-2012,0.03
+Nepal,los-angeles-1984,0.05
+Nepal,montreal-1976,0.0
+Nepal,moscow-1980,0.20333333333333334
+Nepal,munich-1972,0.0033333333333333335
+Nepal,rio-2016,0.06333333333333334
+Nepal,salt-lake-city-2002,0.0
+Nepal,seoul-1988,0.7233333333333334
+Nepal,sochi-2014,0.0
+Nepal,sydney-2000,0.006666666666666667
+Nepal,tokyo-1964,0.9483333333333334
+Nepal,tokyo-2020,0.013333333333333334
+Nepal,turin-2006,0.0
+Nepal,vancouver-2010,0.0
+Netherlands,albertville-1992,14.156666666666666
+Netherlands,amsterdam-1928,72.11333333333333
+Netherlands,antwerp-1920,60.28333333333333
+Netherlands,athens-2004,73.58333333333333
+Netherlands,atlanta-1996,83.52
+Netherlands,barcelona-1992,75.66666666666667
+Netherlands,beijing-2008,85.21666666666667
+Netherlands,beijing-2022,32.663333333333334
+Netherlands,berlin-1936,57.36333333333334
+Netherlands,calgary-1988,6.866666666666666
+Netherlands,cortina-d-ampezzo-1956,0.24333333333333335
+Netherlands,garmisch-partenkirchen-1936,1.36
+Netherlands,grenoble-1968,9.33
+Netherlands,helsinki-1952,35.656666666666666
+Netherlands,innsbruck-1964,1.735
+Netherlands,innsbruck-1976,6.373333333333333
+Netherlands,lake-placid-1980,9.283333333333333
+Netherlands,lillehammer-1994,8.063333333333333
+Netherlands,london-1908,47.53333333333333
+Netherlands,london-1948,58.553333333333335
+Netherlands,london-2012,71.94
+Netherlands,los-angeles-1932,14.886666666666667
+Netherlands,los-angeles-1984,57.73
+Netherlands,mexico-city-1968,41.51
+Netherlands,montreal-1976,41.766666666666666
+Netherlands,moscow-1980,27.60333333333333
+Netherlands,munich-1972,47.51
+Netherlands,nagano-1998,13.813333333333333
+Netherlands,oslo-1952,3.88
+Netherlands,paris-1900,13.936666666666667
+Netherlands,paris-1924,48.223333333333336
+Netherlands,pyeongchang-2018,26.963333333333335
+Netherlands,rio-2016,91.99333333333334
+Netherlands,rome-1960,29.796666666666667
+Netherlands,salt-lake-city-2002,12.36
+Netherlands,sapporo-1972,11.466666666666667
+Netherlands,sarajevo-1984,1.86
+Netherlands,seoul-1988,55.986666666666665
+Netherlands,sochi-2014,33.53
+Netherlands,squaw-valley-1960,2.1533333333333333
+Netherlands,st-moritz-1928,2.2266666666666666
+Netherlands,st-moritz-1948,2.2132777777777775
+Netherlands,stockholm-1912,2.394845959595959
+Netherlands,sydney-2000,85.88333333333334
+Netherlands,tokyo-1964,38.53333333333333
+Netherlands,tokyo-2020,191.65333333333334
+Netherlands,turin-2006,15.36
+Netherlands,vancouver-2010,18.936666666666667
+Netherlands Antilles,albertville-1992,0.0
+Netherlands Antilles,athens-2004,0.07459974075840384
+Netherlands Antilles,atlanta-1996,0.09
+Netherlands Antilles,barcelona-1992,0.0
+Netherlands Antilles,beijing-2008,0.07333333333333333
+Netherlands Antilles,calgary-1988,0.04122222222222222
+Netherlands Antilles,helsinki-1952,3.064
+Netherlands Antilles,los-angeles-1984,0.13666666666666666
+Netherlands Antilles,mexico-city-1968,0.03334126984126984
+Netherlands Antilles,montreal-1976,0.0
+Netherlands Antilles,munich-1972,0.0
+Netherlands Antilles,rome-1960,0.7466666666666667
+Netherlands Antilles,seoul-1988,1.0395555555555558
+Netherlands Antilles,sydney-2000,0.006666666666666667
+Netherlands Antilles,tokyo-1964,0.7996785714285715
+New Zealand,albertville-1992,3.296666666666667
+New Zealand,amsterdam-1928,2.994666666666667
+New Zealand,antwerp-1920,4.399142857142856
+New Zealand,athens-2004,49.07
+New Zealand,atlanta-1996,34.74
+New Zealand,barcelona-1992,49.99
+New Zealand,beijing-2008,55.14
+New Zealand,beijing-2022,3.323944444444445
+New Zealand,berlin-1936,2.84
+New Zealand,calgary-1988,2.6333333333333333
+New Zealand,grenoble-1968,0.0
+New Zealand,helsinki-1952,4.95
+New Zealand,innsbruck-1976,0.06333333333333334
+New Zealand,lake-placid-1980,0.06333333333333334
+New Zealand,lillehammer-1994,1.9866666666666666
+New Zealand,london-1948,0.6386666666666667
+New Zealand,london-2012,63.47666666666667
+New Zealand,los-angeles-1932,4.166666666666667
+New Zealand,los-angeles-1984,42.406666666666666
+New Zealand,melbourne-1956,12.44
+New Zealand,mexico-city-1968,13.70472222222222
+New Zealand,montreal-1976,13.75
+New Zealand,moscow-1980,2.8905
+New Zealand,munich-1972,16.433333333333334
+New Zealand,nagano-1998,0.3775
+New Zealand,oslo-1952,0.0
+New Zealand,paris-1900,0.07459974075840384
+New Zealand,paris-1924,1.1704999999999999
+New Zealand,pyeongchang-2018,5.68
+New Zealand,rio-2016,63.43333333333333
+New Zealand,rome-1960,7.966666666666667
+New Zealand,salt-lake-city-2002,2.264444444444444
+New Zealand,sapporo-1972,0.0
+New Zealand,sarajevo-1984,0.0
+New Zealand,seoul-1988,47.95666666666666
+New Zealand,sochi-2014,1.4266666666666667
+New Zealand,squaw-valley-1960,0.14127777777777778
+New Zealand,st-louis-1904,0.07459974075840384
+New Zealand,sydney-2000,33.473333333333336
+New Zealand,tokyo-1964,20.85
+New Zealand,tokyo-2020,139.61666666666667
+New Zealand,turin-2006,4.553333333333334
+New Zealand,vancouver-2010,1.6066666666666667
+Newfoundland,st-louis-1904,0.07459974075840384
+Nicaragua,athens-2004,0.07
+Nicaragua,atlanta-1996,2.493333333333333
+Nicaragua,barcelona-1992,0.9477777777777777
+Nicaragua,beijing-2008,0.0
+Nicaragua,london-2012,0.89
+Nicaragua,los-angeles-1984,0.2555370370370372
+Nicaragua,mexico-city-1968,1.69
+Nicaragua,montreal-1976,2.6433333333333335
+Nicaragua,moscow-1980,0.0
+Nicaragua,munich-1972,0.054444444444444455
+Nicaragua,rio-2016,0.0
+Nicaragua,sydney-2000,0.07666666666666666
+Nicaragua,tokyo-2020,0.15
+Niger,athens-2004,0.0
+Niger,atlanta-1996,0.0
+Niger,barcelona-1992,0.267462962962963
+Niger,beijing-2008,0.08
+Niger,london-2012,0.13666666666666666
+Niger,los-angeles-1984,0.018774928774928774
+Niger,mexico-city-1968,0.00333502973477839
+Niger,montreal-1976,0.8445875790875794
+Niger,munich-1972,0.9573650793650794
+Niger,rio-2016,0.63
+Niger,seoul-1988,0.285
+Niger,sydney-2000,0.0
+Niger,tokyo-1964,0.0033333333333333335
+Niger,tokyo-2020,0.33
+Nigeria,athens-2004,13.59
+Nigeria,atlanta-1996,12.163333333333334
+Nigeria,barcelona-1992,12.126666666666667
+Nigeria,beijing-2008,23.89
+Nigeria,beijing-2022,0.0
+Nigeria,helsinki-1952,0.023333333333333334
+Nigeria,london-2012,10.27
+Nigeria,los-angeles-1984,5.68
+Nigeria,melbourne-1956,0.6386666666666667
+Nigeria,mexico-city-1968,2.16
+Nigeria,montreal-1976,0.8115082972582969
+Nigeria,moscow-1980,5.883333333333334
+Nigeria,munich-1972,1.6297777777777778
+Nigeria,pyeongchang-2018,0.04666666666666667
+Nigeria,rio-2016,9.89
+Nigeria,rome-1960,0.9173333333333333
+Nigeria,seoul-1988,7.973333333333334
+Nigeria,sydney-2000,14.22
+Nigeria,tokyo-1964,3.19
+Nigeria,tokyo-2020,38.20333333333333
+North Borneo,melbourne-1956,0.07459974075840384
+North Macedonia,beijing-2022,0.0
+North Macedonia,tokyo-2020,1.6866666666666668
+Norway,albertville-1992,37.21333333333333
+Norway,amsterdam-1928,29.98
+Norway,antwerp-1920,74.42
+Norway,athens-2004,18.156666666666666
+Norway,atlanta-1996,23.923333333333332
+Norway,barcelona-1992,20.333333333333332
+Norway,beijing-2008,25.59
+Norway,beijing-2022,63.00666666666667
+Norway,berlin-1936,30.316666666666666
+Norway,calgary-1988,18.316666666666666
+Norway,chamonix-1924,15.323333333333334
+Norway,cortina-d-ampezzo-1956,18.34
+Norway,garmisch-partenkirchen-1936,21.64666666666667
+Norway,grenoble-1968,28.246666666666666
+Norway,helsinki-1952,30.113333333333333
+Norway,innsbruck-1964,22.24
+Norway,innsbruck-1976,17.563333333333333
+Norway,lake-placid-1932,15.76
+Norway,lake-placid-1980,22.16
+Norway,lillehammer-1994,42.55
+Norway,london-1908,18.85333333333333
+Norway,london-1948,26.116666666666667
+Norway,london-2012,10.103333333333333
+Norway,los-angeles-1932,0.43205158730158727
+Norway,los-angeles-1984,24.52
+Norway,melbourne-1956,6.89
+Norway,mexico-city-1968,13.976666666666667
+Norway,montreal-1976,15.62
+Norway,munich-1972,27.036666666666665
+Norway,nagano-1998,41.64666666666667
+Norway,oslo-1952,28.1
+Norway,paris-1900,5.028611111111112
+Norway,paris-1924,29.5
+Norway,pyeongchang-2018,59.13333333333333
+Norway,rio-2016,7.713333333333333
+Norway,rome-1960,8.343333333333334
+Norway,salt-lake-city-2002,41.02333333333333
+Norway,sapporo-1972,22.423333333333332
+Norway,sarajevo-1984,23.11
+Norway,seoul-1988,12.73
+Norway,sochi-2014,54.68
+Norway,squaw-valley-1960,10.08
+Norway,st-louis-1904,2.473333333333333
+Norway,st-moritz-1928,17.21
+Norway,st-moritz-1948,20.346666666666668
+Norway,stockholm-1912,49.55
+Norway,sydney-2000,19.96
+Norway,tokyo-1964,7.181666666666667
+Norway,tokyo-2020,51.27
+Norway,turin-2006,48.36666666666667
+Norway,vancouver-2010,43.53666666666667
+Olympic Athletes from Russia,pyeongchang-2018,55.403333333333336
+Oman,athens-2004,0.0
+Oman,atlanta-1996,0.0
+Oman,barcelona-1992,0.0
+Oman,beijing-2008,0.016666666666666666
+Oman,london-2012,0.18
+Oman,los-angeles-1984,0.72
+Oman,rio-2016,0.0
+Oman,seoul-1988,0.22226190476190483
+Oman,sydney-2000,0.0
+Oman,tokyo-2020,0.06
+Pakistan,athens-2004,3.851809523809524
+Pakistan,atlanta-1996,2.8633333333333333
+Pakistan,barcelona-1992,2.14
+Pakistan,beijing-2008,4.523357142857143
+Pakistan,beijing-2022,0.07459974075840384
+Pakistan,helsinki-1952,2.6688888888888886
+Pakistan,london-1948,3.9516666666666667
+Pakistan,london-2012,2.0395595238095243
+Pakistan,los-angeles-1984,4.273333333333333
+Pakistan,melbourne-1956,6.536666666666667
+Pakistan,mexico-city-1968,2.5486190476190482
+Pakistan,montreal-1976,3.7133333333333334
+Pakistan,munich-1972,3.5788888888888892
+Pakistan,pyeongchang-2018,0.0
+Pakistan,rio-2016,0.0
+Pakistan,rome-1960,7.463333333333333
+Pakistan,seoul-1988,4.755333333333333
+Pakistan,sochi-2014,0.0
+Pakistan,sydney-2000,1.7212777777777777
+Pakistan,tokyo-1964,5.756666666666667
+Pakistan,tokyo-2020,1.03
+Pakistan,vancouver-2010,0.0
+Palau,athens-2004,0.0033333333333333335
+Palau,beijing-2008,0.09333333333333334
+Palau,london-2012,0.1273611111111111
+Palau,rio-2016,0.11266666666666668
+Palau,sydney-2000,0.0
+Palestine,athens-2004,0.0
+Palestine,beijing-2008,0.0
+Palestine,london-2012,0.1123888888888889
+Palestine,rio-2016,0.6533333333333333
+Palestine,sydney-2000,0.0
+Palestine,tokyo-2020,0.0
+Panama,athens-2004,0.015
+Panama,atlanta-1996,0.04
+Panama,barcelona-1992,0.0
+Panama,beijing-2008,0.8566666666666667
+Panama,helsinki-1952,0.8445875790875794
+Panama,london-1948,1.5307380952380947
+Panama,london-2012,2.29
+Panama,los-angeles-1984,0.285
+Panama,mexico-city-1968,2.2704761904761903
+Panama,montreal-1976,2.1490634920634926
+Panama,munich-1972,0.032749999999999994
+Panama,rio-2016,0.04
+Panama,rome-1960,0.803
+Panama,seoul-1988,0.41333333333333333
+Panama,sydney-2000,0.034166666666666665
+Panama,tokyo-1964,0.5266666666666666
+Panama,tokyo-2020,0.04
+Papua New Guinea,athens-2004,1.4106354980538014
+Papua New Guinea,atlanta-1996,0.2555370370370372
+Papua New Guinea,barcelona-1992,0.9966666666666667
+Papua New Guinea,beijing-2008,0.2948888888888889
+Papua New Guinea,london-2012,0.11333333333333333
+Papua New Guinea,los-angeles-1984,0.0033333333333333335
+Papua New Guinea,montreal-1976,0.38
+Papua New Guinea,rio-2016,0.42899999999999994
+Papua New Guinea,seoul-1988,0.91
+Papua New Guinea,sydney-2000,0.0
+Papua New Guinea,tokyo-2020,0.06666666666666667
+Paraguay,athens-2004,2.37
+Paraguay,atlanta-1996,0.02277777777777778
+Paraguay,barcelona-1992,2.66
+Paraguay,beijing-2008,0.02277777777777778
+Paraguay,london-2012,0.9038333333333333
+Paraguay,los-angeles-1984,1.0233333333333334
+Paraguay,montreal-1976,0.02
+Paraguay,munich-1972,0.0
+Paraguay,rio-2016,0.17333333333333334
+Paraguay,seoul-1988,0.13333333333333333
+Paraguay,sochi-2014,0.0
+Paraguay,sydney-2000,0.24333333333333335
+Paraguay,tokyo-2020,0.4285555555555555
+People's Republic of China,albertville-1992,12.406666666666666
+People's Republic of China,athens-2004,137.55
+People's Republic of China,atlanta-1996,122.91666666666667
+People's Republic of China,barcelona-1992,126.65666666666667
+People's Republic of China,beijing-2008,224.18666666666667
+People's Republic of China,beijing-2022,84.08
+People's Republic of China,berlin-1936,8.13
+People's Republic of China,calgary-1988,1.5333333333333334
+People's Republic of China,helsinki-1952,0.07459974075840384
+People's Republic of China,lake-placid-1980,8.556666666666667
+People's Republic of China,lillehammer-1994,11.523333333333333
+People's Republic of China,london-1948,2.691362193362193
+People's Republic of China,london-2012,187.34333333333333
+People's Republic of China,los-angeles-1984,78.16333333333333
+People's Republic of China,nagano-1998,17.176666666666666
+People's Republic of China,pyeongchang-2018,24.89666666666667
+People's Republic of China,rio-2016,168.21666666666667
+People's Republic of China,salt-lake-city-2002,16.343333333333334
+People's Republic of China,sarajevo-1984,14.033333333333333
+People's Republic of China,seoul-1988,90.54333333333334
+People's Republic of China,sochi-2014,23.983333333333334
+People's Republic of China,sydney-2000,124.12666666666667
+People's Republic of China,tokyo-2020,329.99666666666667
+People's Republic of China,turin-2006,40.56
+People's Republic of China,vancouver-2010,24.25
+Peru,athens-2004,0.5733333333333334
+Peru,atlanta-1996,3.6733333333333333
+Peru,barcelona-1992,1.95
+Peru,beijing-2008,0.9266666666666666
+Peru,beijing-2022,0.0
+Peru,berlin-1936,12.16
+Peru,london-1948,9.156666666666666
+Peru,london-2012,2.0166666666666666
+Peru,los-angeles-1984,7.233333333333333
+Peru,melbourne-1956,0.43333333333333335
+Peru,mexico-city-1968,3.1775
+Peru,montreal-1976,0.9892896825396824
+Peru,moscow-1980,2.84
+Peru,munich-1972,2.1766666666666667
+Peru,rio-2016,1.5333333333333334
+Peru,rome-1960,2.03
+Peru,seoul-1988,2.8695476190476192
+Peru,sochi-2014,0.0
+Peru,sydney-2000,1.8633333333333333
+Peru,tokyo-1964,2.013333333333333
+Peru,tokyo-2020,4.326666666666667
+Peru,vancouver-2010,0.0
+Philippines,albertville-1992,0.0
+Philippines,amsterdam-1928,1.6016666666666666
+Philippines,athens-2004,1.21
+Philippines,atlanta-1996,0.9866666666666667
+Philippines,barcelona-1992,7.296666666666667
+Philippines,beijing-2008,0.48333333333333334
+Philippines,beijing-2022,0.07459974075840384
+Philippines,berlin-1936,4.486666666666666
+Philippines,calgary-1988,0.0
+Philippines,helsinki-1952,2.8733333333333335
+Philippines,london-1948,4.162111111111111
+Philippines,london-2012,0.5033333333333333
+Philippines,los-angeles-1932,4.7
+Philippines,los-angeles-1984,0.8333333333333334
+Philippines,melbourne-1956,5.046666666666667
+Philippines,mexico-city-1968,5.5
+Philippines,montreal-1976,0.5533333333333333
+Philippines,munich-1972,5.136666666666667
+Philippines,paris-1924,0.07459974075840384
+Philippines,pyeongchang-2018,0.0
+Philippines,rio-2016,1.1933333333333334
+Philippines,rome-1960,4.713333333333333
+Philippines,sapporo-1972,0.0
+Philippines,seoul-1988,2.9
+Philippines,sochi-2014,0.0
+Philippines,sydney-2000,1.8166666666666667
+Philippines,tokyo-1964,7.136666666666667
+Philippines,tokyo-2020,7.41
+Poland,albertville-1992,12.68
+Poland,amsterdam-1928,31.236666666666668
+Poland,antwerp-1920,2.9170589710305572
+Poland,athens-2004,57.833333333333336
+Poland,atlanta-1996,58.5
+Poland,barcelona-1992,69.52
+Poland,beijing-2008,72.60666666666667
+Poland,beijing-2022,28.93
+Poland,berlin-1936,40.65
+Poland,calgary-1988,2.5799761904761906
+Poland,chamonix-1924,3.0366666666666666
+Poland,cortina-d-ampezzo-1956,11.76
+Poland,garmisch-partenkirchen-1936,5.753333333333333
+Poland,grenoble-1968,6.613333333333333
+Poland,helsinki-1952,29.666666666666668
+Poland,innsbruck-1964,7.716666666666667
+Poland,innsbruck-1976,12.606666666666667
+Poland,lake-placid-1932,2.537555555555556
+Poland,lake-placid-1980,2.6378095238095236
+Poland,lillehammer-1994,10.633333333333333
+Poland,london-1948,10.45
+Poland,london-2012,63.03333333333333
+Poland,los-angeles-1932,10.686666666666667
+Poland,melbourne-1956,23.016666666666666
+Poland,mexico-city-1968,62.77333333333333
+Poland,montreal-1976,71.12333333333333
+Poland,moscow-1980,134.03666666666666
+Poland,munich-1972,99.71
+Poland,nagano-1998,13.153333333333334
+Poland,oslo-1952,2.526666666666667
+Poland,paris-1924,21.433333333333334
+Poland,pyeongchang-2018,18.743333333333332
+Poland,rio-2016,74.44666666666667
+Poland,rome-1960,71.55666666666667
+Poland,salt-lake-city-2002,9.196666666666667
+Poland,sapporo-1972,9.016666666666667
+Poland,sarajevo-1984,3.1866666666666665
+Poland,seoul-1988,71.87666666666667
+Poland,sochi-2014,27.656666666666666
+Poland,squaw-valley-1960,7.013333333333334
+Poland,st-moritz-1928,5.37
+Poland,st-moritz-1948,4.22
+Poland,sydney-2000,66.42666666666666
+Poland,tokyo-1964,54.77
+Poland,tokyo-2020,99.86666666666666
+Poland,turin-2006,15.443333333333333
+Poland,vancouver-2010,17.12
+Portugal,amsterdam-1928,17.08
+Portugal,antwerp-1920,9.8
+Portugal,athens-2004,15.343333333333334
+Portugal,atlanta-1996,16.53
+Portugal,barcelona-1992,15.753333333333334
+Portugal,beijing-2008,14.736666666666666
+Portugal,beijing-2022,0.0
+Portugal,berlin-1936,7.966666666666667
+Portugal,calgary-1988,2.281555555555556
+Portugal,helsinki-1952,40.86666666666667
+Portugal,lillehammer-1994,0.1100132275132275
+Portugal,london-1948,24.04
+Portugal,london-2012,13.083333333333334
+Portugal,los-angeles-1932,0.18666666666666668
+Portugal,los-angeles-1984,8.875833333333333
+Portugal,melbourne-1956,2.1075
+Portugal,mexico-city-1968,2.973333333333333
+Portugal,montreal-1976,5.653333333333333
+Portugal,moscow-1980,2.195666666666667
+Portugal,munich-1972,9.493333333333334
+Portugal,nagano-1998,0.7118981481481481
+Portugal,oslo-1952,0.0
+Portugal,paris-1924,8.97
+Portugal,pyeongchang-2018,0.0
+Portugal,rio-2016,11.013333333333334
+Portugal,rome-1960,19.816666666666666
+Portugal,seoul-1988,9.076666666666666
+Portugal,sochi-2014,0.0
+Portugal,stockholm-1912,1.8262110469653043
+Portugal,sydney-2000,6.846666666666667
+Portugal,tokyo-1964,2.6466666666666665
+Portugal,tokyo-2020,33.79666666666667
+Portugal,turin-2006,0.0
+Portugal,vancouver-2010,0.0
+Puerto Rico,albertville-1992,0.13859523809523813
+Puerto Rico,athens-2004,4.086666666666667
+Puerto Rico,atlanta-1996,11.836666666666666
+Puerto Rico,barcelona-1992,14.483333333333333
+Puerto Rico,beijing-2008,1.09
+Puerto Rico,beijing-2022,0.0016666666666666668
+Puerto Rico,calgary-1988,0.11
+Puerto Rico,helsinki-1952,1.33
+Puerto Rico,lillehammer-1994,1.3689920634920634
+Puerto Rico,london-1948,2.881666666666667
+Puerto Rico,london-2012,5.84
+Puerto Rico,los-angeles-1984,10.153333333333334
+Puerto Rico,melbourne-1956,0.13666666666666666
+Puerto Rico,mexico-city-1968,7.416666666666667
+Puerto Rico,montreal-1976,10.58
+Puerto Rico,moscow-1980,1.8025
+Puerto Rico,munich-1972,5.3345
+Puerto Rico,nagano-1998,1.3489365079365072
+Puerto Rico,pyeongchang-2018,0.0
+Puerto Rico,rio-2016,5.8966666666666665
+Puerto Rico,rome-1960,3.3533333333333335
+Puerto Rico,salt-lake-city-2002,0.07630631753962018
+Puerto Rico,sarajevo-1984,0.0
+Puerto Rico,seoul-1988,6.66
+Puerto Rico,sydney-2000,1.3766666666666667
+Puerto Rico,tokyo-1964,2.5233333333333334
+Puerto Rico,tokyo-2020,18.816666666666666
+Qatar,athens-2004,0.8385
+Qatar,atlanta-1996,0.041666666666666664
+Qatar,barcelona-1992,2.7765
+Qatar,beijing-2008,2.5233333333333334
+Qatar,london-2012,1.3566666666666667
+Qatar,los-angeles-1984,1.84
+Qatar,rio-2016,7.666666666666667
+Qatar,seoul-1988,0.0
+Qatar,sydney-2000,1.1731626984126986
+Qatar,tokyo-2020,3.816666666666667
+ROC,beijing-2022,105.17
+ROC,tokyo-2020,263.6766666666667
+Refugee Olympic Athletes,rio-2016,0.05
+Refugee Olympic Team,tokyo-2020,5.84
+Republic of Korea,albertville-1992,11.830333333333334
+Republic of Korea,athens-2004,86.66
+Republic of Korea,atlanta-1996,94.48666666666666
+Republic of Korea,barcelona-1992,111.80666666666667
+Republic of Korea,beijing-2008,74.12333333333333
+Republic of Korea,beijing-2022,30.303333333333335
+Republic of Korea,calgary-1988,8.199166666666667
+Republic of Korea,cortina-d-ampezzo-1956,0.0
+Republic of Korea,grenoble-1968,0.02666666666666667
+Republic of Korea,helsinki-1952,8.76
+Republic of Korea,innsbruck-1964,0.57
+Republic of Korea,innsbruck-1976,0.7662857142857142
+Republic of Korea,lake-placid-1980,0.8633333333333333
+Republic of Korea,lillehammer-1994,9.646666666666667
+Republic of Korea,london-1948,14.383333333333333
+Republic of Korea,london-2012,68.88
+Republic of Korea,los-angeles-1984,49.24666666666667
+Republic of Korea,melbourne-1956,7.6433333333333335
+Republic of Korea,mexico-city-1968,10.06
+Republic of Korea,montreal-1976,14.24
+Republic of Korea,munich-1972,6.996666666666667
+Republic of Korea,nagano-1998,22.94
+Republic of Korea,pyeongchang-2018,42.71666666666667
+Republic of Korea,rio-2016,63.013333333333335
+Republic of Korea,rome-1960,8.466666666666667
+Republic of Korea,salt-lake-city-2002,15.55
+Republic of Korea,sapporo-1972,1.308818783068783
+Republic of Korea,sarajevo-1984,1.9866666666666666
+Republic of Korea,seoul-1988,111.22
+Republic of Korea,sochi-2014,29.746666666666666
+Republic of Korea,squaw-valley-1960,0.36666666666666664
+Republic of Korea,st-moritz-1948,0.5483333333333333
+Republic of Korea,sydney-2000,66.23
+Republic of Korea,tokyo-1964,43.663333333333334
+Republic of Korea,tokyo-2020,155.71333333333334
+Republic of Korea,turin-2006,16.873333333333335
+Republic of Korea,vancouver-2010,20.88
+Republic of Moldova,athens-2004,3.37
+Republic of Moldova,atlanta-1996,5.1466666666666665
+Republic of Moldova,beijing-2008,2.433333333333333
+Republic of Moldova,beijing-2022,0.0
+Republic of Moldova,lillehammer-1994,0.5833333333333334
+Republic of Moldova,london-2012,1.67
+Republic of Moldova,nagano-1998,0.0
+Republic of Moldova,pyeongchang-2018,0.0
+Republic of Moldova,rio-2016,2.17
+Republic of Moldova,salt-lake-city-2002,0.8904126984126981
+Republic of Moldova,sochi-2014,0.0
+Republic of Moldova,sydney-2000,6.737333333333334
+Republic of Moldova,tokyo-2020,1.5666666666666667
+Republic of Moldova,turin-2006,0.06
+Republic of Moldova,vancouver-2010,0.0
+Rhodesia,munich-1972,1.8262110469653043
+Rhodesia,rome-1960,1.6833333333333333
+Romania,albertville-1992,5.503333333333333
+Romania,amsterdam-1928,2.125793650793651
+Romania,athens-2004,47.78
+Romania,atlanta-1996,58.166666666666664
+Romania,barcelona-1992,71.09
+Romania,beijing-2008,34.74
+Romania,beijing-2022,6.82
+Romania,berlin-1936,15.856666666666667
+Romania,calgary-1988,4.043333333333333
+Romania,cortina-d-ampezzo-1956,7.363333333333333
+Romania,garmisch-partenkirchen-1936,6.833333333333333
+Romania,grenoble-1968,8.746666666666666
+Romania,helsinki-1952,44.57666666666667
+Romania,innsbruck-1964,4.8133333333333335
+Romania,innsbruck-1976,8.766666666666667
+Romania,lake-placid-1932,2.03
+Romania,lake-placid-1980,6.88
+Romania,lillehammer-1994,6.216666666666667
+Romania,london-2012,29.35
+Romania,los-angeles-1984,76.24666666666667
+Romania,melbourne-1956,25.726666666666667
+Romania,mexico-city-1968,38.016666666666666
+Romania,montreal-1976,67.36
+Romania,moscow-1980,130.04666666666665
+Romania,munich-1972,48.97
+Romania,nagano-1998,3.5166666666666666
+Romania,oslo-1952,3.0366666666666666
+Romania,paris-1900,0.4359247778365425
+Romania,paris-1924,6.343333333333334
+Romania,pyeongchang-2018,8.35
+Romania,rio-2016,25.6
+Romania,rome-1960,50.42666666666667
+Romania,salt-lake-city-2002,4.81
+Romania,sapporo-1972,5.153333333333333
+Romania,sarajevo-1984,8.863333333333333
+Romania,seoul-1988,44.5
+Romania,sochi-2014,4.043333333333333
+Romania,st-moritz-1928,4.552583333333334
+Romania,st-moritz-1948,0.06
+Romania,sydney-2000,61.31333333333333
+Romania,tokyo-1964,46.53666666666667
+Romania,tokyo-2020,56.07333333333333
+Romania,turin-2006,6.826666666666667
+Romania,vancouver-2010,7.593333333333334
+Russian Federation,athens-2004,199.68333333333334
+Russian Federation,atlanta-1996,147.99666666666667
+Russian Federation,beijing-2008,159.17666666666668
+Russian Federation,lillehammer-1994,54.21333333333333
+Russian Federation,london-1908,3.268
+Russian Federation,london-2012,181.58333333333334
+Russian Federation,nagano-1998,45.47
+Russian Federation,paris-1900,0.6844444444444444
+Russian Federation,rio-2016,170.73
+Russian Federation,salt-lake-city-2002,51.00333333333333
+Russian Federation,sochi-2014,85.27333333333333
+Russian Federation,stockholm-1912,84.07
+Russian Federation,sydney-2000,175.43333333333334
+Russian Federation,turin-2006,61.97666666666667
+Russian Federation,vancouver-2010,53.70333333333333
+Rwanda,athens-2004,0.08
+Rwanda,atlanta-1996,0.15866666666666668
+Rwanda,barcelona-1992,0.10183333333333333
+Rwanda,beijing-2008,0.0
+Rwanda,london-2012,0.006666666666666667
+Rwanda,rio-2016,0.10666666666666667
+Rwanda,seoul-1988,0.0
+Rwanda,sydney-2000,0.08333333333333333
+Rwanda,tokyo-2020,0.07630631753962018
+Saar,helsinki-1952,11.063333333333333
+Saint Kitts and Nevis,athens-2004,0.02
+Saint Kitts and Nevis,beijing-2008,0.02
+Saint Kitts and Nevis,london-2012,0.07459974075840384
+Saint Kitts and Nevis,sydney-2000,0.9892896825396824
+Saint Lucia,athens-2004,0.0
+Saint Lucia,atlanta-1996,0.0033333333333333335
+Saint Lucia,beijing-2008,0.0
+Saint Lucia,london-2012,0.08345818070818072
+Saint Lucia,rio-2016,0.57
+Saint Lucia,sydney-2000,0.0
+Saint Lucia,tokyo-2020,0.05
+Saint Vincent and the Grenadines,athens-2004,0.0
+Saint Vincent and the Grenadines,atlanta-1996,0.0
+Saint Vincent and the Grenadines,london-2012,0.0
+Saint Vincent and the Grenadines,rio-2016,0.0
+Saint Vincent and the Grenadines,seoul-1988,0.07630631753962018
+Saint Vincent and the Grenadines,sydney-2000,0.05766666666666666
+Samoa,athens-2004,0.013333333333333334
+Samoa,atlanta-1996,1.5340555555555557
+Samoa,barcelona-1992,0.3
+Samoa,beijing-2008,1.335
+Samoa,london-2012,1.0833333333333333
+Samoa,los-angeles-1984,0.7733333333333333
+Samoa,rio-2016,0.1
+Samoa,seoul-1988,1.1733333333333333
+Samoa,sydney-2000,1.4862777777777778
+Samoa,tokyo-2020,0.37666666666666665
+San Marino,albertville-1992,0.0
+San Marino,athens-2004,1.1065
+San Marino,atlanta-1996,0.011444444444444445
+San Marino,barcelona-1992,0.52
+San Marino,beijing-2008,0.0
+San Marino,beijing-2022,0.0033333333333333335
+San Marino,calgary-1988,0.04122222222222222
+San Marino,innsbruck-1976,0.006666666666666667
+San Marino,lillehammer-1994,0.04666666666666667
+San Marino,london-2012,0.2523875661375662
+San Marino,los-angeles-1984,1.35
+San Marino,mexico-city-1968,0.0
+San Marino,montreal-1976,0.07333333333333333
+San Marino,moscow-1980,1.2133333333333334
+San Marino,munich-1972,0.04
+San Marino,pyeongchang-2018,0.0
+San Marino,rio-2016,1.036988095238095
+San Marino,rome-1960,2.73
+San Marino,salt-lake-city-2002,0.0
+San Marino,sarajevo-1984,0.0
+San Marino,seoul-1988,0.25
+San Marino,sochi-2014,0.07630631753962018
+San Marino,sydney-2000,0.0
+San Marino,tokyo-2020,5.793333333333333
+San Marino,turin-2006,0.07459974075840384
+San Marino,vancouver-2010,0.0
+Sao Tome and Principe,athens-2004,0.006666666666666667
+Sao Tome and Principe,rio-2016,0.0
+Sao Tome and Principe,tokyo-2020,0.06
+Saudi Arabia,athens-2004,0.8333333333333334
+Saudi Arabia,atlanta-1996,5.2803492063492055
+Saudi Arabia,barcelona-1992,2.0451944444444448
+Saudi Arabia,beijing-2008,0.6133333333333333
+Saudi Arabia,beijing-2022,0.0
+Saudi Arabia,london-2012,4.5
+Saudi Arabia,los-angeles-1984,4.520559523809523
+Saudi Arabia,montreal-1976,0.07459974075840384
+Saudi Arabia,munich-1972,0.07459974075840384
+Saudi Arabia,rio-2016,0.6457738095238097
+Saudi Arabia,seoul-1988,0.0
+Saudi Arabia,sydney-2000,2.8233333333333333
+Saudi Arabia,tokyo-2020,16.333333333333332
+Senegal,albertville-1992,0.0
+Senegal,athens-2004,0.2738888888888889
+Senegal,atlanta-1996,2.94
+Senegal,barcelona-1992,0.9033333333333333
+Senegal,beijing-2008,0.77
+Senegal,lillehammer-1994,0.07459974075840384
+Senegal,london-2012,3.5966666666666667
+Senegal,los-angeles-1984,1.7
+Senegal,mexico-city-1968,4.282767195767196
+Senegal,montreal-1976,3.1466666666666665
+Senegal,moscow-1980,3.223333333333333
+Senegal,munich-1972,3.89
+Senegal,rio-2016,3.176888888888889
+Senegal,sarajevo-1984,0.0
+Senegal,seoul-1988,1.3066666666666666
+Senegal,sydney-2000,2.12
+Senegal,tokyo-1964,0.4359247778365425
+Senegal,tokyo-2020,0.33
+Senegal,turin-2006,0.0
+Senegal,vancouver-2010,0.0
+Serbia,beijing-2008,13.206666666666667
+Serbia,beijing-2022,0.0
+Serbia,london-2012,27.033333333333335
+Serbia,pyeongchang-2018,0.04999999999999999
+Serbia,rio-2016,22.2
+Serbia,sochi-2014,0.26666666666666666
+Serbia,stockholm-1912,0.8445875790875794
+Serbia,tokyo-2020,82.50333333333333
+Serbia,vancouver-2010,1.96
+Serbia and Montenegro,athens-2004,13.72
+Serbia and Montenegro,atlanta-1996,9.576666666666666
+Serbia and Montenegro,nagano-1998,1.3689920634920634
+Serbia and Montenegro,salt-lake-city-2002,2.3206666666666664
+Serbia and Montenegro,sydney-2000,15.506666666666666
+Serbia and Montenegro,turin-2006,0.0
+Seychelles,athens-2004,0.65
+Seychelles,atlanta-1996,0.81
+Seychelles,barcelona-1992,0.35
+Seychelles,beijing-2008,0.04666666666666667
+Seychelles,london-2012,0.16333333333333333
+Seychelles,los-angeles-1984,0.07833333333333334
+Seychelles,moscow-1980,0.013333333333333334
+Seychelles,rio-2016,0.5966666666666667
+Seychelles,sydney-2000,0.8108333333333333
+Seychelles,tokyo-2020,0.12423590298590301
+Sierra Leone,atlanta-1996,0.02
+Sierra Leone,barcelona-1992,0.023333333333333334
+Sierra Leone,beijing-2008,0.0
+Sierra Leone,los-angeles-1984,2.394845959595959
+Sierra Leone,mexico-city-1968,0.24583333333333332
+Sierra Leone,moscow-1980,0.24
+Sierra Leone,rio-2016,0.0016666666666666668
+Sierra Leone,seoul-1988,0.14
+Sierra Leone,sydney-2000,0.0
+Sierra Leone,tokyo-2020,0.07459974075840384
+Singapore,athens-2004,1.29
+Singapore,atlanta-1996,7.803333333333334
+Singapore,barcelona-1992,0.9966666666666667
+Singapore,beijing-2008,9.133333333333333
+Singapore,helsinki-1952,2.394845959595959
+Singapore,london-1948,0.0
+Singapore,london-2012,10.64
+Singapore,los-angeles-1984,4.08
+Singapore,melbourne-1956,5.231333333333334
+Singapore,mexico-city-1968,0.42053968253968266
+Singapore,montreal-1976,0.1125
+Singapore,munich-1972,0.43205158730158727
+Singapore,pyeongchang-2018,0.0
+Singapore,rio-2016,6.22
+Singapore,rome-1960,2.73
+Singapore,seoul-1988,5.156666666666666
+Singapore,sydney-2000,1.2866666666666666
+Singapore,tokyo-2020,9.94
+Slovakia,athens-2004,15.533333333333333
+Slovakia,atlanta-1996,9.32
+Slovakia,beijing-2008,11.25
+Slovakia,beijing-2022,18.596666666666668
+Slovakia,lillehammer-1994,6.48
+Slovakia,london-2012,10.516666666666667
+Slovakia,nagano-1998,5.34
+Slovakia,pyeongchang-2018,14.986666666666666
+Slovakia,rio-2016,7.053333333333334
+Slovakia,salt-lake-city-2002,9.974
+Slovakia,sochi-2014,14.59
+Slovakia,sydney-2000,18.863333333333333
+Slovakia,tokyo-2020,7.043333333333333
+Slovakia,turin-2006,12.656666666666666
+Slovakia,vancouver-2010,14.346666666666666
+Slovenia,albertville-1992,7.5633333333333335
+Slovenia,athens-2004,15.873333333333333
+Slovenia,atlanta-1996,5.943333333333333
+Slovenia,barcelona-1992,4.9
+Slovenia,beijing-2008,11.216666666666667
+Slovenia,beijing-2022,18.093333333333334
+Slovenia,lillehammer-1994,8.046666666666667
+Slovenia,london-2012,11.523333333333333
+Slovenia,nagano-1998,10.176666666666666
+Slovenia,pyeongchang-2018,11.666666666666666
+Slovenia,rio-2016,15.38
+Slovenia,salt-lake-city-2002,10.136666666666667
+Slovenia,sochi-2014,22.083333333333332
+Slovenia,sydney-2000,8.976666666666667
+Slovenia,tokyo-2020,31.02
+Slovenia,turin-2006,11.093333333333334
+Slovenia,vancouver-2010,13.306666666666667
+Solomon Islands,atlanta-1996,0.07459974075840384
+Solomon Islands,barcelona-1992,0.0
+Solomon Islands,beijing-2008,0.0
+Solomon Islands,london-2012,0.5193910903910907
+Solomon Islands,los-angeles-1984,0.33066666666666666
+Solomon Islands,rio-2016,0.02
+Solomon Islands,seoul-1988,0.0
+Solomon Islands,tokyo-2020,0.0
+Somalia,atlanta-1996,0.0
+Somalia,los-angeles-1984,0.0033333333333333335
+Somalia,munich-1972,0.07630631753962018
+Somalia,rome-1960,0.07630631753962018
+Somalia,seoul-1988,0.0
+Somalia,tokyo-2020,0.0
+South Africa,amsterdam-1928,10.323333333333334
+South Africa,antwerp-1920,32.5
+South Africa,athens-2004,20.543333333333333
+South Africa,atlanta-1996,16.666666666666668
+South Africa,barcelona-1992,23.97
+South Africa,beijing-2008,39.64333333333333
+South Africa,berlin-1936,4.600833333333333
+South Africa,helsinki-1952,28.79
+South Africa,lillehammer-1994,0.5129391904391906
+South Africa,london-1908,8.58
+South Africa,london-1948,10.443333333333333
+South Africa,london-2012,26.273333333333333
+South Africa,los-angeles-1932,7.53
+South Africa,melbourne-1956,19.963333333333335
+South Africa,nagano-1998,0.12423590298590301
+South Africa,paris-1924,9.66
+South Africa,pyeongchang-2018,0.07459974075840384
+South Africa,rio-2016,25.173333333333332
+South Africa,rome-1960,9.043333333333333
+South Africa,salt-lake-city-2002,0.0
+South Africa,squaw-valley-1960,0.3161111111111111
+South Africa,st-louis-1904,3.437651515151515
+South Africa,stockholm-1912,16.036666666666665
+South Africa,sydney-2000,28.083333333333332
+South Africa,tokyo-2020,105.19333333333333
+South Africa,turin-2006,0.006666666666666667
+South Africa,vancouver-2010,0.0
+South Sudan,rio-2016,0.03179365079365079
+South Vietnam,helsinki-1952,3.238074074074075
+South Vietnam,melbourne-1956,2.125793650793651
+South Vietnam,mexico-city-1968,0.016666666666666666
+South Vietnam,munich-1972,0.0
+South Vietnam,rome-1960,0.07630631753962018
+South Vietnam,tokyo-1964,2.22
+Soviet Union,calgary-1988,64.98666666666666
+Soviet Union,cortina-d-ampezzo-1956,23.12
+Soviet Union,grenoble-1968,27.183333333333334
+Soviet Union,helsinki-1952,144.19333333333333
+Soviet Union,innsbruck-1964,32.01
+Soviet Union,innsbruck-1976,42.403333333333336
+Soviet Union,lake-placid-1980,45.093333333333334
+Soviet Union,melbourne-1956,154.58
+Soviet Union,mexico-city-1968,170.20666666666668
+Soviet Union,montreal-1976,233.86666666666667
+Soviet Union,moscow-1980,307.56333333333333
+Soviet Union,munich-1972,196.65
+Soviet Union,rome-1960,179.50333333333333
+Soviet Union,sapporo-1972,31.1
+Soviet Union,sarajevo-1984,59.57666666666667
+Soviet Union,seoul-1988,272.1166666666667
+Soviet Union,squaw-valley-1960,28.39
+Soviet Union,tokyo-1964,181.84333333333333
+Spain,albertville-1992,4.053333333333334
+Spain,amsterdam-1928,31.67
+Spain,antwerp-1920,24.773333333333333
+Spain,athens-2004,90.64
+Spain,atlanta-1996,83.17666666666666
+Spain,barcelona-1992,112.03
+Spain,beijing-2008,78.89333333333333
+Spain,beijing-2022,4.17
+Spain,berlin-1936,2.69
+Spain,calgary-1988,1.6166666666666667
+Spain,cortina-d-ampezzo-1956,1.88
+Spain,garmisch-partenkirchen-1936,0.0
+Spain,grenoble-1968,4.26
+Spain,helsinki-1952,18.09
+Spain,innsbruck-1964,0.11
+Spain,innsbruck-1976,0.9013333333333332
+Spain,lake-placid-1980,0.26166666666666666
+Spain,lillehammer-1994,2.8833333333333333
+Spain,london-1948,22.05666666666667
+Spain,london-2012,67.11666666666666
+Spain,los-angeles-1932,2.0472222222222225
+Spain,los-angeles-1984,52.00333333333333
+Spain,mexico-city-1968,17.933333333333334
+Spain,montreal-1976,23.65
+Spain,moscow-1980,34.846666666666664
+Spain,munich-1972,24.37
+Spain,nagano-1998,2.6566666666666667
+Spain,oslo-1952,0.0
+Spain,paris-1900,3.744
+Spain,paris-1924,24.35
+Spain,pyeongchang-2018,2.1
+Spain,rio-2016,72.03333333333333
+Spain,rome-1960,35.163333333333334
+Spain,salt-lake-city-2002,0.2615343915343915
+Spain,sapporo-1972,0.8744444444444444
+Spain,sarajevo-1984,0.7766666666666666
+Spain,seoul-1988,46.016666666666666
+Spain,sochi-2014,2.6066666666666665
+Spain,squaw-valley-1960,0.02
+Spain,st-moritz-1948,0.5
+Spain,sydney-2000,88.26333333333334
+Spain,tokyo-1964,11.223333333333333
+Spain,tokyo-2020,198.97333333333333
+Spain,turin-2006,1.24
+Spain,vancouver-2010,1.89
+Sri Lanka,athens-2004,0.03333333333333333
+Sri Lanka,atlanta-1996,0.09333333333333334
+Sri Lanka,barcelona-1992,0.0
+Sri Lanka,beijing-2008,0.006666666666666667
+Sri Lanka,helsinki-1952,1.6850000000000003
+Sri Lanka,london-1948,2.223333333333333
+Sri Lanka,london-2012,0.12
+Sri Lanka,los-angeles-1984,0.07
+Sri Lanka,melbourne-1956,0.023333333333333334
+Sri Lanka,mexico-city-1968,0.8433571428571429
+Sri Lanka,munich-1972,0.0
+Sri Lanka,rio-2016,0.02
+Sri Lanka,rome-1960,0.05
+Sri Lanka,seoul-1988,0.40277777777777773
+Sri Lanka,sydney-2000,0.62
+Sri Lanka,tokyo-1964,0.38
+Sri Lanka,tokyo-2020,0.6012355699855696
+Sudan,athens-2004,2.0068888888888887
+Sudan,atlanta-1996,0.0
+Sudan,barcelona-1992,0.7116666666666667
+Sudan,beijing-2008,0.26760726310726324
+Sudan,london-2012,0.0
+Sudan,los-angeles-1984,0.3607777777777778
+Sudan,mexico-city-1968,0.0
+Sudan,munich-1972,4.858333333333333
+Sudan,rio-2016,0.016666666666666666
+Sudan,rome-1960,0.6550370370370371
+Sudan,seoul-1988,5.2803492063492055
+Sudan,sydney-2000,0.07630631753962018
+Sudan,tokyo-2020,0.0
+Suriname,athens-2004,0.0
+Suriname,atlanta-1996,0.11288888888888889
+Suriname,barcelona-1992,0.4964682539682541
+Suriname,beijing-2008,0.0
+Suriname,london-2012,0.0
+Suriname,los-angeles-1984,0.24
+Suriname,montreal-1976,0.0
+Suriname,munich-1972,0.0
+Suriname,rio-2016,0.30333333333333334
+Suriname,rome-1960,0.07459974075840384
+Suriname,seoul-1988,0.8358849206349207
+Suriname,sydney-2000,0.8867777777777777
+Suriname,tokyo-2020,1.272222222222222
+Swaziland,albertville-1992,0.0
+Swaziland,athens-2004,0.0
+Swaziland,atlanta-1996,0.15
+Swaziland,barcelona-1992,0.05
+Swaziland,beijing-2008,0.0
+Swaziland,london-2012,0.0
+Swaziland,los-angeles-1984,0.08
+Swaziland,montreal-1976,0.8445875790875794
+Swaziland,munich-1972,0.0
+Swaziland,seoul-1988,0.07333333333333333
+Swaziland,sydney-2000,0.19333333333333333
+Sweden,albertville-1992,19.26
+Sweden,amsterdam-1928,64.55
+Sweden,antwerp-1920,148.70666666666668
+Sweden,athens-1896,2.3619682539682545
+Sweden,athens-2004,47.09
+Sweden,atlanta-1996,69.31666666666666
+Sweden,barcelona-1992,66.25333333333333
+Sweden,beijing-2008,56.26
+Sweden,beijing-2022,51.79666666666667
+Sweden,berlin-1936,68.95333333333333
+Sweden,calgary-1988,21.633333333333333
+Sweden,chamonix-1924,9.09
+Sweden,cortina-d-ampezzo-1956,20.65
+Sweden,garmisch-partenkirchen-1936,14.321468253968254
+Sweden,grenoble-1968,20.92
+Sweden,helsinki-1952,94.27666666666667
+Sweden,innsbruck-1964,17.273333333333333
+Sweden,innsbruck-1976,14.853333333333333
+Sweden,lake-placid-1932,4.726666666666667
+Sweden,lake-placid-1980,18.266666666666666
+Sweden,lillehammer-1994,22.656666666666666
+Sweden,london-1908,59.64666666666667
+Sweden,london-1948,99.76
+Sweden,london-2012,42.303333333333335
+Sweden,los-angeles-1932,40.5
+Sweden,los-angeles-1984,81.10666666666667
+Sweden,melbourne-1956,39.46333333333333
+Sweden,mexico-city-1968,29.596666666666668
+Sweden,montreal-1976,45.263333333333335
+Sweden,moscow-1980,58.803333333333335
+Sweden,munich-1972,56.24
+Sweden,nagano-1998,22.503333333333334
+Sweden,oslo-1952,14.456666666666667
+Sweden,paris-1900,2.3533333333333335
+Sweden,paris-1924,84.33
+Sweden,pyeongchang-2018,40.653333333333336
+Sweden,rio-2016,47.75333333333333
+Sweden,rome-1960,48.21666666666667
+Sweden,salt-lake-city-2002,25.513333333333332
+Sweden,sapporo-1972,19.09
+Sweden,sarajevo-1984,19.933333333333334
+Sweden,seoul-1988,67.70333333333333
+Sweden,sochi-2014,32.82333333333333
+Sweden,squaw-valley-1960,15.49
+Sweden,st-moritz-1928,6.906666666666666
+Sweden,st-moritz-1948,13.386666666666667
+Sweden,stockholm-1912,153.04
+Sweden,sydney-2000,57.22
+Sweden,tokyo-1964,45.6
+Sweden,tokyo-2020,85.52666666666667
+Sweden,turin-2006,29.93
+Sweden,vancouver-2010,30.013333333333332
+Switzerland,albertville-1992,18.976666666666667
+Switzerland,amsterdam-1928,56.71333333333333
+Switzerland,antwerp-1920,33.343333333333334
+Switzerland,athens-1896,2.4883333333333333
+Switzerland,athens-2004,37.43666666666667
+Switzerland,atlanta-1996,46.99333333333333
+Switzerland,barcelona-1992,32.54666666666667
+Switzerland,beijing-2008,24.236666666666668
+Switzerland,beijing-2022,57.61666666666667
+Switzerland,berlin-1936,57.07333333333333
+Switzerland,calgary-1988,28.833333333333332
+Switzerland,chamonix-1924,14.266666666666667
+Switzerland,cortina-d-ampezzo-1956,14.48
+Switzerland,garmisch-partenkirchen-1936,11.013333333333334
+Switzerland,grenoble-1968,13.25
+Switzerland,helsinki-1952,46.45
+Switzerland,innsbruck-1964,14.91
+Switzerland,innsbruck-1976,16.863333333333333
+Switzerland,lake-placid-1932,10.793333333333333
+Switzerland,lake-placid-1980,13.206666666666667
+Switzerland,lillehammer-1994,21.836666666666666
+Switzerland,london-1908,0.8445875790875794
+Switzerland,london-1948,46.513333333333335
+Switzerland,london-2012,18.496666666666666
+Switzerland,los-angeles-1932,4.295555555555556
+Switzerland,los-angeles-1984,66.11333333333333
+Switzerland,melbourne-1956,2.5503809523809524
+Switzerland,mexico-city-1968,30.98
+Switzerland,montreal-1976,19.546666666666667
+Switzerland,moscow-1980,19.06
+Switzerland,munich-1972,49.53
+Switzerland,nagano-1998,27.503333333333334
+Switzerland,oslo-1952,15.153333333333334
+Switzerland,paris-1900,13.766666666666667
+Switzerland,paris-1924,53.29666666666667
+Switzerland,pyeongchang-2018,47.666666666666664
+Switzerland,rio-2016,28.666666666666668
+Switzerland,rome-1960,36.42333333333333
+Switzerland,salt-lake-city-2002,37.376666666666665
+Switzerland,sapporo-1972,16.48
+Switzerland,sarajevo-1984,16.036666666666665
+Switzerland,seoul-1988,30.143333333333334
+Switzerland,sochi-2014,42.29
+Switzerland,squaw-valley-1960,6.933333333333334
+Switzerland,st-louis-1904,1.9834365079365084
+Switzerland,st-moritz-1928,12.246666666666666
+Switzerland,st-moritz-1948,29.523333333333333
+Switzerland,stockholm-1912,0.013333333333333334
+Switzerland,sydney-2000,34.81
+Switzerland,tokyo-1964,28.356666666666666
+Switzerland,tokyo-2020,48.516666666666666
+Switzerland,turin-2006,34.33
+Switzerland,vancouver-2010,32.50666666666667
+Syrian Arab Republic,athens-2004,0.9511439763939766
+Syrian Arab Republic,atlanta-1996,2.0814166666666667
+Syrian Arab Republic,barcelona-1992,0.8377777777777777
+Syrian Arab Republic,beijing-2008,0.7766666666666666
+Syrian Arab Republic,london-1948,0.5873874458874455
+Syrian Arab Republic,london-2012,0.47333333333333333
+Syrian Arab Republic,los-angeles-1984,1.41
+Syrian Arab Republic,mexico-city-1968,0.07630631753962018
+Syrian Arab Republic,moscow-1980,7.4366666666666665
+Syrian Arab Republic,munich-1972,0.0
+Syrian Arab Republic,rio-2016,0.04666666666666667
+Syrian Arab Republic,seoul-1988,1.2066666666666668
+Syrian Arab Republic,sydney-2000,0.38666666666666666
+Syrian Arab Republic,tokyo-2020,0.6466666666666666
+Tajikistan,athens-2004,0.18333333333333332
+Tajikistan,atlanta-1996,0.6515634920634923
+Tajikistan,beijing-2008,2.256666666666667
+Tajikistan,london-2012,1.7258333333333333
+Tajikistan,rio-2016,1.0266666666666666
+Tajikistan,salt-lake-city-2002,0.07459974075840384
+Tajikistan,sochi-2014,0.07459974075840384
+Tajikistan,sydney-2000,0.0
+Tajikistan,tokyo-2020,1.7975
+Tajikistan,turin-2006,0.02
+Tajikistan,vancouver-2010,0.0
+Thailand,athens-2004,11.543333333333333
+Thailand,atlanta-1996,8.327
+Thailand,barcelona-1992,7.0
+Thailand,beijing-2008,15.453333333333333
+Thailand,beijing-2022,0.0
+Thailand,helsinki-1952,0.07459974075840384
+Thailand,london-2012,6.086666666666667
+Thailand,los-angeles-1984,4.003333333333333
+Thailand,melbourne-1956,6.530555555555556
+Thailand,mexico-city-1968,4.16
+Thailand,montreal-1976,9.056666666666667
+Thailand,munich-1972,4.44
+Thailand,pyeongchang-2018,0.0
+Thailand,rio-2016,11.793333333333333
+Thailand,rome-1960,0.30666666666666664
+Thailand,salt-lake-city-2002,0.0013333333333333335
+Thailand,seoul-1988,1.89
+Thailand,sochi-2014,0.0
+Thailand,sydney-2000,4.463333333333333
+Thailand,tokyo-1964,8.743333333333334
+Thailand,tokyo-2020,5.88
+Thailand,turin-2006,0.0
+The Former Yugoslav Republic of Macedonia,athens-2004,0.14666666666666667
+The Former Yugoslav Republic of Macedonia,atlanta-1996,0.15666666666666668
+The Former Yugoslav Republic of Macedonia,beijing-2008,0.0
+The Former Yugoslav Republic of Macedonia,london-2012,0.0
+The Former Yugoslav Republic of Macedonia,nagano-1998,0.0
+The Former Yugoslav Republic of Macedonia,pyeongchang-2018,0.0
+The Former Yugoslav Republic of Macedonia,rio-2016,0.016666666666666666
+The Former Yugoslav Republic of Macedonia,salt-lake-city-2002,0.1315
+The Former Yugoslav Republic of Macedonia,sochi-2014,0.0
+The Former Yugoslav Republic of Macedonia,sydney-2000,0.7718333333333334
+The Former Yugoslav Republic of Macedonia,turin-2006,0.0
+The Former Yugoslav Republic of Macedonia,vancouver-2010,0.0
+Togo,athens-2004,0.0
+Togo,barcelona-1992,0.07630631753962018
+Togo,beijing-2008,0.9882182539682541
+Togo,london-2012,0.0
+Togo,los-angeles-1984,0.07566666666666666
+Togo,montreal-1976,0.013333333333333334
+Togo,munich-1972,0.679772486772487
+Togo,pyeongchang-2018,0.0
+Togo,rio-2016,0.0
+Togo,seoul-1988,0.7463333333333334
+Togo,sochi-2014,0.0033333333333333335
+Togo,tokyo-2020,0.0
+Tonga,athens-2004,0.0
+Tonga,atlanta-1996,0.48724603174603165
+Tonga,barcelona-1992,0.01715909090909091
+Tonga,beijing-2008,0.4359247778365425
+Tonga,london-2012,0.0
+Tonga,los-angeles-1984,1.5473333333333332
+Tonga,pyeongchang-2018,0.0
+Tonga,rio-2016,0.012083333333333333
+Tonga,seoul-1988,0.3822222222222222
+Tonga,sochi-2014,0.0
+Tonga,sydney-2000,0.4359247778365425
+Tonga,tokyo-2020,1.3459848484848485
+Trinidad and Tobago,athens-2004,4.023333333333333
+Trinidad and Tobago,atlanta-1996,1.3733333333333333
+Trinidad and Tobago,barcelona-1992,2.1323217893217894
+Trinidad and Tobago,beijing-2008,3.2126666666666663
+Trinidad and Tobago,beijing-2022,0.46221581196581174
+Trinidad and Tobago,helsinki-1952,1.1758095238095236
+Trinidad and Tobago,lillehammer-1994,0.0
+Trinidad and Tobago,london-1948,0.43205158730158727
+Trinidad and Tobago,london-2012,11.383333333333333
+Trinidad and Tobago,los-angeles-1984,2.6333333333333333
+Trinidad and Tobago,melbourne-1956,2.0166666666666666
+Trinidad and Tobago,mexico-city-1968,3.3916666666666666
+Trinidad and Tobago,montreal-1976,2.689126984126984
+Trinidad and Tobago,moscow-1980,3.18
+Trinidad and Tobago,munich-1972,4.116666666666666
+Trinidad and Tobago,nagano-1998,0.0
+Trinidad and Tobago,rio-2016,4.79
+Trinidad and Tobago,salt-lake-city-2002,0.0
+Trinidad and Tobago,seoul-1988,0.4866666666666667
+Trinidad and Tobago,sydney-2000,1.6222222222222225
+Trinidad and Tobago,tokyo-1964,4.523333333333333
+Trinidad and Tobago,tokyo-2020,2.7933333333333334
+Tunisia,athens-2004,6.413333333333333
+Tunisia,atlanta-1996,6.85
+Tunisia,barcelona-1992,0.52
+Tunisia,beijing-2008,2.8966666666666665
+Tunisia,london-2012,12.116666666666667
+Tunisia,los-angeles-1984,3.026666666666667
+Tunisia,mexico-city-1968,1.622222222222222
+Tunisia,montreal-1976,5.616666666666666
+Tunisia,munich-1972,5.12
+Tunisia,rio-2016,7.673333333333333
+Tunisia,rome-1960,10.016666666666667
+Tunisia,seoul-1988,5.223333333333334
+Tunisia,sydney-2000,3.7933333333333334
+Tunisia,tokyo-1964,3.1422222222222222
+Tunisia,tokyo-2020,24.94
+Turkey,albertville-1992,2.27
+Turkey,amsterdam-1928,8.543333333333333
+Turkey,athens-2004,12.343333333333334
+Turkey,atlanta-1996,13.606666666666667
+Turkey,barcelona-1992,10.466666666666667
+Turkey,beijing-2008,11.936666666666667
+Turkey,beijing-2022,0.016666666666666666
+Turkey,berlin-1936,17.606666666666666
+Turkey,calgary-1988,2.7
+Turkey,cortina-d-ampezzo-1956,0.013333333333333334
+Turkey,garmisch-partenkirchen-1936,3.8266666666666667
+Turkey,grenoble-1968,2.34
+Turkey,helsinki-1952,9.133333333333333
+Turkey,innsbruck-1964,0.0
+Turkey,innsbruck-1976,3.0366666666666666
+Turkey,lillehammer-1994,0.0
+Turkey,london-1908,0.267462962962963
+Turkey,london-1948,31.723333333333333
+Turkey,london-2012,16.286666666666665
+Turkey,los-angeles-1984,12.356666666666667
+Turkey,melbourne-1956,9.4
+Turkey,mexico-city-1968,4.65
+Turkey,montreal-1976,3.6066666666666665
+Turkey,munich-1972,3.453333333333333
+Turkey,nagano-1998,0.0
+Turkey,paris-1924,2.86
+Turkey,pyeongchang-2018,0.30333333333333334
+Turkey,rio-2016,19.94
+Turkey,rome-1960,19.37
+Turkey,salt-lake-city-2002,0.03
+Turkey,sarajevo-1984,2.3733333333333335
+Turkey,seoul-1988,7.85
+Turkey,sochi-2014,0.02
+Turkey,squaw-valley-1960,0.0
+Turkey,st-moritz-1948,0.4561904761904762
+Turkey,stockholm-1912,1.4106354980538014
+Turkey,sydney-2000,11.46
+Turkey,tokyo-1964,8.22
+Turkey,tokyo-2020,45.99
+Turkey,turin-2006,0.0
+Turkey,vancouver-2010,0.16833333333333333
+Turkmenistan,athens-2004,0.4736666666666666
+Turkmenistan,atlanta-1996,0.8866666666666667
+Turkmenistan,beijing-2008,0.41833333333333333
+Turkmenistan,london-2012,0.6333333333333333
+Turkmenistan,rio-2016,0.30333333333333334
+Turkmenistan,sydney-2000,0.3622222222222222
+Turkmenistan,tokyo-2020,3.91
+Tuvalu,beijing-2008,0.0
+Tuvalu,london-2012,0.03762840862840863
+US Virgin Islands,albertville-1992,4.3545
+US Virgin Islands,athens-2004,0.01388888888888889
+US Virgin Islands,atlanta-1996,0.13288888888888886
+US Virgin Islands,barcelona-1992,1.95
+US Virgin Islands,beijing-2008,0.07666666666666666
+US Virgin Islands,calgary-1988,0.035333333333333335
+US Virgin Islands,lillehammer-1994,1.9675555555555555
+US Virgin Islands,london-2012,0.005
+US Virgin Islands,los-angeles-1984,6.906666666666666
+US Virgin Islands,mexico-city-1968,0.04
+US Virgin Islands,montreal-1976,4.1
+US Virgin Islands,munich-1972,2.6766666666666667
+US Virgin Islands,nagano-1998,3.000857142857143
+US Virgin Islands,rio-2016,0.29777777777777775
+US Virgin Islands,salt-lake-city-2002,1.4049920634920636
+US Virgin Islands,seoul-1988,7.513333333333334
+US Virgin Islands,sochi-2014,0.0
+US Virgin Islands,sydney-2000,0.04
+Uganda,athens-2004,1.0133333333333334
+Uganda,atlanta-1996,0.71
+Uganda,barcelona-1992,0.3108333333333333
+Uganda,beijing-2008,0.0
+Uganda,london-2012,1.0433333333333332
+Uganda,los-angeles-1984,6.133333333333334
+Uganda,melbourne-1956,0.33066666666666666
+Uganda,mexico-city-1968,2.7333333333333334
+Uganda,montreal-1976,0.8115082972582969
+Uganda,moscow-1980,2.85
+Uganda,munich-1972,5.5633333333333335
+Uganda,rio-2016,0.5266666666666666
+Uganda,rome-1960,0.27
+Uganda,seoul-1988,1.45
+Uganda,sydney-2000,0.42
+Uganda,tokyo-1964,4.026666666666666
+Uganda,tokyo-2020,5.666666666666667
+Ukraine,athens-2004,68.20666666666666
+Ukraine,atlanta-1996,84.57
+Ukraine,beijing-2008,73.0
+Ukraine,beijing-2022,16.586666666666666
+Ukraine,lillehammer-1994,12.363333333333333
+Ukraine,london-2012,69.03666666666666
+Ukraine,nagano-1998,27.356666666666666
+Ukraine,pyeongchang-2018,7.453333333333333
+Ukraine,rio-2016,65.62666666666667
+Ukraine,salt-lake-city-2002,15.61
+Ukraine,sochi-2014,16.163333333333334
+Ukraine,sydney-2000,84.67666666666666
+Ukraine,tokyo-2020,59.29666666666667
+Ukraine,turin-2006,22.44333333333333
+Ukraine,vancouver-2010,10.19
+Unified Team,albertville-1992,55.376666666666665
+Unified Team,barcelona-1992,257.01
+United Arab Emirates,athens-2004,0.2523875661375662
+United Arab Emirates,atlanta-1996,0.0
+United Arab Emirates,barcelona-1992,8.5
+United Arab Emirates,beijing-2008,0.17333333333333334
+United Arab Emirates,london-2012,1.8322539682539685
+United Arab Emirates,rio-2016,1.5433333333333332
+United Arab Emirates,seoul-1988,8.516666666666667
+United Arab Emirates,sydney-2000,0.4633333333333333
+United Arab Emirates,tokyo-2020,0.04666666666666667
+United Arab Republic,rome-1960,15.871666666666666
+United Republic of Tanzania,athens-2004,0.679772486772487
+United Republic of Tanzania,atlanta-1996,0.11111111111111109
+United Republic of Tanzania,barcelona-1992,1.5788888888888888
+United Republic of Tanzania,beijing-2008,1.5866666666666667
+United Republic of Tanzania,london-2012,0.2568888888888889
+United Republic of Tanzania,los-angeles-1984,1.9033333333333333
+United Republic of Tanzania,mexico-city-1968,0.382702528952529
+United Republic of Tanzania,moscow-1980,5.713333333333333
+United Republic of Tanzania,munich-1972,1.2666666666666666
+United Republic of Tanzania,rio-2016,0.0
+United Republic of Tanzania,seoul-1988,0.13666666666666666
+United Republic of Tanzania,sydney-2000,0.9703095238095236
+United Republic of Tanzania,tokyo-1964,0.03242063492063492
+United Republic of Tanzania,tokyo-2020,0.0
+United States of America,albertville-1992,51.45666666666666
+United States of America,amsterdam-1928,97.92333333333333
+United States of America,antwerp-1920,180.65333333333334
+United States of America,athens-1896,29.726666666666667
+United States of America,athens-2004,208.83333333333334
+United States of America,atlanta-1996,223.03666666666666
+United States of America,barcelona-1992,229.82666666666665
+United States of America,beijing-2008,228.8
+United States of America,beijing-2022,95.34
+United States of America,berlin-1936,121.85333333333334
+United States of America,calgary-1988,37.77
+United States of America,chamonix-1924,6.983333333333333
+United States of America,cortina-d-ampezzo-1956,17.083333333333332
+United States of America,garmisch-partenkirchen-1936,18.433333333333334
+United States of America,grenoble-1968,25.58
+United States of America,helsinki-1952,136.45666666666668
+United States of America,innsbruck-1964,21.956666666666667
+United States of America,innsbruck-1976,29.5
+United States of America,lake-placid-1932,35.446666666666665
+United States of America,lake-placid-1980,31.903333333333332
+United States of America,lillehammer-1994,56.026666666666664
+United States of America,london-1908,102.68666666666667
+United States of America,london-1948,134.57666666666665
+United States of America,london-2012,250.93333333333334
+United States of America,los-angeles-1932,166.78333333333333
+United States of America,los-angeles-1984,283.82666666666665
+United States of America,melbourne-1956,125.94
+United States of America,mexico-city-1968,219.85666666666665
+United States of America,montreal-1976,227.09
+United States of America,munich-1972,196.48
+United States of America,nagano-1998,60.04666666666667
+United States of America,oslo-1952,22.683333333333334
+United States of America,paris-1900,63.486666666666665
+United States of America,paris-1924,152.14666666666668
+United States of America,pyeongchang-2018,81.13
+United States of America,rio-2016,225.28333333333333
+United States of America,rome-1960,133.25333333333333
+United States of America,salt-lake-city-2002,74.14666666666666
+United States of America,sapporo-1972,23.676666666666666
+United States of America,sarajevo-1984,31.38
+United States of America,seoul-1988,224.52333333333334
+United States of America,sochi-2014,96.5
+United States of America,squaw-valley-1960,18.996666666666666
+United States of America,st-louis-1904,388.27666666666664
+United States of America,st-moritz-1928,13.273333333333333
+United States of America,st-moritz-1948,18.383333333333333
+United States of America,stockholm-1912,133.72333333333333
+United States of America,sydney-2000,219.43666666666667
+United States of America,tokyo-1964,174.34
+United States of America,tokyo-2020,404.27666666666664
+United States of America,turin-2006,73.18666666666667
+United States of America,vancouver-2010,83.48
+Uruguay,amsterdam-1928,2.531388888888889
+Uruguay,athens-2004,0.43
+Uruguay,atlanta-1996,1.02
+Uruguay,barcelona-1992,2.8233333333333333
+Uruguay,beijing-2008,0.2633333333333333
+Uruguay,berlin-1936,10.05
+Uruguay,helsinki-1952,9.511666666666667
+Uruguay,london-1948,17.216666666666665
+Uruguay,london-2012,2.92
+Uruguay,los-angeles-1932,1.5307380952380947
+Uruguay,los-angeles-1984,4.2665
+Uruguay,melbourne-1956,5.04
+Uruguay,mexico-city-1968,2.2666666666666666
+Uruguay,montreal-1976,0.43
+Uruguay,munich-1972,1.6766666666666667
+Uruguay,nagano-1998,0.006666666666666667
+Uruguay,paris-1924,4.28311111111111
+Uruguay,rio-2016,1.5133333333333334
+Uruguay,rome-1960,8.078333333333333
+Uruguay,seoul-1988,2.6033333333333335
+Uruguay,sydney-2000,1.1766666666666667
+Uruguay,tokyo-1964,6.616666666666666
+Uruguay,tokyo-2020,0.5653333333333334
+Uzbekistan,athens-2004,7.0633333333333335
+Uzbekistan,atlanta-1996,11.583333333333334
+Uzbekistan,beijing-2008,10.146666666666667
+Uzbekistan,beijing-2022,0.0
+Uzbekistan,lillehammer-1994,2.0033333333333334
+Uzbekistan,london-2012,10.04
+Uzbekistan,nagano-1998,0.5869542957042951
+Uzbekistan,pyeongchang-2018,0.0
+Uzbekistan,rio-2016,23.02
+Uzbekistan,salt-lake-city-2002,0.04666666666666667
+Uzbekistan,sochi-2014,0.07333333333333333
+Uzbekistan,sydney-2000,12.366666666666667
+Uzbekistan,tokyo-2020,20.77
+Uzbekistan,turin-2006,0.6933333333333334
+Uzbekistan,vancouver-2010,0.0
+Vanuatu,barcelona-1992,0.07459974075840384
+Vanuatu,beijing-2008,0.0
+Vanuatu,london-2012,0.1
+Vanuatu,rio-2016,0.0580952380952381
+Vanuatu,seoul-1988,0.0
+Vanuatu,sydney-2000,0.0
+Vanuatu,tokyo-2020,0.22811111111111113
+Venezuela,athens-2004,3.3633333333333333
+Venezuela,atlanta-1996,10.243333333333334
+Venezuela,barcelona-1992,3.1166666666666667
+Venezuela,beijing-2008,12.88
+Venezuela,helsinki-1952,2.0733333333333333
+Venezuela,london-1948,0.0
+Venezuela,london-2012,11.096666666666666
+Venezuela,los-angeles-1984,11.286666666666667
+Venezuela,melbourne-1956,3.3033333333333332
+Venezuela,mexico-city-1968,2.75
+Venezuela,montreal-1976,5.8
+Venezuela,moscow-1980,7.933333333333334
+Venezuela,munich-1972,0.6322222222222222
+Venezuela,nagano-1998,0.0
+Venezuela,rio-2016,19.636666666666667
+Venezuela,rome-1960,6.57
+Venezuela,salt-lake-city-2002,0.2179325396825397
+Venezuela,seoul-1988,3.7133333333333334
+Venezuela,sochi-2014,0.07459974075840384
+Venezuela,sydney-2000,5.296666666666667
+Venezuela,tokyo-1964,3.763333333333333
+Venezuela,tokyo-2020,22.313333333333333
+Venezuela,turin-2006,0.0
+Vietnam,athens-2004,0.6633333333333333
+Vietnam,atlanta-1996,0.0
+Vietnam,barcelona-1992,0.28
+Vietnam,beijing-2008,2.6966666666666668
+Vietnam,london-2012,0.7566666666666667
+Vietnam,moscow-1980,2.74
+Vietnam,rio-2016,3.5733333333333333
+Vietnam,seoul-1988,0.43111111111111106
+Vietnam,sydney-2000,0.6750555555555556
+Vietnam,tokyo-2020,3.2016666666666667
+"Virgin Islands, British",tokyo-2020,0.15866666666666668
+"Virgin Islands, US",beijing-2022,0.0005555555555555556
+"Virgin Islands, US",tokyo-2020,0.0
+West Indies Federation,rome-1960,6.2651111111111115
+Yemen,athens-2004,0.0
+Yemen,atlanta-1996,0.6633333333333333
+Yemen,barcelona-1992,0.4
+Yemen,beijing-2008,0.0
+Yemen,london-2012,0.04452380952380953
+Yemen,rio-2016,0.05
+Yemen,tokyo-2020,0.0
+Yemen Arab Republic,los-angeles-1984,0.07459974075840384
+Yemen Arab Republic,seoul-1988,0.6012355699855696
+Yemen Democratic Republic,seoul-1988,0.12423590298590301
+Yugoslavia,albertville-1992,7.25
+Yugoslavia,amsterdam-1928,12.036666666666667
+Yugoslavia,antwerp-1920,3.942674603174604
+Yugoslavia,berlin-1936,14.456666666666667
+Yugoslavia,calgary-1988,4.763333333333334
+Yugoslavia,chamonix-1924,0.01
+Yugoslavia,cortina-d-ampezzo-1956,4.95
+Yugoslavia,garmisch-partenkirchen-1936,5.1466666666666665
+Yugoslavia,grenoble-1968,2.7
+Yugoslavia,helsinki-1952,27.016666666666666
+Yugoslavia,innsbruck-1964,4.56
+Yugoslavia,innsbruck-1976,2.61
+Yugoslavia,lake-placid-1980,1.6466666666666667
+Yugoslavia,london-1948,15.16
+Yugoslavia,los-angeles-1932,0.0
+Yugoslavia,los-angeles-1984,40.71
+Yugoslavia,melbourne-1956,6.376666666666667
+Yugoslavia,mexico-city-1968,18.3
+Yugoslavia,montreal-1976,25.476666666666667
+Yugoslavia,moscow-1980,35.46333333333333
+Yugoslavia,munich-1972,28.076666666666668
+Yugoslavia,oslo-1952,0.6444444444444444
+Yugoslavia,paris-1924,12.036666666666667
+Yugoslavia,rome-1960,13.896666666666667
+Yugoslavia,sapporo-1972,1.9333333333333333
+Yugoslavia,sarajevo-1984,17.283333333333335
+Yugoslavia,seoul-1988,35.95
+Yugoslavia,st-moritz-1928,0.580111111111111
+Yugoslavia,st-moritz-1948,3.1133333333333333
+Yugoslavia,tokyo-1964,15.976666666666667
+Zambia,athens-2004,0.021666666666666667
+Zambia,atlanta-1996,3.4566666666666666
+Zambia,barcelona-1992,0.5093333333333334
+Zambia,beijing-2008,0.14666666666666667
+Zambia,london-2012,0.04666666666666667
+Zambia,los-angeles-1984,1.85
+Zambia,mexico-city-1968,0.24866666666666665
+Zambia,montreal-1976,0.301047619047619
+Zambia,moscow-1980,4.57
+Zambia,munich-1972,1.7748888888888894
+Zambia,rio-2016,0.0
+Zambia,seoul-1988,3.09
+Zambia,sydney-2000,0.7161825396825393
+Zambia,tokyo-1964,0.07
+Zambia,tokyo-2020,15.485555555555553
+Zimbabwe,amsterdam-1928,1.157314814814815
+Zimbabwe,athens-2004,2.4716666666666667
+Zimbabwe,atlanta-1996,0.4551666666666667
+Zimbabwe,barcelona-1992,0.9133333333333333
+Zimbabwe,beijing-2008,3.6825
+Zimbabwe,london-2012,0.7633333333333333
+Zimbabwe,los-angeles-1984,1.8966666666666667
+Zimbabwe,moscow-1980,4.910095238095238
+Zimbabwe,rio-2016,2.29
+Zimbabwe,rome-1960,0.0
+Zimbabwe,seoul-1988,6.3
+Zimbabwe,sochi-2014,0.0
+Zimbabwe,sydney-2000,0.9233333333333333
+Zimbabwe,tokyo-1964,2.31
+Zimbabwe,tokyo-2020,0.07896031746031747

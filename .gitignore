@@ -247,6 +247,11 @@ logs/
 *.seed
 *.pid.lock
 
+# Project artifacts (large)
+data/processed/olympic_full.csv
+models/rf_classifier_medal.joblib
+models/reg_medals_total_random_forest.joblib
+
 # Storybook / docs build
 storybook-static/
 out/

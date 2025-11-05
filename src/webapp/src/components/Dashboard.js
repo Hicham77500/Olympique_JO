@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { QueryClient, QueryClientProvider, useQueryClient } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { motion } from 'framer-motion';
@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 // Hooks personnalisés
 import { useFilters } from '../hooks/useFilters';
 import { useOlympicData } from '../hooks/useOlympicData';
+import { usePredictedMedals } from '../hooks/usePredictedMedals';
 
 // Composants
 import FilterPanel from './Filters/FilterPanel';
@@ -14,6 +15,7 @@ import CountryMedalsChart from './charts/CountryMedalsChart';
 import YearEvolutionChart from './charts/YearEvolutionChart';
 import MedalDistributionChart from './charts/MedalDistributionChart';
 import ResultsTable from './table/ResultsTable';
+import PredictedMedals from './predictions/PredictedMedals';
 
 // Styles
 import './Dashboard.css';
@@ -63,6 +65,31 @@ const DashboardContent = () => {
     aggregations: aggregations || {},
     stats: quickStats || {}
   };
+
+  const predictedQueryParams = useMemo(() => {
+    const params = {
+      limit: 50,
+      includeActual: true
+    };
+
+    if (filters?.countries?.length > 0) {
+      params.country = filters.countries;
+    }
+
+    if (filters?.years?.selected?.length === 2) {
+      const [minYear, maxYear] = filters.years.selected;
+      params.yearMin = minYear;
+      params.yearMax = maxYear;
+    }
+
+    return params;
+  }, [filters]);
+
+  const {
+    predictions,
+    isLoading: isLoadingPredictions,
+    error: predictionsError
+  } = usePredictedMedals(predictedQueryParams);
 
   // État local pour la pagination
   const [pagination, setPagination] = useState({
@@ -234,6 +261,14 @@ const DashboardContent = () => {
                   filters={filters}
                 />
               </motion.div>
+
+              <motion.div variants={itemVariants} className="chart-item span-2">
+                <PredictedMedals
+                  data={predictions}
+                  isLoading={isLoadingPredictions}
+                  error={predictionsError}
+                />
+              </motion.div>
               
               <motion.div variants={itemVariants} className="table-preview span-2">
                 <div className="preview-header">
@@ -303,7 +338,7 @@ const DashboardContent = () => {
       </div>
 
       {/* Indicateur de chargement global */}
-      {(isLoadingStats || isLoadingData) && (
+      {(isLoadingStats || isLoadingData || isLoadingPredictions) && (
         <motion.div 
           className="global-loading-indicator"
           initial={{ opacity: 0 }}

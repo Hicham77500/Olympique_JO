@@ -88,7 +88,70 @@ BEGIN
     TRUNCATE TABLE medals;
     TRUNCATE TABLE athletes;
     TRUNCATE TABLE hosts;
+    TRUNCATE TABLE medal_predictions;
+    TRUNCATE TABLE country_year_summary;
     SET FOREIGN_KEY_CHECKS = 1;
+END//
+DELIMITER ;
+
+-- Insertion des agrégations pays/édition
+DELIMITER //
+CREATE PROCEDURE InsertCountrySummary(
+    IN p_country_name VARCHAR(255),
+    IN p_slug_game VARCHAR(255),
+    IN p_medals_total INT,
+    IN p_athletes_unique INT,
+    IN p_avg_rank FLOAT,
+    IN p_medal_share FLOAT,
+    IN p_medals_total_lag_1 INT,
+    IN p_athletes_unique_lag_1 INT
+)
+BEGIN
+    INSERT INTO country_year_summary (
+        country_name,
+        slug_game,
+        medals_total,
+        athletes_unique,
+        avg_rank,
+        medal_share,
+        medals_total_lag_1,
+        athletes_unique_lag_1
+    ) VALUES (
+        p_country_name,
+        p_slug_game,
+        p_medals_total,
+        p_athletes_unique,
+        p_avg_rank,
+        p_medal_share,
+        p_medals_total_lag_1,
+        p_athletes_unique_lag_1
+    );
+END//
+DELIMITER ;
+
+-- Insertion des prédictions de médailles
+DELIMITER //
+CREATE PROCEDURE InsertMedalPrediction(
+    IN p_country_name VARCHAR(255),
+    IN p_slug_game VARCHAR(255),
+    IN p_model_name VARCHAR(100),
+    IN p_target VARCHAR(50),
+    IN p_predicted_value FLOAT
+)
+BEGIN
+    INSERT INTO medal_predictions (
+        country_name,
+        slug_game,
+        model_name,
+        target,
+        predicted_value
+    ) VALUES (
+        p_country_name,
+        p_slug_game,
+        p_model_name,
+        p_target,
+        p_predicted_value
+    );
 END//
 DELIMITER ;
 

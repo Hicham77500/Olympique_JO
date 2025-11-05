@@ -240,6 +240,105 @@ app.get('/api/results', async (req, res) => {
   }
 });
 
+// Route pour récupérer les prédictions de médailles
+app.get('/api/predicted_medals', async (req, res) => {
+  try {
+    const {
+      country,
+      slug_game: slugGame,
+      target,
+      model,
+      limit = DEFAULT_LIMIT,
+      offset = 0,
+      includeActual = 'false',
+      yearMin,
+      yearMax
+    } = req.query;
+
+    const parsedLimit = parseInt(limit, 10);
+    if (Number.isNaN(parsedLimit) || parsedLimit < 1 || parsedLimit > MAX_LIMIT) {
+      return res.status(400).json({
+        error: 'INVALID_LIMIT',
+        message: `Le paramètre "limit" doit être un entier entre 1 et ${MAX_LIMIT}.`
+      });
+    }
+
+    const parsedOffset = parseInt(offset, 10);
+    if (Number.isNaN(parsedOffset) || parsedOffset < 0) {
+      return res.status(400).json({
+        error: 'INVALID_OFFSET',
+        message: 'Le paramètre "offset" doit être un entier positif.'
+      });
+    }
+
+    const includeActualData = String(includeActual).toLowerCase() === 'true';
+
+    let query = `
+      SELECT
+        mp.country_name AS country,
+        mp.slug_game,
+        mp.model_name,
+        mp.target,
+        mp.predicted_value,
+        mp.created_at
+        ${includeActualData ? ', cys.medals_total AS actual_medals' : ''}
+      FROM medal_predictions mp
+      ${includeActualData ? 'LEFT JOIN country_year_summary cys ON cys.country_name = mp.country_name AND cys.slug_game = mp.slug_game' : ''}
+      WHERE 1 = 1
+    `;
+
+    const params = [];
+
+    const countries = Array.isArray(country)
+      ? country
+      : typeof country === 'string'
+        ? country.split(',').map(item => item.trim()).filter(Boolean)
+        : [];
+
+    if (countries.length > 0) {
+      const placeholders = countries.map(() => '?').join(', ');
+      query += ` AND mp.country_name IN (${placeholders})`;
+      params.push(...countries);
+    }
+
+    if (slugGame) {
+      query += ' AND mp.slug_game = ?';
+      params.push(slugGame);
+    }
+
+    if (target) {
+      query += ' AND mp.target = ?';
+      params.push(target);
+    }
+
+    if (model) {
+      query += ' AND mp.model_name = ?';
+      params.push(model);
+    }
+
+    const parsedYearMin = parseInt(yearMin, 10);
+    if (!Number.isNaN(parsedYearMin)) {
+      query += ' AND CAST(RIGHT(mp.slug_game, 4) AS UNSIGNED) >= ?';
+      params.push(parsedYearMin);
+    }
+
+    const parsedYearMax = parseInt(yearMax, 10);
+    if (!Number.isNaN(parsedYearMax)) {
+      query += ' AND CAST(RIGHT(mp.slug_game, 4) AS UNSIGNED) <= ?';
+      params.push(parsedYearMax);
+    }
+
+    query += ' ORDER BY mp.created_at DESC, mp.country_name LIMIT ? OFFSET ?';
+    params.push(parsedLimit, parsedOffset);
+
+    const predictions = await executeQuery(query, params);
+    res.json(predictions);
+  } catch (error) {
+    console.error('❌ Erreur /api/predicted_medals:', error);
+    res.status(500).json({ error: 'Erreur lors de la récupération des prédictions' });
+  }
+});
+
 // Route pour obtenir les sports disponibles
 app.get('/api/sports', async (req, res) => {
   try {
@@ -702,9 +801,12 @@ process.on('SIGTERM', () => {
 });
 
 // Démarrage de l'application
-startServer().catch(error => {
-  console.error('❌ Erreur lors du démarrage du serveur:', error);
-  process.exit(1);
-});
+if (require.main === module) {
+  startServer().catch(error => {
+    console.error('❌ Erreur lors du démarrage du serveur:', error);
+    process.exit(1);
+  });
+}
 
 module.exports = app;
+module.exports.startServer = startServer;

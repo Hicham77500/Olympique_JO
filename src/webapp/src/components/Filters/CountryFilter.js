@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import Select from 'react-select';
+import Select, { components as selectComponents } from 'react-select';
 import { useFilterOptions } from '../../hooks/useOlympicData';
 
 const CountryFilter = ({ selectedCountries, onChange, disabled = false }) => {
@@ -153,13 +153,12 @@ const CountryFilter = ({ selectedCountries, onChange, disabled = false }) => {
           closeMenuOnSelect={false}
           hideSelectedOptions={false}
           components={{
-            // Composant personnalisé pour le placeholder
-            Placeholder: ({ children, ...props }) => (
-              <div {...props}>
+            Placeholder: (placeholderProps) => (
+              <selectComponents.Placeholder {...placeholderProps}>
                 <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  🔍 {children}
+                  🔍 {placeholderProps.children}
                 </span>
-              </div>
+              </selectComponents.Placeholder>
             )
           }}
         />
