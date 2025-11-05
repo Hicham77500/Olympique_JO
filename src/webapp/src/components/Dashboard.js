@@ -16,6 +16,7 @@ import YearEvolutionChart from './charts/YearEvolutionChart';
 import MedalDistributionChart from './charts/MedalDistributionChart';
 import ResultsTable from './table/ResultsTable';
 import PredictedMedals from './predictions/PredictedMedals';
+import MlFiguresPanel from './reports/MlFiguresPanel';
 
 // Styles
 import './Dashboard.css';
@@ -103,6 +104,7 @@ const DashboardContent = () => {
   const tabs = [
     { id: 'overview', label: 'Vue d\'ensemble', icon: '📊' },
     { id: 'charts', label: 'Graphiques', icon: '📈' },
+    { id: 'ml-reports', label: 'Figures & Scores ML/IA', icon: '🤖' },
     { id: 'table', label: 'Données détaillées', icon: '📋' }
   ];
 
@@ -138,8 +140,11 @@ const DashboardContent = () => {
     }
   };
 
+  const dashboardClassName = `dashboard ${isFiltersPanelOpen ? 'filters-open' : ''}`;
+  const mainContentClassName = 'main-content';
+
   return (
-    <div className="dashboard">
+    <div className={dashboardClassName}>
       {/* En-tête du dashboard */}
       <motion.header 
         className="dashboard-header"
@@ -158,6 +163,7 @@ const DashboardContent = () => {
               className={`filter-toggle ${isFiltersPanelOpen ? 'active' : ''}`}
               onClick={() => setIsFiltersPanelOpen(!isFiltersPanelOpen)}
               aria-label="Basculer le panneau de filtres"
+              aria-pressed={isFiltersPanelOpen}
             >
               🎛️ Filtres
               {hasActiveFilters && <span className="active-filters-indicator"></span>}
@@ -196,13 +202,15 @@ const DashboardContent = () => {
       <div className="dashboard-content">
         {/* Panneau de filtres */}
         <motion.aside 
-          className={`filters-sidebar ${isFiltersPanelOpen ? 'open' : 'closed'}`}
+          className="filters-sidebar"
           initial={false}
           animate={{ 
-            width: isFiltersPanelOpen ? 320 : 0,
+            x: isFiltersPanelOpen ? 0 : -360,
             opacity: isFiltersPanelOpen ? 1 : 0
           }}
           transition={{ duration: 0.3, ease: 'easeInOut' }}
+          aria-hidden={!isFiltersPanelOpen}
+          style={{ pointerEvents: isFiltersPanelOpen ? 'auto' : 'none' }}
         >
           {isFiltersPanelOpen && (
             <FilterPanel
@@ -218,10 +226,7 @@ const DashboardContent = () => {
 
         {/* Zone de contenu principale */}
         <motion.main 
-          className="main-content"
-          style={{
-            marginLeft: isFiltersPanelOpen ? 320 : 0
-          }}
+          className={mainContentClassName}
           initial="hidden"
           animate="visible"
           variants={containerVariants}
@@ -316,6 +321,12 @@ const DashboardContent = () => {
                   filters={filters}
                 />
               </motion.div>
+            </motion.div>
+          )}
+
+          {activeTab === 'ml-reports' && (
+            <motion.div variants={itemVariants}>
+              <MlFiguresPanel />
             </motion.div>
           )}
 

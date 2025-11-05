@@ -24,4 +24,4 @@ Correctifs |
 | JJ/MM/AAAA HH:MM | Local dev | API athletes / results / stats | ✅ | Aucune anomalie |
 | JJ/MM/AAAA HH:MM | Local dev | run_all + Dashboard | ⚠️ | Latence sur /api/results > 5s |
 
-Ajouter une ligne par incident rencontré en indiquant la résolution (commit, issue, rollback, etc.)."}
+Ajouter une ligne par incident rencontré en indiquant la résolution (commit, issue, rollback, etc.)."

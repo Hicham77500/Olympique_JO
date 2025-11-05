@@ -16,6 +16,18 @@
   color: #4b5563;
 }
 
+.predictions-card.error pre.predictions-error-details {
+  background: rgba(254, 226, 226, 0.65);
+  color: #b91c1c;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+  max-width: 100%;
+  overflow-x: auto;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
 .predictions-header {
   display: flex;
   justify-content: space-between;

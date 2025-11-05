@@ -1,8 +1,23 @@
 /* Dashboard principal */
 .dashboard {
+  --dashboard-max-width: 1400px;
+  --dashboard-padding-x: 24px;
+  --sidebar-width: 320px;
+  --sidebar-gap: 24px;
+  --layout-offset: 0px;
+  --content-max-width: min(
+    var(--dashboard-max-width),
+    calc(100vw - var(--layout-offset) - 2 * var(--dashboard-padding-x))
+  );
   min-height: 100vh;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  padding-left: var(--layout-offset);
+  transition: padding-left 0.3s ease;
+}
+
+.dashboard.filters-open {
+  --layout-offset: calc(var(--sidebar-width) + var(--sidebar-gap));
 }
 
 /* En-tête du dashboard */
@@ -22,7 +37,7 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 20px;
-  max-width: 1400px;
+  max-width: var(--content-max-width);
   margin-left: auto;
   margin-right: auto;
 }
@@ -95,7 +110,7 @@
 .dashboard-tabs {
   display: flex;
   gap: 4px;
-  max-width: 1400px;
+  max-width: var(--content-max-width);
   margin: 0 auto;
   border-bottom: 1px solid #e5e7eb;
 }
@@ -137,6 +152,12 @@
   display: flex;
   position: relative;
   min-height: calc(100vh - 120px);
+  padding: 24px var(--dashboard-padding-x) 48px;
+  box-sizing: border-box;
+  max-width: var(--content-max-width);
+  width: 100%;
+  margin: 0 auto;
+  transition: padding 0.3s ease;
 }
 
 /* Panneau de filtres */
@@ -145,26 +166,24 @@
   top: 120px;
   left: 0;
   height: calc(100vh - 120px);
+  width: var(--sidebar-width);
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   border-right: 1px solid rgba(255, 255, 255, 0.2);
   overflow-y: auto;
   z-index: 999;
   box-shadow: 4px 0 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-.filters-sidebar.closed {
-  transform: translateX(-100%);
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 /* Zone de contenu principale */
 .main-content {
   flex: 1;
   padding: 24px;
-  max-width: 1400px;
+  max-width: var(--content-max-width);
   margin: 0 auto;
   width: 100%;
-  transition: margin-left 0.3s ease;
+  transition: max-width 0.3s ease;
 }
 
 /* Grilles de layout */
@@ -302,6 +321,11 @@
 }
 
 @media (max-width: 768px) {
+  .dashboard,
+  .dashboard.filters-open {
+    --layout-offset: 0 !important;
+  }
+
   .dashboard-header {
     padding: 16px 16px 0;
   }
@@ -346,6 +370,7 @@
   .main-content {
     margin-left: 0 !important;
     padding: 12px;
+    max-width: 100%;
   }
   
   .header-title h1 {

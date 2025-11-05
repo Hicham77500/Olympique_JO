@@ -1,5 +1,8 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
+const fsPromises = require('fs/promises');
+const fs = require('fs');
 require('dotenv').config();
 
 const { testConnection, executeQuery, getStats } = require('./database');
@@ -9,12 +12,223 @@ const PORT = process.env.PORT || 3001;
 const DEFAULT_LIMIT = 100;
 const MAX_LIMIT = 500;
 
+// Dossiers projet
+const PROJECT_ROOT = path.resolve(__dirname, '..', '..');
+const REPORTS_DIR = path.join(PROJECT_ROOT, 'reports');
+const FIGURES_DIR = path.join(REPORTS_DIR, 'figures');
+const SCORES_DIR = REPORTS_DIR;
+const PREDICTIONS_CSV_PATH = path.join(REPORTS_DIR, 'medal_predictions.csv');
+const COUNTRY_SUMMARY_CSV_PATH = path.join(PROJECT_ROOT, 'data', 'processed', 'country_year_summary.csv');
+
+const pathExists = async (targetPath) => {
+  try {
+    await fsPromises.access(targetPath, fs.constants.F_OK);
+    return true;
+  } catch (error) {
+    return false;
+  }
+};
+
+const parseCsvContent = (content) => {
+  const lines = content.split(/\r?\n/).filter((line) => line.trim().length > 0);
+  if (lines.length === 0) {
+    return [];
+  }
+
+  const [headerLine, ...dataLines] = lines;
+  const headers = headerLine.split(',').map((column) => column.trim());
+
+  return dataLines.map((line) => {
+    const values = line.split(',');
+    return headers.reduce((acc, header, index) => {
+      const rawValue = values[index] !== undefined ? values[index].trim() : '';
+      acc[header] = rawValue;
+      return acc;
+    }, {});
+  });
+};
+
+const readCsvRows = async (filePath) => {
+  const exists = await pathExists(filePath);
+  if (!exists) {
+    return [];
+  }
+  const content = await fsPromises.readFile(filePath, 'utf-8');
+  return parseCsvContent(content);
+};
+
+const buildReportsStaticUrl = (relativePath) => `/reports/${relativePath.replace(/\\/g, '/')}`;
+
+const enrichPredictionsWithActuals = (predictions, actualsMap) => (
+  predictions.map((row) => {
+    const key = `${row.country}|${row.slug_game}`;
+    const actualValue = actualsMap.get(key);
+    return {
+      ...row,
+      actual_medals: actualValue !== undefined ? actualValue : row.actual_medals
+    };
+  })
+);
+
+const loadPredictionsFallback = async (filters = {}, includeActualData = false, limit = DEFAULT_LIMIT, offset = 0) => {
+  const csvRows = await readCsvRows(PREDICTIONS_CSV_PATH);
+
+  if (csvRows.length === 0) {
+    console.warn('⚠️ Aucun fichier de prédiction CSV trouvé pour le fallback.');
+    return [];
+  }
+
+  const countriesFilter = Array.isArray(filters.country)
+    ? filters.country
+    : typeof filters.country === 'string'
+      ? filters.country.split(',').map((value) => value.trim()).filter(Boolean)
+      : [];
+
+  const normalizedFilter = {
+    countries: countriesFilter,
+    slugGame: filters.slug_game,
+    target: filters.target,
+    model: filters.model,
+    yearMin: filters.yearMin ? parseInt(filters.yearMin, 10) : undefined,
+    yearMax: filters.yearMax ? parseInt(filters.yearMax, 10) : undefined
+  };
+
+  let predictions = csvRows.map((row) => {
+    const country = row.country_name || row.country;
+    const slugGame = row.slug_game;
+    const predictedValue = Number(row.predicted_value ?? row.predicted_medals ?? row.predicted_medals_total ?? row.prediction ?? 0);
+
+    return {
+      country,
+      slug_game: slugGame,
+      model_name: row.model_name || filters.model || 'csv_regression_model',
+      target: row.target || 'medals_total',
+      predicted_value: predictedValue,
+      created_at: row.created_at || null
+    };
+  });
+
+  if (normalizedFilter.countries.length > 0) {
+    predictions = predictions.filter((item) => normalizedFilter.countries.includes(item.country));
+  }
+
+  if (normalizedFilter.slugGame) {
+    predictions = predictions.filter((item) => item.slug_game === normalizedFilter.slugGame);
+  }
+
+  if (normalizedFilter.target) {
+    predictions = predictions.filter((item) => item.target === normalizedFilter.target);
+  }
+
+  if (normalizedFilter.model) {
+    predictions = predictions.filter((item) => item.model_name === normalizedFilter.model);
+  }
+
+  if (Number.isInteger(normalizedFilter.yearMin)) {
+    predictions = predictions.filter((item) => {
+      const editionYear = parseInt(String(item.slug_game).slice(-4), 10);
+      return Number.isInteger(editionYear) ? editionYear >= normalizedFilter.yearMin : true;
+    });
+  }
+
+  if (Number.isInteger(normalizedFilter.yearMax)) {
+    predictions = predictions.filter((item) => {
+      const editionYear = parseInt(String(item.slug_game).slice(-4), 10);
+      return Number.isInteger(editionYear) ? editionYear <= normalizedFilter.yearMax : true;
+    });
+  }
+
+  if (includeActualData) {
+    const actualRows = await readCsvRows(COUNTRY_SUMMARY_CSV_PATH);
+    const actualsMap = new Map();
+    actualRows.forEach((row) => {
+      const key = `${row.country_name || row.country}|${row.slug_game}`;
+      const medalsTotal = row.medals_total !== undefined ? Number(row.medals_total) : undefined;
+      if (!Number.isNaN(medalsTotal)) {
+        actualsMap.set(key, medalsTotal);
+      }
+    });
+    predictions = enrichPredictionsWithActuals(predictions, actualsMap);
+  }
+
+  predictions.sort((a, b) => {
+    const timeA = a.created_at ? new Date(a.created_at).getTime() : 0;
+    const timeB = b.created_at ? new Date(b.created_at).getTime() : 0;
+    if (timeA !== timeB) {
+      return timeB - timeA;
+    }
+    return String(a.country).localeCompare(String(b.country));
+  });
+
+  const start = offset;
+  const end = offset + limit;
+  return predictions.slice(start, end);
+};
+
+const listFigureAssets = async () => {
+  if (!(await pathExists(FIGURES_DIR))) {
+    console.warn('⚠️ Dossier figures introuvable:', FIGURES_DIR);
+    return [];
+  }
+
+  const entries = await fsPromises.readdir(FIGURES_DIR, { withFileTypes: true });
+  const pictures = entries
+    .filter((entry) => entry.isFile() && entry.name.toLowerCase().endsWith('.png'));
+
+  const assets = await Promise.all(pictures.map(async (entry) => {
+    const absolutePath = path.join(FIGURES_DIR, entry.name);
+    const stats = await fsPromises.stat(absolutePath);
+    return {
+      filename: entry.name,
+      label: entry.name.replace(/[-_]/g, ' ').replace(/\.png$/i, ''),
+      url: buildReportsStaticUrl(path.join('figures', entry.name)),
+      size: stats.size,
+      modifiedAt: stats.mtime
+    };
+  }));
+
+  return assets.sort((a, b) => b.modifiedAt - a.modifiedAt);
+};
+
+const listScoreFiles = async () => {
+  if (!(await pathExists(SCORES_DIR))) {
+    return [];
+  }
+
+  const entries = await fsPromises.readdir(SCORES_DIR, { withFileTypes: true });
+  const csvFiles = entries.filter((entry) => {
+    if (!entry.isFile() || !entry.name.toLowerCase().endsWith('.csv')) {
+      return false;
+    }
+    const lowerName = entry.name.toLowerCase();
+    return lowerName.includes('score') || lowerName.includes('metric');
+  });
+
+  const datasets = await Promise.all(csvFiles.map(async (entry) => {
+    const absolutePath = path.join(SCORES_DIR, entry.name);
+    const stats = await fsPromises.stat(absolutePath);
+    const rows = await readCsvRows(absolutePath);
+    const headers = rows.length > 0 ? Object.keys(rows[0]) : [];
+    return {
+      filename: entry.name,
+      url: buildReportsStaticUrl(entry.name),
+      size: stats.size,
+      modifiedAt: stats.mtime,
+      headers,
+      rows
+    };
+  }));
+
+  return datasets.sort((a, b) => b.modifiedAt - a.modifiedAt);
+};
+
 // Middleware
 app.use(cors({
   origin: ['http://localhost:3000', 'http://127.0.0.1:3000'],
   credentials: true
 }));
 app.use(express.json());
+app.use('/reports', express.static(path.join(PROJECT_ROOT, 'reports')));
 
 // Middleware de logging
 app.use((req, res, next) => {
@@ -331,11 +545,63 @@ app.get('/api/predicted_medals', async (req, res) => {
     query += ' ORDER BY mp.created_at DESC, mp.country_name LIMIT ? OFFSET ?';
     params.push(parsedLimit, parsedOffset);
 
-    const predictions = await executeQuery(query, params);
+    const filterOptions = {
+      country,
+      slug_game: slugGame,
+      target,
+      model,
+      yearMin,
+      yearMax
+    };
+
+    let predictions;
+    let dataSource = 'database';
+    try {
+      predictions = await executeQuery(query, params);
+    } catch (dbError) {
+      if (dbError?.code === 'ER_NO_SUCH_TABLE') {
+        console.warn('⚠️ Table medal_predictions introuvable, utilisation du fallback CSV.', dbError.message);
+        predictions = await loadPredictionsFallback(filterOptions, includeActualData, parsedLimit, parsedOffset);
+        dataSource = 'csv_fallback';
+      } else {
+        throw dbError;
+      }
+    }
+
+    console.debug('🔢 Résultats /api/predicted_medals:', { source: dataSource, count: predictions.length });
     res.json(predictions);
   } catch (error) {
     console.error('❌ Erreur /api/predicted_medals:', error);
-    res.status(500).json({ error: 'Erreur lors de la récupération des prédictions' });
+    res.status(500).json({
+      error: 'Erreur lors de la récupération des prédictions',
+      details: error?.message
+    });
+  }
+});
+
+app.get('/api/reports/figures', async (req, res) => {
+  try {
+    const figures = await listFigureAssets();
+    res.json(figures);
+  } catch (error) {
+    console.error('❌ Erreur /api/reports/figures:', error);
+    res.status(500).json({
+      error: 'Erreur lors de la récupération des figures',
+      details: error?.message
+    });
+  }
+});
+
+app.get('/api/reports/scores', async (req, res) => {
+  try {
+    const scores = await listScoreFiles();
+    res.json(scores);
+  } catch (error) {
+    console.error('❌ Erreur /api/reports/scores:', error);
+    res.status(500).json({
+      error: 'Erreur lors de la récupération des scores',
+      details: error?.message
+    });
   }
 });
 

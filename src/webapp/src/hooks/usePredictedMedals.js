@@ -34,9 +34,20 @@ const fetchPredictedMedals = async (filters) => {
   const url = queryString
     ? `${API_BASE_URL}/predicted_medals?${queryString}`
     : `${API_BASE_URL}/predicted_medals?includeActual=true`;
+  console.debug('[usePredictedMedals] Fetching predictions', { url });
 
-  const response = await axios.get(url);
-  return response.data;
+  try {
+    const response = await axios.get(url);
+    console.debug('[usePredictedMedals] Réponse reçue', { count: Array.isArray(response.data) ? response.data.length : 0 });
+    return response.data;
+  } catch (error) {
+    console.error('[usePredictedMedals] Échec de récupération', {
+      url,
+      message: error?.message,
+      response: error?.response?.data
+    });
+    throw error;
+  }
 };
 
 export const usePredictedMedals = (filters = {}, enabled = true) => {

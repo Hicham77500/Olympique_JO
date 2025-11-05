@@ -45,12 +45,16 @@ export const PredictedMedals = ({ data = [], isLoading = false, error = null }) 
   }
 
   if (error) {
+    const errorDetails = error?.response?.data?.details || error?.response?.data?.error || error.message;
     return (
       <div className="predictions-card error">
         <div className="predictions-header">
           <h3>🔮 Prédictions de médailles</h3>
         </div>
         <p>Impossible de charger les prédictions. Vérifiez l'API.</p>
+        {errorDetails && (
+          <pre className="predictions-error-details">{String(errorDetails)}</pre>
+        )}
       </div>
     );
   }
