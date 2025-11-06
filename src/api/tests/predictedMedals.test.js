@@ -29,16 +29,21 @@ after(async () => {
   await pool.end();
 });
 
-test('GET /api/predicted_medals retourne un tableau JSON', { skip: !hasDbConfig }, async () => {
+test('GET /api/predicted_medals retourne des données paginées', { skip: !hasDbConfig }, async () => {
   const response = await request(app)
     .get('/api/predicted_medals')
     .expect('Content-Type', /json/)
     .expect(200);
 
-  assert.ok(Array.isArray(response.body), 'La réponse doit être un tableau JSON');
+  assert.ok(response.body && typeof response.body === 'object', 'La réponse doit être un objet JSON');
+  assert.ok(Array.isArray(response.body.predictions), 'La réponse doit contenir un tableau "predictions"');
+  assert.ok(typeof response.body.total === 'number', 'La réponse doit indiquer le nombre total d\'éléments');
+  assert.ok(typeof response.body.page === 'number', 'La réponse doit indiquer la page courante');
+  assert.ok(typeof response.body.pageSize === 'number', 'La taille de page doit être définie');
+  assert.ok(typeof response.body.totalPages === 'number', 'Le nombre total de pages doit être défini');
 
-  if (response.body.length > 0) {
-    const row = response.body[0];
+  if (response.body.predictions.length > 0) {
+    const row = response.body.predictions[0];
     assert.ok(Object.prototype.hasOwnProperty.call(row, 'country'));
     assert.ok(Object.prototype.hasOwnProperty.call(row, 'predicted_value'));
     assert.ok(Object.prototype.hasOwnProperty.call(row, 'target'));

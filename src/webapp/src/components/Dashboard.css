@@ -248,6 +248,12 @@
   gap: 24px;
 }
 
+.ml-reports-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .chart-full {
   width: 100%;
 }

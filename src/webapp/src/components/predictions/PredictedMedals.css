@@ -93,6 +93,32 @@
   border: 1px solid rgba(226, 232, 240, 0.9);
 }
 
+.predictions-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 4px;
+  color: #475569;
+  font-size: 0.85rem;
+}
+
+.predictions-summary-range {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.predictions-summary-status {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.predictions-refreshing {
+  font-size: 0.8rem;
+  color: #2563eb;
+}
+
 .predictions-table {
   width: 100%;
   border-collapse: collapse;
@@ -158,6 +184,56 @@
   font-weight: 600;
 }
 
+.predictions-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.predictions-pagination-info {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.predictions-pagination-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.predictions-pagination-button {
+  min-width: 36px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  background: white;
+  color: #1f2937;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.predictions-pagination-button:hover:not(:disabled) {
+  background: rgba(59, 130, 246, 0.1);
+  border-color: rgba(59, 130, 246, 0.5);
+  color: #1d4ed8;
+}
+
+.predictions-pagination-button.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+  cursor: default;
+}
+
+.predictions-pagination-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background: rgba(148, 163, 184, 0.15);
+}
+
 @media (max-width: 1024px) {
   .predictions-card {
     padding: 16px;
@@ -171,5 +247,24 @@
   .predictions-toggles {
     width: 100%;
     justify-content: space-between;
+  }
+
+  .predictions-summary {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .predictions-summary-status {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .predictions-pagination {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .predictions-pagination-controls {
+    flex-wrap: wrap;
   }
 }

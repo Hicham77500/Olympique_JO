@@ -1,0 +1,49 @@
+[
+  {
+    "modelName": "RandomForestClassifier",
+    "task": "classification",
+    "metrics": {
+      "accuracy": 0.87,
+      "precision": 0.81,
+      "recall": 0.76,
+      "f1Score": 0.78
+    },
+    "bestParams": {
+      "n_estimators": 200,
+      "max_depth": 12,
+      "min_samples_split": 4
+    },
+    "description": "Prédit la probabilité de médaille pour un athlète donné en combinant les attributs socio-démographiques et sportifs.",
+    "image": "/images/models/confusion_matrix_france.png"
+  },
+  {
+    "modelName": "RandomForestRegressor",
+    "task": "regression",
+    "metrics": {
+      "rmse": 4.21,
+      "mae": 3.05,
+      "r2": 0.69
+    },
+    "bestParams": {
+      "n_estimators": 300,
+      "max_depth": 16,
+      "min_samples_split": 2
+    },
+    "description": "Estime le nombre total de médailles par pays pour une édition donnée en fonction des caractéristiques historiques.",
+    "image": "/images/models/roc_curve_medals.png"
+  },
+  {
+    "modelName": "KMeans",
+    "task": "clustering",
+    "metrics": {
+      "silhouette": 0.53,
+      "daviesBouldin": 0.88
+    },
+    "bestParams": {
+      "n_clusters": 4,
+      "init": "k-means++"
+    },
+    "description": "Segment les pays selon leurs trajectoires olympiques pour identifier des profils comparables.",
+    "image": "/images/models/feature_importance.png"
+  }
+]

@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import Select, { components as selectComponents } from 'react-select';
+import Select from 'react-select';
 import { useFilterOptions } from '../../hooks/useOlympicData';
 
 const CountryFilter = ({ selectedCountries, onChange, disabled = false }) => {
@@ -122,6 +122,44 @@ const CountryFilter = ({ selectedCountries, onChange, disabled = false }) => {
     return option.label.toLowerCase().includes(inputValue.toLowerCase());
   };
 
+  const Placeholder = (props) => {
+    const {
+      children,
+      cx,
+      getStyles,
+      innerProps,
+      isDisabled,
+      isFocused
+    } = props;
+
+    const className = cx
+      ? cx(
+          {
+            placeholder: true,
+            'placeholder--is-disabled': isDisabled,
+            'placeholder--is-focused': isFocused
+          },
+          innerProps?.className
+        )
+      : innerProps?.className;
+
+    const style = getStyles ? getStyles('placeholder', props) : innerProps?.style;
+
+    const finalInnerProps = {
+      ...innerProps,
+      className,
+      style
+    };
+
+    return (
+      <div {...finalInnerProps}>
+        <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+          🔍 {children}
+        </span>
+      </div>
+    );
+  };
+
   return (
     <div className="filter-group">
       <label className="filter-label">
@@ -153,13 +191,7 @@ const CountryFilter = ({ selectedCountries, onChange, disabled = false }) => {
           closeMenuOnSelect={false}
           hideSelectedOptions={false}
           components={{
-            Placeholder: (placeholderProps) => (
-              <selectComponents.Placeholder {...placeholderProps}>
-                <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  🔍 {placeholderProps.children}
-                </span>
-              </selectComponents.Placeholder>
-            )
+            Placeholder
           }}
         />
       </div>

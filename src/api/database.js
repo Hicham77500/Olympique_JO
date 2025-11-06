@@ -2,6 +2,8 @@ const mysql = require('mysql2/promise');
 const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '.env') });
 
+const IS_DEMO_MODE = String(process.env.DEMO_MODE || '').toLowerCase() === 'true';
+
 // Configuration de la base de données
 const dbConfig = {
   host: process.env.DB_HOST,
@@ -13,15 +15,26 @@ const dbConfig = {
 };
 
 // Création du pool de connexions
-const pool = mysql.createPool({
-  ...dbConfig,
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0
-});
+let pool = null;
+
+if (!IS_DEMO_MODE) {
+  pool = mysql.createPool({
+    ...dbConfig,
+    waitForConnections: true,
+    connectionLimit: 10,
+    queueLimit: 0
+  });
+} else {
+  console.log('[DEMO_MODE] Connexion MySQL désactivée: utilisation des fixtures locales.');
+}
 
 // Test de connexion
 async function testConnection() {
+  if (IS_DEMO_MODE) {
+    console.log('[DEMO_MODE] Vérification de la base ignorée (lecture via fichiers locaux).');
+    return true;
+  }
+
   try {
     const connection = await pool.getConnection();
     console.log('✅ Connexion à la base de données MySQL Azure établie');
@@ -41,6 +54,12 @@ async function testConnection() {
 
 // Fonction pour exécuter une requête
 async function executeQuery(query, params = []) {
+  if (IS_DEMO_MODE) {
+    const error = new Error('Database access is disabled while DEMO_MODE is active.');
+    error.code = 'DEMO_MODE_DISABLED';
+    throw error;
+  }
+
   try {
     console.log('Executing query with params:', params);
     const [rows] = await pool.execute(query, params);
@@ -56,6 +75,12 @@ async function executeQuery(query, params = []) {
 
 // Fonction pour obtenir les statistiques générales
 async function getStats() {
+  if (IS_DEMO_MODE) {
+    const error = new Error('Stats cannot be queried from MySQL when DEMO_MODE is active.');
+    error.code = 'DEMO_MODE_DISABLED';
+    throw error;
+  }
+
   try {
     const queries = [
       'SELECT COUNT(*) as total_athletes FROM athletes',

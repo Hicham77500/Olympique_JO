@@ -38,6 +38,12 @@ Olympique_JO/
     olympic_medals.csv
     olympic_results.csv
   data/                     # raw sources (json, xlsx, xml, html)
+    demo/                   # fixtures utilisées en mode DEMO_MODE
+      athletes.json
+      hosts.json
+      results.json
+      medal_predictions_demo.json
+      country_year_summary_demo.json
     olympic_athletes.json
     olympic_hosts.xml
     olympic_medals.xlsx
@@ -114,6 +120,16 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
+### Initialize the database schema
+
+Before importing any data, create the MySQL schema with the bundled script:
+
+```powershell
+mysql -h <HOST> -u <USER> -p <PASSWORD> < sql\init_db.sql
+```
+
+The Python loaders (`load_data_to_mysql.py`, `models/save_predictions_to_db.py`) also execute this script automatically to guarantee the presence of all core tables, including `medal_predictions`.
+
 macOS/Linux (bash/zsh):
 
 ```bash
@@ -144,6 +160,8 @@ DB_PORT=3306
 DB_USER=your-user
 DB_PASSWORD=your-password
 DB_DATABASE=olympics
+# Optional: uncomment to serve demo data from data/demo/*.json without MySQL
+# DEMO_MODE=true
 ```
 
 `src/webapp/.env`
@@ -168,6 +186,15 @@ npm start
 ```
 
 If ports 3000/3001 are busy, adjust `PORT` in each `.env` and restart.
+
+## Demo mode (no database)
+
+Set the environment variable `DEMO_MODE=true` (for example in `src/api/.env`) to start the Express API without a MySQL connection. In this mode:
+- Every REST endpoint (`/api/athletes`, `/api/predicted_medals`, `/api/data/filtered`, etc.) serves data from the JSON fixtures stored under `data/demo/`.
+- SQL queries remain in place, but they are bypassed while `DEMO_MODE` is active; reconnecting to MySQL simply requires unsetting the flag and restarting the API.
+- The frontend keeps the same contracts, which makes this a safe “offline” fallback for demos where no database is reachable.
+
+The generated fixtures cover athletes, results, medal predictions, hosts, and summary stats so the dashboard keeps working end-to-end.
 
 ## 4) API reference (quick)
 

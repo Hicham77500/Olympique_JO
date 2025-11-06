@@ -8,6 +8,7 @@ import mysql.connector
 import sys
 import re
 from datetime import datetime
+from pathlib import Path
 
 class OlympicDBLoader:
     def __init__(self, host, user, password, database='olympics'):
@@ -21,10 +22,37 @@ class OlympicDBLoader:
                 autocommit=True
             )
             self.cursor = self.conn.cursor()
+            self.initialize_schema()
             print(f"✅ Connexion réussie à la base {database}")
         except Exception as e:
             print(f"❌ Erreur de connexion: {e}")
             sys.exit(1)
+
+    def initialize_schema(self, sql_path: Path | str | None = None):
+        """Exécute le script SQL d'initialisation si fourni."""
+        if sql_path is None:
+            sql_path = Path(__file__).resolve().parents[1] / 'sql' / 'init_db.sql'
+        else:
+            sql_path = Path(sql_path)
+
+        if not sql_path.exists():
+            print(f"⚠️ Script d'initialisation introuvable: {sql_path}")
+            return
+
+        print(f"🛠️  Initialisation du schéma via {sql_path}")
+        raw_sql = sql_path.read_text(encoding='utf-8')
+        usable_lines = []
+        for line in raw_sql.splitlines():
+            stripped = line.strip()
+            if not stripped or stripped.startswith('--'):
+                continue
+            usable_lines.append(line)
+
+        statements = [stmt.strip() for stmt in '\n'.join(usable_lines).split(';') if stmt.strip()]
+        for statement in statements:
+            self.cursor.execute(statement)
+        self.conn.commit()
+        print("✅ Schéma principal vérifié")
     
     def load_hosts(self, csv_path='csv/olympic_hosts.csv'):
         """Charge les données des hôtes olympiques"""

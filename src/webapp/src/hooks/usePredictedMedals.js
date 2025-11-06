@@ -25,6 +25,43 @@ const buildSearchParams = (filters = {}) => {
   return params.toString();
 };
 
+const normalizePredictionsResponse = (payload) => {
+  if (Array.isArray(payload)) {
+    const predictions = payload;
+    return {
+      predictions,
+      total: predictions.length,
+      page: predictions.length > 0 ? 1 : 0,
+      totalPages: predictions.length > 0 ? 1 : 0,
+      pageSize: predictions.length
+    };
+  }
+
+  if (payload && typeof payload === 'object') {
+    const predictions = Array.isArray(payload.predictions) ? payload.predictions : [];
+    const total = typeof payload.total === 'number' ? payload.total : predictions.length;
+    const page = typeof payload.page === 'number' ? payload.page : (predictions.length > 0 ? 1 : 0);
+    const totalPages = typeof payload.totalPages === 'number' ? payload.totalPages : (predictions.length > 0 ? 1 : 0);
+    const pageSize = typeof payload.pageSize === 'number' ? payload.pageSize : predictions.length;
+
+    return {
+      predictions,
+      total,
+      page,
+      totalPages,
+      pageSize
+    };
+  }
+
+  return {
+    predictions: [],
+    total: 0,
+    page: 0,
+    totalPages: 0,
+    pageSize: 0
+  };
+};
+
 const fetchPredictedMedals = async (filters) => {
   const queryString = buildSearchParams({
     ...filters,
@@ -38,8 +75,14 @@ const fetchPredictedMedals = async (filters) => {
 
   try {
     const response = await axios.get(url);
-    console.debug('[usePredictedMedals] Réponse reçue', { count: Array.isArray(response.data) ? response.data.length : 0 });
-    return response.data;
+    const normalized = normalizePredictionsResponse(response.data);
+    console.debug('[usePredictedMedals] Réponse reçue', {
+      count: normalized.predictions.length,
+      total: normalized.total,
+      page: normalized.page,
+      totalPages: normalized.totalPages
+    });
+    return normalized;
   } catch (error) {
     console.error('[usePredictedMedals] Échec de récupération', {
       url,
@@ -56,6 +99,7 @@ export const usePredictedMedals = (filters = {}, enabled = true) => {
   const {
     data,
     isLoading,
+    isFetching,
     error,
     refetch
   } = useQuery({
@@ -68,10 +112,16 @@ export const usePredictedMedals = (filters = {}, enabled = true) => {
   });
 
   return {
-    predictions: data || [],
+    predictions: data?.predictions || [],
+    total: data?.total ?? 0,
+    page: data?.page ?? 0,
+    totalPages: data?.totalPages ?? 0,
+    pageSize: data?.pageSize ?? 0,
     isLoading,
+    isFetching,
     error,
-    refetch
+    refetch,
+    pagination: data
   };
 };
 

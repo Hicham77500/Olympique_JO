@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { QueryClient, QueryClientProvider, useQueryClient } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { motion } from 'framer-motion';
@@ -16,7 +16,7 @@ import YearEvolutionChart from './charts/YearEvolutionChart';
 import MedalDistributionChart from './charts/MedalDistributionChart';
 import ResultsTable from './table/ResultsTable';
 import PredictedMedals from './predictions/PredictedMedals';
-import MlFiguresPanel from './reports/MlFiguresPanel';
+import ModelsResults from './reports/ModelsResults';
 
 // Styles
 import './Dashboard.css';
@@ -52,25 +52,46 @@ const DashboardContent = () => {
   // React Query client (for manual invalidation if needed)
   const rqClient = useQueryClient();
 
+  const apiFilters = useMemo(() => getApiFilters(), [getApiFilters]);
+
+  // État local pour la pagination
+  const [pagination, setPagination] = useState({
+    limit: 50,
+    offset: 0
+  });
+
+  const [predictionsPagination, setPredictionsPagination] = useState({
+    limit: 10,
+    page: 1
+  });
+
   const {
     stats: quickStats,
     results,
     aggregations,
+    pagination: serverPagination,
     isLoading: isLoadingData,
     isLoadingStats,
     refetch: refetchData
-  } = useOlympicData(getApiFilters());
+  } = useOlympicData(apiFilters, pagination);
 
   const filteredData = {
     results: results || [],
     aggregations: aggregations || {},
-    stats: quickStats || {}
+    stats: quickStats || {},
+    pagination: serverPagination || pagination
   };
+
+  const predictionsFilterSignature = useMemo(() => JSON.stringify({
+    countries: filters?.countries || [],
+    years: filters?.years?.selected || []
+  }), [filters?.countries, filters?.years?.selected]);
 
   const predictedQueryParams = useMemo(() => {
     const params = {
-      limit: 50,
-      includeActual: true
+      limit: predictionsPagination.limit,
+      includeActual: true,
+      page: predictionsPagination.page
     };
 
     if (filters?.countries?.length > 0) {
@@ -84,21 +105,44 @@ const DashboardContent = () => {
     }
 
     return params;
-  }, [filters]);
+  }, [filters, predictionsPagination]);
 
   const {
     predictions,
+    total: predictionsTotal,
+    page: currentPredictionsPage,
+    totalPages: predictionsTotalPages,
+    pageSize: predictionsPageSize,
     isLoading: isLoadingPredictions,
+    isFetching: isFetchingPredictions,
     error: predictionsError
   } = usePredictedMedals(predictedQueryParams);
 
-  // État local pour la pagination
-  const [pagination, setPagination] = useState({
-    limit: 50,
-    offset: 0
-  });
-
   // Les requêtes sont automatiquement relancées lorsque les filtres changent (via react-query)
+
+  // Revenir automatiquement à la première page lorsqu'un filtre est modifié
+  useEffect(() => {
+    setPagination((prev) => ({
+      ...prev,
+      offset: 0
+    }));
+  }, [apiFilters]);
+
+  useEffect(() => {
+    setPredictionsPagination((prev) => ({
+      ...prev,
+      page: 1
+    }));
+  }, [predictionsFilterSignature]);
+
+  useEffect(() => {
+    if (currentPredictionsPage >= 1 && currentPredictionsPage !== predictionsPagination.page) {
+      setPredictionsPagination((prev) => ({
+        ...prev,
+        page: currentPredictionsPage
+      }));
+    }
+  }, [currentPredictionsPage, predictionsPagination.page]);
 
   // Gestion des onglets
   const tabs = [
@@ -111,6 +155,13 @@ const DashboardContent = () => {
   // Gestion de la pagination
   const handlePaginationChange = (newPagination) => {
     setPagination(newPagination);
+  };
+
+  const handlePredictionsPageChange = (newPage) => {
+    setPredictionsPagination((prev) => ({
+      ...prev,
+      page: newPage
+    }));
   };
 
   // Gestion du clic sur une ligne du tableau
@@ -271,7 +322,15 @@ const DashboardContent = () => {
                 <PredictedMedals
                   data={predictions}
                   isLoading={isLoadingPredictions}
+                  isFetching={isFetchingPredictions}
                   error={predictionsError}
+                  pagination={{
+                    page: currentPredictionsPage || predictionsPagination.page,
+                    pageSize: predictionsPageSize || predictionsPagination.limit,
+                    total: predictionsTotal,
+                    totalPages: predictionsTotalPages
+                  }}
+                  onPageChange={handlePredictionsPageChange}
                 />
               </motion.div>
               
@@ -325,8 +384,10 @@ const DashboardContent = () => {
           )}
 
           {activeTab === 'ml-reports' && (
-            <motion.div variants={itemVariants}>
-              <MlFiguresPanel />
+            <motion.div className="ml-reports-content" variants={containerVariants}>
+              <motion.div variants={itemVariants}>
+                <ModelsResults />
+              </motion.div>
             </motion.div>
           )}
 
@@ -337,7 +398,7 @@ const DashboardContent = () => {
                 isLoading={isLoadingData}
                 pagination={{
                   ...pagination,
-                  total: filteredData?.stats?.totalMedals || 0
+                  total: filteredData?.pagination?.total ?? filteredData?.stats?.totalMedals ?? 0
                 }}
                 onPaginationChange={handlePaginationChange}
                 filters={filters}
